@@ -1,0 +1,30 @@
+@import './../scss/config';
+
+.my-works {
+    margin-top: 80px;
+    margin:auto;
+
+  .my-recent-works-title{
+    display: flex;
+    justify-content: center;
+    // align-items: center
+    // width: 100%;
+    margin-bottom: 80px;
+    // background-color: #c80e0e;
+
+    h1 {
+        width: 40%;
+
+    }
+
+    hr {
+        width: 60%;
+    }
+  }
+
+  .my-recent-works {
+    img {
+
+    }
+  }
+}
