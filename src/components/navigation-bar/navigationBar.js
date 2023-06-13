@@ -23,8 +23,8 @@ const NavigationBar = () => {
 
     <div className="navigation-bar-container">
       <div className="menu-icon">
-        {isOpen ? <RiCloseLine size={70} onClick={toggleMenu} />
-          : <RiMenuLine size={70} onClick={toggleMenu} />}
+        {isOpen ? <RiCloseLine size={50} onClick={toggleMenu} />
+          : <RiMenuLine size={50} onClick={toggleMenu} />}
       </div>
       {isOpen && (
       <ul className="navigation-menu">
