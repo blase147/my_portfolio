@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-      width: 90%;
-
+  width: 100%;
+  margin: auto;
+  background-color: #000000;
+  color: #fff;
 
   .projects-title {
     text-align: center;
@@ -16,16 +18,48 @@
   .project-container {
     margin: auto;
     gap: 30px;
-    width: 100%;
+    width: 80%;
     background-color: #ea0c0c;
+    border-radius: 40px;
+    color: #fff;
+    // padding: 5px;
+    text-align: left;
 
+    .item-card {
+      page-break-after: always;
+    }
 
-    .project-card {
-        margin-bottom: 100px;
+    img {
+      width: 100%;
+    // border-radius: 40px;
+    }
 
-        .lang {
-        margin-right: 20px;
-        padding-right: 20px;
+    .text-content {
+      margin: 10px;
+    }
+
+    .lang {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+    }
+
+    .view-btns {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 100px;
+
+      a {
+        padding: 10px;
+        background-color: #fff;
+        color:black;
+        border: solid 1px #000;
+        border-radius: 15px;
+        font-size: 18px;
+        font-weight: 900;
       }
     }
   }

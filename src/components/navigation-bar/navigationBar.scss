@@ -3,13 +3,13 @@
 .navigation-bar-container {
   position: absolute;
   margin-top: -80px;
-  width: 80%;
-  background-color: #e00c0c;
+  // width: 80%;
+  // background-color: #e00c0c;
 
   .menu-icon {
     position: fixed;
     top: 20px;
-    left: 370px;
+    left: 290px;
     padding: 5px;
     background-color: #d7d2d2;
     color: rgb(9, 0, 0);
@@ -23,13 +23,14 @@
     flex-direction: column;
     position: fixed;
     top: -20px;
+    right: -1px;
     color: white;
     background-color: #d8d3d3;
     text-align: center;
     gap: 10px;
     padding-top: 100px;
     height: 100%;
-    width: 25%;
+    width: 70%;
 
     li {
       background-color: #180101;
@@ -40,8 +41,8 @@
       font-weight: 900;
     }
 
-    li:visited {
-      color: #0bfd48;
+    li a:visited {
+      color: #ffffff;
     }
   }
 }

@@ -6,7 +6,7 @@ import Footer from '../footer/footer';
 import Intro from './intro';
 
 const HomePage = () => (
-  <div>
+  <div className="homepage">
     <Intro />
     <MyWorks />
     <ContactMe />
