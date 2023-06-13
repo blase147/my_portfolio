@@ -22,8 +22,8 @@ const Intro = () => (
         </p>
       </div>
     </section>
-    <div><button type="button">GET MY RESUME</button></div>
-    <div><a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">GET MY RESUME</a></div>
+    <div className="my-resume"><button type="button">GET MY RESUME</button></div>
+    <div className="mailto"><a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a></div>
   </div>
 );
 export default Intro;
