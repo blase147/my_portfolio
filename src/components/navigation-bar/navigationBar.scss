@@ -22,7 +22,7 @@
 
   }
 
-  .navigation-menu {
+  ul {
     display: flex;
     flex-direction: column;
     position:relative;
@@ -41,8 +41,6 @@
       color: #ffffff;
       padding: 20px;
       border-radius: 15px;
-      // margin: 20px;
-      // margin-left: 1px;
       width: 80%;
       font-weight: 900;
     }
