@@ -30,7 +30,7 @@ const NavigationBar = () => {
       <ul className="navigation-menu">
         {navLinks.map(({ url, name }) => (
           <li key={name}>
-            <Link to={url}>{name}</Link>
+            <Link to={url} onClick={toggleMenu}>{name}</Link>
           </li>
         ))}
       </ul>
