@@ -5,41 +5,28 @@ import data from '../../projectData';
 
 const MyWorks = () => (
   <section className="my-works">
-    <div className="my-recent-works-title">
-      <div className="title"><h1>My Recent Works</h1></div>
-      <div className="rule"><hr /></div>
-    </div>
-    <div className="my-recent-works">
-      <div className="featured-image"><img src="../../main photo.jpg" alt="icon-2" /></div>
-      <div className="multi-post-stories">
-        <h2>Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or sign-ups required,
-          has been the industrys standard dummy text ever since the 1500s, when an unknown
-          printer took a standard dummy text.
-        </p>
-        <ul>
-          <li className="li">css</li>
-          <li className="li">html</li>
-          <li className="li">bootstrap</li>
-          <li className="li">Ruby</li>
-        </ul>
-        <button className="btn-sp" type="button">See Project</button>
-      </div>
-    </div>
+    <div><h1 className="projects-title">Projects</h1></div>
     <div className="project-container">
-      {
-      data.map((project) => (
-        <div className="project-card" key={project.id}>
-          <h1>{project.title}</h1>
-          <p>{project.description}</p>
-          <p className="lang">{project.lang}</p>
-          <p>{project.image}</p>
-          <p>{project.live}</p>
-          <p>{project.source}</p>
+      {data.map((item) => (
+        <div key={item.id}>
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+          <ul>
+            {item.lang.map((language) => (
+              <li key={language}>{language}</li>
+            ))}
+          </ul>
+          <img src={item.image} alt="Project Screenshot" />
+          <div>
+            <a href={item.live} target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
+            <a href={item.source} target="_blank" rel="noreferrer">
+              Source Code
+            </a>
+          </div>
         </div>
-      ))
-      }
+      ))}
     </div>
   </section>
 

@@ -1,92 +1,29 @@
 @import './../scss/config';
 
 .my-works {
-  margin-top: 80px;
-  //   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      width: 90%;
 
-  .my-recent-works-title {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    margin: auto;
 
-    .title {
-      width: 20%;
-      padding: 0;
-      margin: 0;
-      // background-color: #c80e0e;
-      font-size: 24px;
-    }
-
-    .rule {
-      width: 100%;
-      padding: 0;
-      margin: 0;
-    }
-  }
-
-  .my-recent-works {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    margin: 10px;
-
-    .featured-image {
-      width: 50%;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .multi-post-stories {
-      margin-top: 0;
-      width: 40%;
-      //   margin-top: 0;
-      padding: 0 0 0 20px;
-      text-align: left;
-
-      h2 {
-        font-size: 50px;
-        padding-top: 0;
-        margin: 0;
-      }
-
-      p {
-        font-size: 23px;
-      }
-
-      ul {
-        display: flex;
-        gap: 20px;
-        font-weight: bold;
-      }
-
-      button {
-        margin-left: 30px;
-        border-color: antiquewhite;
-        padding: 20px;
-        border-radius: 20px;
-        font-size: large;
-      }
-    }
+  .projects-title {
+    text-align: center;
+    font-size: 45px;
+    // background-color: #a11010;
   }
 
   .project-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     margin: auto;
     gap: 30px;
-    width: 90%;
+    width: 100%;
+    background-color: #ea0c0c;
+
 
     .project-card {
-      flex: 20px;
-      padding-right: 80px;
+        margin-bottom: 100px;
 
-      .lang {
-        // display: flex;
-        gap: 20px;
+        .lang {
         margin-right: 20px;
         padding-right: 20px;
       }
