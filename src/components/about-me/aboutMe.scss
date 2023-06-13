@@ -1,1 +1,28 @@
 @import './../scss/config';
+
+.about {
+  display: flex;
+  flex-direction: column;
+
+  .about-me {
+    margin: auto;
+    width: 80%;
+    border: solid 1px rgb(14, 6, 0);
+    padding: 10px;
+
+    button {
+      border: solid 1px rgb(14, 6, 0);
+      padding: 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      margin: auto;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  }
+}
