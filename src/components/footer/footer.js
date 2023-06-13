@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.scss';
+import {
+  FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
+} from 'react-icons/fa';
 
 const Footer = () => (
   <section>
@@ -22,9 +25,6 @@ const Footer = () => (
             <a href="www.facebook.com"><FaFacebook size={45} alt="social-icons" /></a>
           </li>
         </ul>
-      </div>
-      <div className="profile-pic">
-        <img src="../../main photo.jpg" alt="profile-pic" />
       </div>
     </div>
   </section>
