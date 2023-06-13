@@ -44,14 +44,10 @@ const AboutMe = () => (
           </div>
         </div>
 
-        <hr className="skill-rule" />
         <div className="skill-section">
 
           <div className="skill-a">
-            <p className="skill-a-title">
-              <img src="img/diamond.png" alt="icon" />
-              Language
-            </p>
+            <p>Language</p>
             <ul>
               <li>Javascript</li>
               <li>Ruby</li>
@@ -60,11 +56,8 @@ const AboutMe = () => (
             </ul>
           </div>
 
-          <div className="skill-a">
-            <p className="skill-a-title">
-              <img src="img/Rectangle.png" alt="icon" />
-              Frameworks
-            </p>
+          <div>
+            <p>Frameworks</p>
             <ul>
               <li>Bootstrap</li>
               <li>Ruby on Rail</li>
@@ -74,11 +67,8 @@ const AboutMe = () => (
             </ul>
           </div>
 
-          <div className="skill-a">
-            <p className="skill-a-title">
-              <img src="img/circle.png" alt="icon" />
-              Skills
-            </p>
+          <div>
+            <p>Skills</p>
             <ul>
               <li>Codekit</li>
               <li>Github</li>

@@ -5,6 +5,7 @@
   flex-direction: column;
 
   .about-me {
+    padding-top: 20px;
     margin: auto;
     width: 80%;
     border: solid 1px rgb(14, 6, 0);
@@ -13,6 +14,7 @@
     button {
       border: solid 1px rgb(14, 6, 0);
       padding: 10px;
+      font-weight: 900;
     }
 
     .social-icons {
@@ -23,6 +25,12 @@
       margin: auto;
       padding-left: 0;
       margin-top: 20px;
+    }
+
+    .skill-section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
     }
   }
 }
