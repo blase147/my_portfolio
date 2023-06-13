@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Link } from 'react-router-dom';
 import './navigationBar.scss';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
+// eslint-disable-next-line import/no-extraneous-dependencies
 
 const NavigationBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   const navLinks = [
     { url: '/my_works', name: 'Portfolio' },
     { url: '/about_me', name: 'About' },
@@ -12,26 +20,22 @@ const NavigationBar = () => {
   ];
 
   return (
-    <div className="navigation-bar-container">
-      <div className="logo">
-        <Link to="/" className="myName">Chukwuma Paul Mosanya</Link>
-      </div>
 
-      <div className="navigation-bar">
+    <div className="navigation-bar-container">
+      <div className="menu-icon">
+        {isOpen ? <RiCloseLine size={70} onClick={toggleMenu} />
+          : <RiMenuLine size={70} onClick={toggleMenu} />}
+      </div>
+      {isOpen && (
+      <ul className="navigation-bar">
         {navLinks.map(({ url, name }) => (
           <li key={name}>
             <Link to={url}>{name}</Link>
           </li>
         ))}
-        <button id="menu-button" type="button" className="menu">
-          <i className="fas fa-bars" />
-        </button>
-        <button className="close-btn" type="button" id="close-btn">
-          <i className="fa-solid fa-xmark close-icon" />
-        </button>
-      </div>
+      </ul>
+      )}
     </div>
-
   );
 };
 

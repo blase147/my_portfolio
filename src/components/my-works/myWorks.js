@@ -6,11 +6,11 @@ import data from '../../projectData';
 const MyWorks = () => (
   <section className="my-works">
     <div className="my-recent-works-title">
-      <div><h1>My Recent Works</h1></div>
-      <div><hr /></div>
+      <div className="title"><h1>My Recent Works</h1></div>
+      <div className="rule"><hr /></div>
     </div>
     <div className="my-recent-works">
-      <img className="featured-image" src="img/Img-Placeholder.jpg" alt="icon" />
+      <div className="featured-image"><img src="../../main photo.jpg" alt="icon-2" /></div>
       <div className="multi-post-stories">
         <h2>Multi-Post Stories</h2>
         <p>
@@ -27,18 +27,20 @@ const MyWorks = () => (
         <button className="btn-sp" type="button">See Project</button>
       </div>
     </div>
-    {
+    <div className="project-container">
+      {
       data.map((project) => (
         <div className="project-card" key={project.id}>
           <h1>{project.title}</h1>
-          <div>{project.description}</div>
-          <p>{project.lang}</p>
+          <p>{project.description}</p>
+          <p className="lang">{project.lang}</p>
           <p>{project.image}</p>
           <p>{project.live}</p>
           <p>{project.source}</p>
         </div>
       ))
-    }
+      }
+    </div>
   </section>
 
 );
