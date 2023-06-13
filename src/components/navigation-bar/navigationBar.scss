@@ -1,51 +1,46 @@
 @import './../scss/config';
 
 .navigation-bar-container {
-  display: flex;
-  position: fixed;
-  z-index: 2;
-  color: rgb(9, 0, 0);
+  position: absolute;
   margin-top: -80px;
- font-size: 20px;
- width: 30%;
+  width: 80%;
+  background-color: #e00c0c;
 
   .menu-icon {
-    display: flex;
-    position:fixed;
+    position: fixed;
     top: 20px;
     padding: 5px;
-    background-color: #afa6a6;
+    background-color: #d7d2d2;
     color: rgb(9, 0, 0);
     border-radius: 20px;
     margin-left: 20px;
     z-index: 2;
-
   }
 
   ul {
     display: flex;
     flex-direction: column;
-    position:relative;
+    position: fixed;
     top: -20px;
     color: white;
     background-color: #d8d3d3;
     text-align: center;
     gap: 10px;
     padding-top: 100px;
-    padding-bottom: 100%;
-      width: 100%;
-      // z-index: 2;
+    height: 100%;
+    width: 25%;
 
     li {
       background-color: #180101;
-      color: #ffffff;
+      color: #fff;
       padding: 20px;
       border-radius: 15px;
       width: 80%;
       font-weight: 900;
     }
+
     li:visited {
-        color: #0bfd48;
+      color: #0bfd48;
     }
   }
 }

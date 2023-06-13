@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './navigationBar.scss';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
-// eslint-disable-next-line import/no-extraneous-dependencies
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
