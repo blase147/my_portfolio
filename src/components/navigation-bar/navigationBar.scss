@@ -37,7 +37,7 @@
   .navigation-menu {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 100%;
     width: 70%;
     color: white;
     // align-self: center;
@@ -46,6 +46,7 @@
     text-align: center;
     gap: 10px;
     padding-top: 50px;
+    padding-bottom: 100%;
 
     li {
       padding-right: 20px;
