@@ -6,7 +6,7 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
 
   .projects-title {
@@ -31,7 +31,7 @@
 
     img {
       width: 100%;
-    // border-radius: 40px;
+      // border-radius: 40px;
     }
 
     .text-content {
@@ -44,6 +44,8 @@
       gap: 10px;
       width: 100%;
       align-items: center;
+      margin: auto;
+      padding-left: 0;
     }
 
     .view-btns {
@@ -55,7 +57,7 @@
       a {
         padding: 10px;
         background-color: #fff;
-        color:black;
+        color: black;
         border: solid 1px #000;
         border-radius: 15px;
         font-size: 18px;
