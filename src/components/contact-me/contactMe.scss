@@ -15,34 +15,40 @@
   }
 
   .contact-me {
-      display: flex;
-      flex-direction: column;
-    justify-content: center;
-    // width: 100%;
-    // margin: auto;
-
-    .get-in-touch {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 70px;
-    //   margin: auto;
-
-      input {
-        border: solid 1px #000;
-        height: 40px;
+    .form-group {
+      .get-in-touch {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
         width: 100%;
-        padding: 5px;
-        padding-left: 20px;
-      }
+        margin: auto;
+        padding-bottom: 200px;
 
-      textarea {
-        border: solid 1px #000;
-        // height: 40px;
-        width: 100%;
-        padding: 5px;
-        padding-left: 20px;
+        input {
+          border: solid 1px #000;
+          height: 40px;
+          width: auto;
+          padding: 5px;
+          padding-left: 20px;
+        }
+
+        textarea {
+          border: solid 1px #000;
+          // height: 40px;
+          width: auto;
+          padding: 5px;
+          padding-left: 20px;
+        }
+
+        .get-in-touch-btn {
+          width: 100%;
+          background-color: #0f43eb;
+          padding: 20px;
+          font-size: 18px;
+          color: rgb(255, 255, 255);
+          border-radius: 12px;
+        }
       }
     }
   }
