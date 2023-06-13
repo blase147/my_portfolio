@@ -27,7 +27,7 @@ const NavigationBar = () => {
           : <RiMenuLine size={70} onClick={toggleMenu} />}
       </div>
       {isOpen && (
-      <ul className="navigation-bar">
+      <ul className="navigation-menu">
         {navLinks.map(({ url, name }) => (
           <li key={name}>
             <Link to={url}>{name}</Link>

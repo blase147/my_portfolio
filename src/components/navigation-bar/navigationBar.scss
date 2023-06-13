@@ -5,12 +5,9 @@
   position: fixed;
   z-index: 2;
   width: 60%;
-  // height: 100%;
-  // background-color: #828181;
   color: rgb(9, 0, 0);
-  margin-top: 10px;
-  // padding-right: 100px;
-  font-size: 20px;
+  margin-top: 0;
+ font-size: 20px;
   padding-left: 30px;
 
   a:visited {
@@ -18,15 +15,15 @@
   }
 
   .menu-icon {
-      display: flex;
-  position: fixed;
-  z-index: 2;
-  padding: 5px;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    padding: 5px;
     width: 70px;
     background-color: #afa6a6;
-  color: rgb(9, 0, 0);
-  margin-top: 10px;
-  border-radius: 20px;
+    color: rgb(9, 0, 0);
+    margin-top: 10px;
+    border-radius: 20px;
   }
 
   .logo {
@@ -37,7 +34,7 @@
     padding-left: 100px;
   }
 
-  .navigation-bar {
+  .navigation-menu {
     display: flex;
     flex-direction: column;
     // justify-content: left;
