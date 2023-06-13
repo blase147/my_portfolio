@@ -46,9 +46,9 @@ const AboutMe = () => (
 
         <div className="skill-section">
 
-          <div className="skill-a">
+          <div className="skill-title">
             <p>Language</p>
-            <ul>
+            <ul className="d-list">
               <li>Javascript</li>
               <li>Ruby</li>
               <li>Html</li>
@@ -56,7 +56,7 @@ const AboutMe = () => (
             </ul>
           </div>
 
-          <div>
+          <div className="skill-title">
             <p>Frameworks</p>
             <ul>
               <li>Bootstrap</li>
@@ -67,7 +67,7 @@ const AboutMe = () => (
             </ul>
           </div>
 
-          <div>
+          <div className="skill-title">
             <p>Skills</p>
             <ul>
               <li>Codekit</li>

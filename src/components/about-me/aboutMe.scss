@@ -26,11 +26,29 @@
       padding-left: 0;
       margin-top: 20px;
     }
+  }
 
-    .skill-section {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
+  .skill-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin: auto;
+    width: 80%;
+
+    .skill-title p {
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    li {
+      padding: 10px;
+      border: solid 1px rgb(14, 6, 1);
     }
   }
 }
