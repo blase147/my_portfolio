@@ -6,7 +6,7 @@ import {
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { faUserLarge } from '@fortawesome/free-solid-svg-icons';
+import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => (
   <div>
@@ -56,6 +56,12 @@ const AboutMe = () => (
         </div>
 
         <div className="skill-section">
+          <FontAwesomeIcon className="custom-icon" icon={faCode} />
+          <h3>
+            I have build a host of apps using industry ready
+            programming languages and frameworks
+
+          </h3>
 
           <div className="skill-title">
             <p>Language</p>

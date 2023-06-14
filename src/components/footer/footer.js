@@ -49,12 +49,13 @@ const Footer = () => (
               <a href="www.facebook.com"><FaFacebook size={30} alt="social-icons" /></a>
             </li>
           </ul>
-          <div><hr /></div>
         </div>
       </div>
+      <div><hr /></div>
+
       <div className="copyright">
         {' '}
-        <div><FontAwesomeIcon className="custom-icon" icon={faCopyright} /></div>
+        <div><p><FontAwesomeIcon className="custom-icon" icon={faCopyright} /></p></div>
         <div><p>CHUKWUMA PAUL MOSANYA, 2023</p></div>
 
       </div>

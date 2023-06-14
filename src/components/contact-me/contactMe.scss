@@ -5,8 +5,10 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 80px;
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 10px;
+  padding-right: 0;
+  margin-right: 0;
 
   .custom-icon {
     font-size: 80px;
@@ -22,6 +24,42 @@
   }
 
   .contact-me {
+
+    fieldset {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      width: 90%;
+      background-color: #f0ecec;
+      // margin: auto;
+
+      legend {
+        text-align: left;
+      }
+
+        .input {
+          border: solid 1px #000;
+          height: 40px;
+          width: auto;
+          padding: 5px;
+          padding-left: 20px;
+          border-radius: 10px;
+          margin-top: 13px;
+        }
+
+        textarea {
+          border-radius: 10px;
+          border: solid 1px #000;
+          // height: 40px;
+          width: auto;
+          padding-top: 15px;
+          padding-left: 20px;
+          margin-top: 13px;
+
+        }
+       }
+
     .form-group {
       .get-in-touch {
         display: flex;
@@ -32,20 +70,10 @@
         margin: auto;
         padding-bottom: 50px;
 
-        input {
-          border: solid 1px #000;
-          height: 40px;
-          width: auto;
-          padding: 5px;
-          padding-left: 20px;
-        }
-
-        textarea {
-          border: solid 1px #000;
-          // height: 40px;
-          width: auto;
-          padding: 5px;
-          padding-left: 20px;
+        .label {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
         }
 
         .get-in-touch-btn {
