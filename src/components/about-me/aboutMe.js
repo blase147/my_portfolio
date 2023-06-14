@@ -23,7 +23,13 @@ const AboutMe = () => (
               free time reading about the history of video game development and riding track bikes.
 
             </p>
-            <button type="button">Get My Resume</button>
+            <img src="./main-photo.jpg" alt="profile" />
+            <div className="buttons">
+              <button type="button">Get My Resume</button>
+              <button type="button">
+                <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
+              </button>
+            </div>
             <ul className="social-icons">
               <li>
                 <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
@@ -58,7 +64,7 @@ const AboutMe = () => (
 
           <div className="skill-title">
             <p>Frameworks</p>
-            <ul>
+            <ul className="d-list">
               <li>Bootstrap</li>
               <li>Ruby on Rail</li>
               <li>RSPec</li>
@@ -69,7 +75,7 @@ const AboutMe = () => (
 
           <div className="skill-title">
             <p>Skills</p>
-            <ul>
+            <ul className="d-list">
               <li>Codekit</li>
               <li>Github</li>
               <li>Codepen</li>

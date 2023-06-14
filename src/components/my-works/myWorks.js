@@ -13,6 +13,7 @@ const MyWorks = () => (
 
           <div className="text-content">
             <h2>{item.title}</h2>
+            <p>---------------------</p>
             <p>{item.description}</p>
             <ul className="lang">
               <p>Project stack:</p>

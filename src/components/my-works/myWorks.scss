@@ -13,26 +13,30 @@
   .projects-title {
     text-align: center;
     font-size: 45px;
-    // background-color: #a11010;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .project-container {
     margin: auto;
     gap: 30px;
     width: 80%;
-    background-color: #ea0c0c;
     border-radius: 40px;
     color: #fff;
-    // padding: 5px;
+    padding-bottom: 50px;
     text-align: left;
 
     .item-card {
       page-break-after: always;
+      background-color: #ea0c0c;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding-bottom: 1px;
     }
 
     img {
       width: 100%;
-      // border-radius: 40px;
+      border-radius: 10px 10px 0 0;
     }
 
     .text-content {
@@ -47,13 +51,19 @@
       align-items: center;
       margin: auto;
       padding-left: 0;
+
+      p {
+        border-left: solid 10px #000104;
+        // border-bottom: solid 3px #0838f6;
+        // background-color: #fff;
+      }
     }
 
     .view-btns {
       display: flex;
       gap: 20px;
       justify-content: center;
-      margin-bottom: 100px;
+      margin-bottom: 40px;
 
       a {
         padding: 10px;
