@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
 import '../Homepage/homePage.scss';
+import DownloadPDF from '../../DownloadPDF';
 
 const Footer = () => (
   <div>
@@ -24,7 +25,9 @@ const Footer = () => (
         </div>
       </section>
       <div className="res-mail">
-        <button className="my-resume" type="button">GET MY RESUME</button>
+        <button className="my-resume" type="button">
+          <DownloadPDF />
+        </button>
         <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
       </div>
     </div>

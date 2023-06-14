@@ -9,6 +9,7 @@ import {
 import { RiMapPin2Line } from 'react-icons/ri';
 
 import './homePage.scss';
+import DownloadPDF from '../../DownloadPDF';
 
 const Intro = () => (
   <div className="intro-container">
@@ -29,7 +30,9 @@ const Intro = () => (
       </div>
     </section>
     <div className="res-mail">
-      <button className="my-resume" type="button">GET MY RESUME</button>
+      <button className="my-resume" type="button">
+        <DownloadPDF />
+      </button>
       <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
     </div>
   </div>
