@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './navigationBar.scss';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
+import './navigationBar.scss';
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -19,22 +28,42 @@ const NavigationBar = () => {
     { url: '/send_male', name: 'Send Direct Mail' },
   ];
 
-  return (
+  let menuIcon = null;
+  if (windowWidth < 768) {
+    menuIcon = isOpen ? (
+      <RiCloseLine size={35} onClick={toggleMenu} />
+    ) : (
+      <RiMenuLine size={35} onClick={toggleMenu} />
+    );
+  }
 
-    <div className="navigation-bar-container">
-      <div className="menu-icon">
-        {isOpen ? <RiCloseLine size={35} onClick={toggleMenu} />
-          : <RiMenuLine size={35} onClick={toggleMenu} />}
+  return (
+    <div>
+      <div className="navigation-bar-container">
+        <div className="menu-icon">{menuIcon}</div>
+        {isOpen && (
+        <ul className="navigation-menu">
+          {navLinks.map(({ url, name }) => (
+            <li key={name}>
+              <Link to={url} onClick={toggleMenu}>
+                {name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        )}
       </div>
-      {isOpen && (
-      <ul className="navigation-menu">
-        {navLinks.map(({ url, name }) => (
-          <li key={name}>
-            <Link to={url} onClick={toggleMenu}>{name}</Link>
-          </li>
-        ))}
-      </ul>
-      )}
+      <div className="desktop-nav-container">
+        {windowWidth >= 768 && (
+        <ul className="navigation-menu">
+          {navLinks.map(({ url, name }) => (
+            <li key={name}>
+              <Link to={url}>{name}</Link>
+            </li>
+          ))}
+        </ul>
+        )}
+      </div>
     </div>
   );
 };

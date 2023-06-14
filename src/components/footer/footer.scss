@@ -17,18 +17,19 @@
     padding-left: 0;
   }
 }
-  .copyright {
-    display: flex;
-    // flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    gap: 5px;
-    margin: auto;
-    width: 100%;
-    font-size: 18px;
-    font-weight: 900;
 
-    .custom-icon {
-      padding-bottom: 10px;
-    }
+.copyright {
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  margin: auto;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 900;
+
+  .custom-icon {
+    padding-bottom: 10px;
   }
+}
