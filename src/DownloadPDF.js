@@ -8,7 +8,7 @@ const DownloadPDF = () => {
   return (
     <div>
       <h2>Download PDF</h2>
-      <button type="button" onClick={handleDownload}>Download</button>
+      <button type="button" onClick={handleDownload}>Get My Resume</button>
     </div>
   );
 };

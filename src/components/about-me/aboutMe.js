@@ -33,7 +33,6 @@ const AboutMe = () => (
             <div className="buttons">
               <button type="button">
                 <DownloadPDF />
-                Get My Resume
               </button>
               <button type="button">
                 <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
