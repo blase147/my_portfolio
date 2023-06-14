@@ -3,6 +3,10 @@ import './aboutMe.scss';
 import {
   FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => (
   <div>
@@ -10,6 +14,7 @@ const AboutMe = () => (
       <section id="about" className="about">
         <div className="about-me">
           <div className="about-me-intro">
+            <FontAwesomeIcon className="custom-icon" icon={faUserLarge} />
             <h1>About me</h1>
             <p>
               Hello I am a software developer! I can help you build a product,

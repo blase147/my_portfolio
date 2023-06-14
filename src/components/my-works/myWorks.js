@@ -1,10 +1,15 @@
 import React from 'react';
 import './myWorks.scss';
+// import { FaWhmcs } from 'react-icons/fa6';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { faMedal } from '@fortawesome/free-solid-svg-icons';
 import data from '../../projectData';
-// import NavigationBar from '../navigation-bar/navigationBar';
 
 const MyWorks = () => (
   <section className="my-works">
+    <FontAwesomeIcon className="custom-icon" icon={faMedal} />
     <div><h1 className="projects-title">Projects</h1></div>
     <div className="project-container">
       {data.map((item) => (

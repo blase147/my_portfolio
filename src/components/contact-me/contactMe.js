@@ -1,9 +1,13 @@
 import React from 'react';
 import './contactMe.scss';
-// import NavigationBar from '../navigation-bar/navigationBar';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const ContactMe = () => (
   <section className="contact-me-container">
+    <FontAwesomeIcon className="custom-icon" icon={faEnvelope} />
     <div><h1>Get in Touch</h1></div>
     <div className="contact-me">
       <p>

@@ -3,6 +3,10 @@ import './footer.scss';
 import {
   FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
 import '../Homepage/homePage.scss';
 
@@ -46,6 +50,12 @@ const Footer = () => (
             </li>
           </ul>
         </div>
+      </div>
+      <div className="copyright">
+        {' '}
+        <FontAwesomeIcon className="custom-icon" icon={faCopyright} />
+        <p>CHUKWUMA PAUL MOSANYA</p>
+
       </div>
     </section>
   </div>
