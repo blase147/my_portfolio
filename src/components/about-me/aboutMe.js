@@ -31,12 +31,8 @@ const AboutMe = () => (
             </p>
             <img src="./main-photo.jpg" alt="profile" />
             <div className="buttons">
-              <button type="button">
-                <DownloadPDF />
-              </button>
-              <button type="button">
-                <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
-              </button>
+              <DownloadPDF />
+              <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
             </div>
             <ul className="social-icons">
               <li>

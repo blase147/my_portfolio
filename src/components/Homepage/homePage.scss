@@ -41,21 +41,25 @@
   .res-mail {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+    // margin-left: 0;
+    // padding-left: 0;
 
     .my-resume {
-      padding: 20px;
+      padding: 5px;
       background-color: #000;
       border-radius: 20px;
       color: white;
       font-weight: 900;
-      margin-bottom: 20px;
-      width: 50%;
+      // margin-bottom: 20px;
+      width: 60%;
     }
 
     .mailto {
       width: 60%;
-      padding: 20px;
+      padding: 5px;
       background-color: #fff;
       border-radius: 20px;
       color: rgb(4, 0, 0);

@@ -7,7 +7,7 @@ const DownloadPDF = () => {
 
   return (
     <div>
-      <button type="button" onClick={handleDownload}>Get My Resume</button>
+      <button className="my-resume" type="button" onClick={handleDownload}>Get My Resume</button>
     </div>
   );
 };

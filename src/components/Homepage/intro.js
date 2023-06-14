@@ -30,10 +30,10 @@ const Intro = () => (
       </div>
     </section>
     <div className="res-mail">
-      <button className="my-resume" type="button">
-        <DownloadPDF />
-      </button>
-      <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
+      <div className="my-resume"><DownloadPDF /></div>
+      <div className="mailto">
+        <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
+      </div>
     </div>
   </div>
 );
