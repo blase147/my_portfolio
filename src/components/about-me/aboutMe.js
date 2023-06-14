@@ -7,6 +7,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
+import DownloadPDF from '../../DownloadPDF';
 
 const AboutMe = () => (
   <div>
@@ -30,7 +31,10 @@ const AboutMe = () => (
             </p>
             <img src="./main-photo.jpg" alt="profile" />
             <div className="buttons">
-              <button type="button">Get My Resume</button>
+              <button type="button">
+                <DownloadPDF />
+                Get My Resume
+              </button>
               <button type="button">
                 <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
               </button>
