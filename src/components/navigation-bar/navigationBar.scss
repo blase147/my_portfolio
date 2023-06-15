@@ -51,15 +51,14 @@
   .desktop-nav-container {
     padding-top: 40px;
     // background-color: #e61010;
-      align-items: right;
-      width: 100%;
-      margin: auto;
-      position: fixed;
-
+    align-items: right;
+    width: 100%;
+    margin: auto;
+    position: fixed;
 
     .navigation-menu {
-    // background-color: #e61010;
-        color: #060000;
+      // background-color: #e61010;
+      color: #060000;
       display: flex;
       flex-direction: row;
       justify-content: right;

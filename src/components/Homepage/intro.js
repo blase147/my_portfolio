@@ -42,7 +42,6 @@ const Intro = () => {
             do not hesitate to contact me.
           </p>
         </div>
-        {/* </section> */}
         <div className="res-mail">
           <div className="my-resume">
             <DownloadPDF className="pfd" />
