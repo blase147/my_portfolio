@@ -65,17 +65,13 @@
       gap: 20px;
       padding: 20px;
       margin-right: 80px;
-      height: 100%;
-      // width: 70%;
-      // margin: auto;
+      padding-top: 0;
+      margin-top: 0;
 
       li {
         // background-color: #180101;
-        color: #060000;
-        // padding: 20px;
         border-radius: 15px;
-        // width: 80%;
-        font-weight: 900;
+        font-weight: 500;
       }
 
       li a:visited {

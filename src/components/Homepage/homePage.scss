@@ -1,9 +1,5 @@
 @import './../scss/config';
 
-.homepage {
-  // background-color: #010000;
-}
-
 .intro-container {
   display: flex;
   flex-direction: column;
@@ -67,18 +63,39 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
   /* CSS styles for tablets */
-  .homepage {
-    // background-color: #010000;
-  }
+.homepage {
+  // background-color: #ea0e0e;
+  width: 100%;
+  // padding-top: 100px;
+  margin-top: 40px;
 
-  .intro-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
-    text-align: center;
-    margin: 20px;
+      .intro-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: auto;
+      width: 70%;
+
+    .profPic {
+      display: flex;
+      height: 100%;
+      width: 100%;
+
+    img {
+      margin-top: 120px;
+      width: 100%;
+      border-radius: 50%;
+      }
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: 30px;
+      // background-color: #ea0e0e;
 
     h1 {
       font-size: 65px;
@@ -133,5 +150,8 @@
         text-decoration: none;
       }
     }
+    }
   }
 }
+}
+
