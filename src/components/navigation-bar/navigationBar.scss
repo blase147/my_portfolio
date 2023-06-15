@@ -47,25 +47,27 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
   .desktop-nav-container {
-    background-color: #e61010;
+    // background-color: #e61010;
+      align-items: right;
+      width: 100%;
+      margin: auto;
+
 
     .navigation-menu {
-          background-color: #e61010;
-
+    // background-color: #e61010;
+        color: #060000;
       display: flex;
       flex-direction: row;
-      // position: fixed;
-      // top: -20px;
-      // right: -1px;
-      // color: white;
-      // background-color: #d8d3d3;
-      text-align: center;
-      gap: 10px;
-      // padding-top: 100px;
+      justify-content: right;
+      // text-align: center;
+      gap: 20px;
+      padding: 20px;
+      margin-right: 80px;
       height: 100%;
       // width: 70%;
+      // margin: auto;
 
       li {
         // background-color: #180101;
@@ -77,7 +79,7 @@
       }
 
       li a:visited {
-        color: #fff;
+        color: #070000;
       }
     }
   }
