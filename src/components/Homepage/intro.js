@@ -45,7 +45,7 @@ const Intro = () => {
         {/* </section> */}
         <div className="res-mail">
           <div className="my-resume">
-            <DownloadPDF />
+            <DownloadPDF className="pfd" />
           </div>
           <div className="mailto">
             <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
