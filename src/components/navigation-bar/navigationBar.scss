@@ -53,6 +53,7 @@
       align-items: right;
       width: 100%;
       margin: auto;
+      position: fixed;
 
 
     .navigation-menu {
@@ -61,7 +62,6 @@
       display: flex;
       flex-direction: row;
       justify-content: right;
-      // text-align: center;
       gap: 20px;
       padding: 20px;
       margin-right: 80px;
