@@ -29,7 +29,7 @@ const NavigationBar = () => {
   ];
 
   let menuIcon = null;
-  if (windowWidth <= 768) {
+  if (windowWidth <= 320) {
     menuIcon = isOpen ? (
       <RiCloseLine size={35} onClick={toggleMenu} />
     ) : (
@@ -54,7 +54,7 @@ const NavigationBar = () => {
         )}
       </div>
       <div className="desktop-nav-container">
-        {windowWidth > 768 && (
+        {windowWidth > 320 && (
         <ul className="navigation-menu">
           {navLinks.map(({ url, name }) => (
             <li key={name}>
