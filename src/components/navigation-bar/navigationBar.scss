@@ -1,7 +1,7 @@
 @import './../scss/config';
 
 .navigation-bar-container {
-  position: absolute;
+  position: fixed;
   margin-top: -80px;
   // width: 80%;
   // background-color: #e00c0c;
@@ -9,7 +9,8 @@
   .menu-icon {
     position: fixed;
     top: 13px;
-    left: 300px;
+    right: 20px;
+    left: -auto;
     padding: 5px;
     background-color: #d7d2d2;
     color: rgb(9, 0, 0);
@@ -50,7 +51,7 @@
 @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
   .desktop-nav-container {
     padding-top: 40px;
-    // background-color: #e61010;
+    background-color: #ffffff;
     align-items: right;
     width: 100%;
     margin: auto;
@@ -63,7 +64,7 @@
       flex-direction: row;
       justify-content: right;
       gap: 20px;
-      padding: 20px;
+      padding: 10px;
       margin-right: 80px;
       padding-top: 0;
       margin-top: 0;
