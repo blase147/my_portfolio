@@ -11,11 +11,10 @@ import DownloadPDF from '../../DownloadPDF';
 import '../Homepage/homePage.scss';
 
 const AboutMe = () => (
-  // <div>
   <div className="about-me-container">
     <section id="about" className="about">
       <div className="about-me">
-        <FontAwesomeIcon className="custom-icon" icon={faUserLarge} />
+        <FontAwesomeIcon className="user-icon" icon={faUserLarge} />
         <h1>About me</h1>
         <div className="about-me-intro">
           <div className="intro-text">
@@ -105,8 +104,6 @@ const AboutMe = () => (
       <p><a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">Chosing your place in the tech industry</a></p>
     </section>
   </div>
-  // </div>
-
 );
 
 export default AboutMe;
