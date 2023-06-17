@@ -39,12 +39,14 @@
       flex-direction: column;
       justify-content: center;
       border-radius: 10px;
-      width: 90%;
+      width: 60%;
       margin: auto;
       background-color: #f0ecec;
 
       legend {
         text-align: left;
+        // width: 60%;
+        // width: auto;
       }
 
       .input {

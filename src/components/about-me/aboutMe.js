@@ -1,7 +1,7 @@
 import React from 'react';
 import './aboutMe.scss';
 import {
-  FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
+  FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook, FaBootstrap,
 } from 'react-icons/fa';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -70,38 +70,43 @@ const AboutMe = () => (
           <div className="skill-title">
             <p>Language</p>
             <ul className="d-list">
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
             </ul>
           </div>
 
           <div className="skill-title">
             <p>Frameworks</p>
             <ul className="d-list">
-              <li>Bootstrap</li>
-              <li>Ruby on Rail</li>
-              <li>RSPec</li>
-              <li>CapyBara</li>
-              <li>Selenium</li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
             </ul>
           </div>
 
           <div className="skill-title">
             <p>Skills</p>
             <ul className="d-list">
-              <li>Codekit</li>
-              <li>Github</li>
-              <li>Codepen</li>
-              <li>Gitlab</li>
-              <li>Terminal</li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
+              <li><FaBootstrap key="bootstrap" size={30} /></li>
             </ul>
           </div>
         </div>
       </section>
+      <section className="blog">
+        <h1>My blog</h1>
+        <p><a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">Chosing your place in the tech industry</a></p>
+      </section>
     </div>
   </div>
+
 );
 
 export default AboutMe;

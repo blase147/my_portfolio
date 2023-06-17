@@ -60,7 +60,7 @@
       padding-left: 0;
 
       p {
-        border-left: solid 10px #000104;
+        // border-left: solid 10px #000104;
         // border-bottom: solid 3px #0838f6;
         // background-color: #fff;
       }
@@ -86,101 +86,107 @@
 }
 
 @media (min-width: 768px) and (max-width: 3840px) and (min-resolution: 150dpi) and (orientation: landscape) {
-.my-works {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-  background-color: #000;
-  color: #fff;
-  margin-top: 100px;
-
-  .custom-icon {
-    font-size: 80px;
-    padding-top: 80px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  .projects-title {
-    text-align: center;
-    font-size: 45px;
-    padding-top: 5px;
-    padding-bottom: 50px;
-  }
-
-  .project-container {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+  .my-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     margin: auto;
-    gap: 20px;
-    border-radius: 40px;
+    background-color: #000;
     color: #fff;
-    text-align: center;
+    margin-top: 100px;
 
-    .item-card {
-      // page-break-after: always;
-      background-color: #100cea;
-      border-radius: 10px;
-      margin-bottom: 0;
+    .custom-icon {
+      font-size: 80px;
+      padding-top: 80px;
       padding-bottom: 0;
-      // padding-bottom: 1px;
-      height: 400px;
+      margin-bottom: 0;
     }
 
-    img {
-      width: 100%;
-      border-radius: 10px 10px 0 0;
+    .projects-title {
+      text-align: center;
+      font-size: 45px;
+      padding-top: 5px;
+      padding-bottom: 50px;
     }
 
-    .text-content {
-      margin: 10px;
-
-      h2 {
-        font-size: 12px;
-      }
-
-      .desc {
-        font-size: 8px;
-        height: 100px;
-      }
-    }
-
-    .lang {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      width: 100%;
-      align-items: center;
+    .project-container {
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
       margin: auto;
-      padding-left: 0;
-      font-size: 8px;
+      gap: 20px;
+      border-radius: 40px;
+      color: #fff;
+      text-align: center;
+
+      .item-card {
+        // page-break-after: always;
+        background-color: #100cea;
+        border-radius: 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-bottom: 30px;
+        height: 400px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .text-content {
+        margin: 10px;
+
+        h2 {
+          font-size: 12px;
+        }
+
+        .desc {
+          font-size: 8px;
+          height: 10vh;
+        }
+      }
+
+      .lang {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        // align-items: center;
+        margin: auto;
+        padding-left: 0;
+        font-size: 8px;
 
         p {
-        border-left: solid 10px #000104;
-        // border-bottom: solid 3px #0838f6;
-        // background-color: #fff;
+          text-align: center;
+        }
+
+        .li-container {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          size: 33px;
+        }
       }
-    }
 
-    .view-btns {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      // margin-bottom: 5px;
-      margin-top: 10px;
+      .view-btns {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        // margin-bottom: 5px;
+        margin-top: 20px;
 
-      a {
-        // padding: 5px;
-        background-color: #fff;
-        color: black;
-        border: solid 1px #000;
-        border-radius: 15px;
-        font-size: 8px;
-        font-weight: 900;
+        a {
+          // padding: 5px;
+          background-color: #fff;
+          color: black;
+          border: solid 1px #000;
+          border-radius: 15px;
+          font-size: 8px;
+          font-weight: 900;
+        }
       }
     }
   }
-}
 }

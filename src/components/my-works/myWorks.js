@@ -22,9 +22,11 @@ const MyWorks = () => (
             <p className="desc">{item.description}</p>
             <ul className="lang">
               <p>Project stack:</p>
-              {item.lang.map((language) => (
-                <li key={language}>{language}</li>
-              ))}
+              <div className="li-container">
+                {item.lang.map((language) => (
+                  <li key={language}>{language}</li>
+                ))}
+              </div>
             </ul>
             <div className="view-btns">
               <a href={item.live} target="_blank" rel="noreferrer">
