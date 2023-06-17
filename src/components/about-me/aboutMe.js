@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
 import DownloadPDF from '../../DownloadPDF';
+import '../Homepage/homePage.scss';
 
 const AboutMe = () => (
   // <div>

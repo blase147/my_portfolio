@@ -119,15 +119,15 @@
           width: 80%;
           border: solid 1px rgb(14, 6, 0);
           border-left: solid 10px #e8081b;
-          margin-bottom: 100px;
-          background-color: #06ec2d;
+          // margin-bottom: 100px;
 
 
           .about-me-intro {
             display: flex;
             flex-direction: row;
-            // justify-content: center;
+            justify-content: center;
             padding-top: 60px;
+            // padding: 0;
             width: 80%;
             margin: auto;
 
@@ -139,20 +139,29 @@
             }
 
             .intro-text {
-              margin: auto;
-              padding-top: 0;
-              margin-top: 0;
+              // margin: auto;
+              // width: 100%;
+              padding: 20px;
+              margin: 0;
+              // background-color: #ec1616;
             }
 
             .img-profile {
               display: flex;
               flex-direction: column;
-              background-color: #c71111;
-              width: 80%;
-              border-radius: 100%;
-              // padding-top: 50px;
               padding-bottom: 20px;
               margin: auto;
+
+              img {
+                width: 100%;
+                border-radius: 100%;
+                border: solid 5px  red;
+                margin: 10px;
+              }
+              .res-mail {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                width: 100%;              }
 
           .social-icons {
             display: flex;
