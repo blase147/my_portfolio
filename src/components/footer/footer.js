@@ -1,5 +1,4 @@
 import React from 'react';
-import './footer.scss';
 import {
   FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
@@ -8,8 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
-import '../Homepage/homePage.scss';
+// import '../Homepage/homePage.scss';
 import DownloadPDF from '../../DownloadPDF';
+import './footer.scss';
 
 const Footer = () => (
   <div>
@@ -25,10 +25,12 @@ const Footer = () => (
         </div>
       </section>
       <div className="res-mail">
-        <button className="my-resume" type="button">
-          <DownloadPDF />
-        </button>
-        <a className="mailto" href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">solarmails2@gmail.com</a>
+        <DownloadPDF className="pfd" />
+        {/* <div className="mailto">
+            <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
+              solarmails2@gmail.com
+            </a>
+          </div> */}
       </div>
     </div>
 

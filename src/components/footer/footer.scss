@@ -34,8 +34,50 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 3840px) and (min-resolution: 150dpi) and (orientation: landscape) {
-.social-icons-container {
+@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
+
+        .res-mail {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          gap: 10px;
+          height:30px;
+          // font-size: 12px;
+
+          .my-resume {
+            // display: flex;
+            // flex-direction: row;
+            background-color: #070eec;
+            border-radius: 20px;
+            color: white;
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+          // font-size: 12px;
+          }
+
+          .mailto {
+            // display: flex;
+            // align-content: center;
+            border-radius: 20px;
+            border: solid 1px #0905f0;
+            // text-decoration: none;
+            font-size: 15px;
+          padding: 7px;
+            margin: auto;
+            // background-color: #dd0e0e;
+            width: auto;
+
+            // a {
+            //   color: rgb(4, 0, 0);
+            //   font-weight: 900;
+            //   padding-bottom: 0;
+            // }
+          }
+        }
+
+
+  .social-icons-container {
   display: flex;
   flex-direction: row;
   justify-content: center;

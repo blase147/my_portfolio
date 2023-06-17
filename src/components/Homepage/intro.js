@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { RiMapPin2Line } from 'react-icons/ri';
-import './homePage.scss';
+// import './homePage.scss';
 import DownloadPDF from '../../DownloadPDF';
 
 const Intro = () => {
@@ -43,14 +43,12 @@ const Intro = () => {
           </p>
         </div>
         <div className="res-mail">
-          <div className="my-resume">
-            <DownloadPDF className="pfd" />
-          </div>
-          <div className="mailto">
+          <DownloadPDF className="pfd" />
+          {/* <div className="mailto">
             <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
               solarmails2@gmail.com
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
