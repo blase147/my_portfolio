@@ -125,7 +125,7 @@
         border-radius: 10px;
         margin-bottom: 0;
         padding-bottom: 0;
-        padding-bottom: 50px;
+        padding-bottom: 80px;
         height: 400px;
       }
 
@@ -144,6 +144,7 @@
         .desc {
           font-size: 12px;
           height: 10vh;
+          margin-bottom: 50px;
         }
       }
 
@@ -183,11 +184,12 @@
         margin-top: 20px;
 
         a {
+          display: flex;
           background-color: #fff;
           color: rgb(9, 24, 237);
           border: solid 1px #000;
           border-radius: 15px;
-          font-size: 12px;
+          font-size: 10px;
           font-weight: 900;
         }
       }
