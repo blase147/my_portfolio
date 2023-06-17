@@ -35,84 +35,82 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
+  .res-mail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    height: 30px;
+    // font-size: 12px;
 
-        .res-mail {
-          display: flex;
-          flex-direction: row;
-          width: 100%;
-          gap: 10px;
-          height:30px;
-          // font-size: 12px;
+    .my-resume {
+      // display: flex;
+      // flex-direction: row;
+      background-color: #070eec;
+      border-radius: 20px;
+      color: white;
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+      // font-size: 12px;
+    }
 
-          .my-resume {
-            // display: flex;
-            // flex-direction: row;
-            background-color: #070eec;
-            border-radius: 20px;
-            color: white;
-            width: 100%;
-            margin: auto;
-            padding: 10px;
-          // font-size: 12px;
-          }
+    .mailto {
+      // display: flex;
+      // align-content: center;
+      border-radius: 20px;
+      border: solid 1px #0905f0;
+      // text-decoration: none;
+      font-size: 15px;
+      padding: 7px;
+      margin: auto;
+      // background-color: #dd0e0e;
+      width: auto;
 
-          .mailto {
-            // display: flex;
-            // align-content: center;
-            border-radius: 20px;
-            border: solid 1px #0905f0;
-            // text-decoration: none;
-            font-size: 15px;
-          padding: 7px;
-            margin: auto;
-            // background-color: #dd0e0e;
-            width: auto;
-
-            // a {
-            //   color: rgb(4, 0, 0);
-            //   font-weight: 900;
-            //   padding-bottom: 0;
-            // }
-          }
-        }
-
+      // a {
+      //   color: rgb(4, 0, 0);
+      //   font-weight: 900;
+      //   padding-bottom: 0;
+      // }
+    }
+  }
 
   .social-icons-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 80px;
-  padding-bottom: 50px;
-
-  .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
-    margin: auto;
-    width: 100%;
-    padding-left: 0;
+    margin-top: 80px;
+    padding-bottom: 50px;
 
-    a {
-      color: black;
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+      margin: auto;
+      width: 100%;
+      padding-left: 0;
+
+      a {
+        color: black;
+      }
     }
   }
-}
 
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  gap: 5px;
-  margin: auto;
-  width: 100%;
-  font-size: 10px;
-  font-weight: 400;
-
-  .custom-icon {
-font-size: 15px;
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    margin: auto;
+    width: 100%;
+    font-size: 10px;
     font-weight: 400;
-    padding-bottom: 10px;
+
+    .custom-icon {
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
   }
-}
 }
