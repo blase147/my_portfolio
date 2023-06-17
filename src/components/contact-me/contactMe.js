@@ -47,6 +47,14 @@ const ContactMe = () => (
         </div>
       </fieldset>
     </div>
+    <div className="footer-nav">
+      <ul>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+        <li>Blog</li>
+      </ul>
+    </div>
   </section>
 );
 

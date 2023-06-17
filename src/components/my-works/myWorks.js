@@ -18,7 +18,7 @@ const MyWorks = () => (
 
           <div className="text-content">
             <h2>{item.title}</h2>
-            <p>---------------------</p>
+            {/* <p>---------------------</p> */}
             <p className="desc">{item.description}</p>
             <ul className="lang">
               <p>Project stack:</p>
