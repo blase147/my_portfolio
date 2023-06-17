@@ -180,11 +180,9 @@
         display: flex;
         gap: 20px;
         justify-content: center;
-        // margin-bottom: 5px;
         margin-top: 20px;
 
         a {
-          // padding: 5px;
           background-color: #fff;
           color: rgb(9, 24, 237);
           border: solid 1px #000;
@@ -195,6 +193,7 @@
       }
     }
   }
+
   .footer-nav {
     display: flex;
     flex-direction: column;
@@ -202,14 +201,13 @@
     margin-top: 100px;
 
     ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       gap: 30px;
 
       li {
         font-weight: 900;
-
       }
     }
   }

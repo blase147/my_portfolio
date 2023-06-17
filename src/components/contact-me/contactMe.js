@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './contactMe.scss';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -47,14 +48,25 @@ const ContactMe = () => (
         </div>
       </fieldset>
     </div>
-    <div className="footer-nav">
+    <nav className="footer-nav">
       <ul>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <li>Blog</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about_me">About</Link>
+        </li>
+        <li>
+          <Link to="/my_works">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/contac_me">Contact</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
+        </li>
       </ul>
-    </div>
+    </nav>
   </section>
 );
 

@@ -140,7 +140,6 @@
     margin-top: 100px;
     margin-bottom: 100px;
 
-
     .about-me {
       padding-top: 20px;
       margin: auto;
@@ -174,7 +173,7 @@
           width: 80%;
           border-radius: 100%;
           // padding-top: 50px;
-          padding-bottom: 50px;
+          padding-bottom: 20px;
           margin: auto;
         }
       }
@@ -186,7 +185,8 @@
         align-items: center;
         gap: 8px;
         width: 100%;
-        margin: auto;
+        // margin: auto;
+        margin: 20px;
         // background-color: #d61414;
 
         .my-resume {
@@ -197,12 +197,18 @@
           width: 100%;
           font-size: 10px;
           border-radius: 10px;
+          background-color: #100101;
+          color: #fff;
         }
 
         a {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
           text-decoration: none;
           border: solid 1px rgb(14, 6, 0);
-          padding: 10px;
+          padding: 10px 15px 10px 15px;
           font-weight: 900;
           margin-bottom: 10px;
           width: 40%;
@@ -215,13 +221,17 @@
       .social-icons {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
+        width: 80%;
         margin: auto;
-        padding-left: 0;
+        // padding-left: 0;
         margin-top: 20px;
 
         a {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
           color: #000;
         }
       }
@@ -282,21 +292,22 @@
       }
     }
   }
+
   .blog {
     display: flex;
     flex-direction: column;
     // justify-content: center;
     border-top: solid 10px #cf0505;
     border-bottom: solid 10px #cf0505;
-    margin-top:100px;
-    padding-top:50px;
-    padding-bottom:50px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 40%;
-    margin:auto;
+    margin: auto;
 
     a {
-    border-left: solid 3px #cf0505;
-    padding-left: 20px;
+      border-left: solid 3px #cf0505;
+      padding-left: 20px;
     }
   }
 }

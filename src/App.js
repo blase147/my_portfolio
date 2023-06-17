@@ -26,7 +26,7 @@ function App() {
             <Route path="/my_works" element={<MyWorks />} />
             <Route path="/about_me" element={<AboutMe />} />
             <Route path="/contact_me" element={<ContactMe />} />
-            <Route path="https://medium.com/@solarmails2" element={<ContactMe />} />
+            <Route url="https://medium.com/@solarmails2" />
           </Route>
         </Routes>
       </Router>

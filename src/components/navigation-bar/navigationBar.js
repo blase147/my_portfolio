@@ -25,7 +25,7 @@ const NavigationBar = () => {
     { url: '/my_works', name: 'Portfolio' },
     { url: '/about_me', name: 'About' },
     { url: '/contact_me', name: 'Contact' },
-    { url: '/blog', name: 'Blog' },
+    { url: '/url', name: 'Blog' },
   ];
 
   let menuIcon = null;
