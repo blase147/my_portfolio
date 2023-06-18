@@ -1,12 +1,13 @@
 @import './../scss/config';
 
 .navigation-bar-container {
-  position: absolute;
+  box-sizing: border-box;
+  position: fixed;
   margin-top: -80px;
   width: 80%;
-  margin: auto;
-  height: 100%;
-  // background-color: #e00c0c;
+  // margin: auto;
+  // height: 100%;
+  background-color: #e00c0c;
 
   .menu-icon {
     position: fixed;
@@ -23,17 +24,17 @@
   ul {
     display: flex;
     flex-direction: column;
-    // position: fixed;
-    justify-content: right;
+    position: fixed;
+    justify-content: center;
     top: -20px;
-    right: -1px;
-    color: white;
+    left: 170px;
+    // margin: 10px;
     background-color: #d8d3d3;
     text-align: center;
     gap: 10px;
     padding-top: 100px;
     height: 100%;
-    width: 70%;
+    width: 80%;
 
     li {
       background-color: #180101;
@@ -41,6 +42,7 @@
       padding: 20px;
       border-radius: 15px;
       width: 80%;
+      margin: auto;
       font-weight: 900;
     }
 
