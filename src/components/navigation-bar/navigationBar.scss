@@ -1,7 +1,7 @@
 @import './../scss/config';
 
 .navigation-bar-container {
-  position: fixed;
+  // position: fixed;
   margin-top: -80px;
   // width: 80%;
   // background-color: #e00c0c;
@@ -48,13 +48,15 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 3840px) and (min-resolution: 150dpi) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
   .desktop-nav-container {
-    padding-top: 40px;
+    box-sizing: border-box;
+    // position: fixed;
+    margin-top: 80px;
     background-color: #fff;
     // align-items: right;
     width: 100%;
-    margin: auto;
+    // margin: auto;
     position: fixed;
 
     .navigation-menu {
@@ -66,13 +68,17 @@
       gap: 20px;
       padding: 10px;
       margin-right: 80px;
-      padding-top: 0;
-      margin-top: 0;
+      // padding-top: 0;
+      // margin-top: 0;
 
       li {
         // background-color: #180101;
-        border-radius: 15px;
+        // border-radius: 15px;
         font-weight: 500;
+
+        a {
+          color: #070000;
+        }
       }
 
       li a:visited {

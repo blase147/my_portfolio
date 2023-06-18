@@ -1,6 +1,6 @@
 @import './../scss/config';
 
-@media (min-width: 375px) and (max-width: 768px) and (min-resolution: 150dpi) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: portrait) {
   .intro-container {
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
     box-sizing: border-box;
     // background-color: #ea0e0e;
     width: 100%;
-    padding-top: 50px;
+    padding-top:100px;
 
     .intro-container {
       display: flex;
