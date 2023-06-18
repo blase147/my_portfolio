@@ -2,12 +2,10 @@ import React from 'react';
 import {
   FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
-// import '../Homepage/homePage.scss';
+import '../Homepage/homePage.scss';
 import DownloadPDF from '../../DownloadPDF';
 import './footer.scss';
 

@@ -33,9 +33,7 @@ const AboutMe = () => (
           </div>
           <div className="img-profile">
             <img src="./main-photo.jpg" alt="profile" />
-            {/* <div className="res-mail"> */}
             <DownloadPDF className="my-resume" />
-            {/* </div> */}
             <ul className="social-icons">
               <li>
                 <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>

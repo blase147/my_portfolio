@@ -28,12 +28,6 @@ const Intro = () => {
             <RiMapPin2Line />
             Imo, Nigeria
           </p>
-          {/* <div className="profPic">
-            {windowWidth > 768 && (
-            <img src="./main-photo.jpg" alt="profile pic" />
-            )}
-          </div> */}
-          <h2>Chukwuma Mosanya, </h2>
           <h1>Software Engineer</h1>
           <p id="primary-text-des">
             I can help you build a product, feature or website.
@@ -44,11 +38,6 @@ const Intro = () => {
         </div>
         <div className="res-mail">
           <DownloadPDF className="pfd" />
-          {/* <div className="mailto">
-            <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
-              solarmails2@gmail.com
-            </a>
-          </div> */}
         </div>
       </section>
     </div>
