@@ -8,11 +8,13 @@ import ContactMe from './components/contact-me/contactMe';
 import NavigationBar from './components/navigation-bar/navigationBar';
 import './App.css';
 import HomePage from './components/Homepage/homepage';
+import Footer from './components/footer/footer';
 
 const NavigationLayout = () => (
   <>
     <NavigationBar />
     <Outlet />
+    <Footer />
   </>
 );
 
