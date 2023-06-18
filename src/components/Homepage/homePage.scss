@@ -68,8 +68,10 @@
 @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
   /* CSS styles for tablets */
   .homepage {
+    box-sizing: border-box;
     // background-color: #ea0e0e;
     width: 100%;
+    padding-top: 50px;
 
     .intro-container {
       display: flex;
@@ -82,7 +84,6 @@
         display: flex;
         height: 100%;
         width: 100%;
-        
 
         img {
           margin-top: 120px;
@@ -96,8 +97,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 30px;
-        // background-color: #ea0e0e;
 
         h1 {
           font-size: 50px;
@@ -131,7 +130,7 @@
           width: 100%;
           gap: 10px;
           padding: 0;
-          // font-size: 12px;
+          font-size: 8px;
 
           .my-resume {
             background-color: #070eec;
@@ -139,7 +138,7 @@
             color: white;
             width: 100%;
             padding: 10px;
-            // font-size: 12px;
+            font-weight: 900;
           }
 
           .mailto {
@@ -147,7 +146,13 @@
             border: solid 1px #0905f0;
             font-size: 15px;
             padding: 8px;
-            width: 100%;
+            // width: 100%;
+
+            a {
+              color: #000;
+              text-decoration: none;
+              font-weight: 900;
+            }
           }
         }
       }

@@ -26,11 +26,6 @@ const Footer = () => (
       </section>
       <div className="res-mail">
         <DownloadPDF className="pfd" />
-        {/* <div className="mailto">
-            <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
-              solarmails2@gmail.com
-            </a>
-          </div> */}
       </div>
     </div>
 

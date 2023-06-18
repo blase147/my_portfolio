@@ -1,14 +1,13 @@
 import React from 'react';
 import './aboutMe.scss';
 import {
-  FaGithub, FaLinkedin, FaAngellist, FaTwitter, FaFacebook, FaBootstrap,
+  FaGithub, FaLinkedin,
+  FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
 import DownloadPDF from '../../DownloadPDF';
-import '../Homepage/homePage.scss';
+import '../footer/footer.scss';
 
 const AboutMe = () => (
   <div className="about-me-container">
@@ -34,9 +33,9 @@ const AboutMe = () => (
           </div>
           <div className="img-profile">
             <img src="./main-photo.jpg" alt="profile" />
-            <div className="res-mail">
-              <DownloadPDF />
-            </div>
+            {/* <div className="res-mail"> */}
+            <DownloadPDF className="my-resume" />
+            {/* </div> */}
             <ul className="social-icons">
               <li>
                 <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
@@ -67,34 +66,13 @@ const AboutMe = () => (
         </h3>
 
         <div className="skill-title">
-          <p>Language</p>
+          <p>Languages asnd tools I have mastered</p>
           <ul className="d-list">
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-          </ul>
-        </div>
-
-        <div className="skill-title">
-          <p>Frameworks</p>
-          <ul className="d-list">
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-          </ul>
-        </div>
-
-        <div className="skill-title">
-          <p>Skills</p>
-          <ul className="d-list">
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
-            <li><FaBootstrap key="bootstrap" size={30} /></li>
+            <li><img src="./html.png" alt="html" /></li>
+            <li><img src="./javascript.png" alt="html" /></li>
+            <li><img src="./ruby.png" alt="html" /></li>
+            <li><img src="./bootstrap.png" alt="html" /></li>
+            <li><img src="./ruby-on-rails.png" alt="html" /></li>
           </ul>
         </div>
       </div>

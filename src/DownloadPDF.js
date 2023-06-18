@@ -13,7 +13,6 @@ const DownloadPDF = () => {
         <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
           solarmails2@gmail.com
         </a>
-
       </button>
 
     </div>
