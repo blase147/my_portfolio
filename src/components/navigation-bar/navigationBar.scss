@@ -3,8 +3,11 @@
 .navigation-bar-container {
   position: absolute;
   margin-top: -80px;
-  // width: 80%;
-  background-color: #e00c0c;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  // background-color: #e00c0c;
+
   .menu-icon {
     position: fixed;
     top: 13px;
@@ -20,7 +23,8 @@
   ul {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    // position: fixed;
+    justify-content: right;
     top: -20px;
     right: -1px;
     color: white;
