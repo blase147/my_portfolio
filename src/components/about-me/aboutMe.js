@@ -7,7 +7,8 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
 import DownloadPDF from '../../DownloadPDF';
-import '../footer/footer.scss';
+// import '../footer/footer.scss';
+import '../Homepage/homePage.scss';
 
 const AboutMe = () => (
   <div id="about_me" className="about-me-container">
@@ -76,8 +77,10 @@ const AboutMe = () => (
       </div>
     </section>
     <section className="blog">
-      <h1>My blog</h1>
-      <p><a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">Chosing your place in the tech industry</a></p>
+      <div>
+        <h1>My blog</h1>
+        <p><a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">Chosing your place in the tech industry</a></p>
+      </div>
     </section>
   </div>
 );

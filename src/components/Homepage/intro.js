@@ -28,6 +28,7 @@ const Intro = () => {
             <RiMapPin2Line />
             Imo, Nigeria
           </p>
+          <h2>Chukwuma Mosanya, </h2>
           <h1>Software Engineer</h1>
           <p id="primary-text-des">
             I can help you build a product, feature or website.
