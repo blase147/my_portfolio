@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './contactMe.scss';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const ContactMe = () => (
-  <section className="contact-me-container">
+  <section className="contact-me-container" id="contact_me">
     <FontAwesomeIcon className="custom-icon" icon={faEnvelope} />
     <div><h1>Get in Touch</h1></div>
     <div className="contact-me">
@@ -54,16 +52,16 @@ const ContactMe = () => (
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about_me">About</Link>
+          <Link to="#about_me">About</Link>
         </li>
         <li>
-          <Link to="/my_works">Portfolio</Link>
+          <Link to="/my_works#contact_me">Portfolio</Link>
         </li>
         <li>
-          <Link to="/contac_me">Contact</Link>
+          <Link to="/contact_me">Contact</Link>
         </li>
         <li>
-          <Link to="/blog">Blog</Link>
+          <Link to="/blog#contact_me">Blog</Link>
         </li>
       </ul>
     </nav>

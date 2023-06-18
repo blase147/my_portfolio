@@ -21,11 +21,11 @@ const NavigationBar = () => {
   };
 
   const navLinks = [
-    { url: '/', name: 'Home' },
-    { url: '/my_works', name: 'Portfolio' },
-    { url: '/about_me', name: 'About' },
-    { url: '/contact_me', name: 'Contact' },
-    { url: '/url', name: 'Blog' },
+    { id: 1, url: '/', name: 'Home' },
+    { id: 2, url: '/my_works', name: 'Portfolio' },
+    { id: 3, url: '/about_me', name: 'About' },
+    { id: 4, url: '/contact_me', name: 'Contact' },
+    { id: 5, url: '/url', name: 'Blog' },
   ];
 
   let menuIcon = null;
@@ -42,26 +42,26 @@ const NavigationBar = () => {
       <div className="navigation-bar-container">
         <div className="menu-icon">{menuIcon}</div>
         {isOpen && (
-        <ul className="navigation-menu">
-          {navLinks.map(({ url, name }) => (
-            <li key={name}>
-              <Link to={url} onClick={toggleMenu}>
-                {name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+          <ul className="navigation-menu">
+            {navLinks.map(({ id, url, name }) => (
+              <li key={id}>
+                <Link to={url} onClick={toggleMenu}>
+                  {name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         )}
       </div>
       <div className="desktop-nav-container">
         {windowWidth > 768 && (
-        <ul className="navigation-menu">
-          {navLinks.map(({ url, name }) => (
-            <li key={name}>
-              <Link to={url}>{name}</Link>
-            </li>
-          ))}
-        </ul>
+          <ul className="navigation-menu">
+            {navLinks.map(({ id, url, name }) => (
+              <li key={id}>
+                <Link to={url}>{name}</Link>
+              </li>
+            ))}
+          </ul>
         )}
       </div>
     </div>

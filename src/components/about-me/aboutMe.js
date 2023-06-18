@@ -10,8 +10,8 @@ import DownloadPDF from '../../DownloadPDF';
 import '../footer/footer.scss';
 
 const AboutMe = () => (
-  <div className="about-me-container">
-    <section id="about" className="about">
+  <div id="about_me" className="about-me-container">
+    <section className="about">
       <div className="about-me">
         <FontAwesomeIcon className="user-icon" icon={faUserLarge} />
         <h1>About me</h1>
