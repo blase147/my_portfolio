@@ -4,18 +4,18 @@
   .navigation-bar-container {
     display: flex;
     justify-content: right;
-    // position: relative;
-    // top: -200px;
+    position: relative;
+    top: -200px;
     width: 100%;
-    // margin-top: 0px;
+    margin-top: 0px;
     background-color: #0ce02f;
 
     .menu-icon {
       background-color: #e00c0c;
-      // position: fixed;
-      // top: 3px;
-      // right: 10px;
-      // left: auto;
+      position: fixed;
+      top: 3px;
+      right: 10px;
+      left: auto;
       padding: 5px;
       margin: 20px;
       background-color: #d7d2d2;
@@ -55,42 +55,42 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
-  .desktop-nav-container {
-    box-sizing: border-box;
-    // position: fixed;
-    margin-top: 80px;
-    background-color: #fff;
-    // align-items: right;
-    width: 100%;
-    // margin: auto;
-    position: fixed;
+// @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
+//   .desktop-nav-container {
+//     box-sizing: border-box;
+//     // position: fixed;
+//     margin-top: 80px;
+//     background-color: #fff;
+//     // align-items: right;
+//     width: 100%;
+//     // margin: auto;
+//     position: fixed;
 
-    .navigation-menu {
-      // background-color: #e61010;
-      color: #060000;
-      display: flex;
-      flex-direction: row;
-      justify-content: right;
-      gap: 20px;
-      padding: 10px;
-      margin-right: 80px;
-      // padding-top: 0;
-      // margin-top: 0;
+//     .navigation-menu {
+//       // background-color: #e61010;
+//       color: #060000;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: right;
+//       gap: 20px;
+//       padding: 10px;
+//       margin-right: 80px;
+//       // padding-top: 0;
+//       // margin-top: 0;
 
-      li {
-        // background-color: #180101;
-        // border-radius: 15px;
-        font-weight: 500;
+//       li {
+//         // background-color: #180101;
+//         // border-radius: 15px;
+//         font-weight: 500;
 
-        a {
-          color: #070000;
-        }
-      }
+//         a {
+//           color: #070000;
+//         }
+//       }
 
-      li a:visited {
-        color: #070000;
-      }
-    }
-  }
-}
+//       li a:visited {
+//         color: #070000;
+//       }
+//     }
+//   }
+// }
