@@ -3,18 +3,17 @@
 @media (min-width: 375px) and (max-width: 768px) and (min-resolution: 150dpi) and (orientation: portrait) {
   .navigation-bar-container {
     display: flex;
-    flex-direction: row;
     justify-content: right;
-    // position: fixed;
+    // position: relative;
     // top: -200px;
     width: 100%;
-    margin-top: 0px;
+    // margin-top: 0px;
     background-color: #0ce02f;
 
     .menu-icon {
-      // background-color: #e00c0c;
-      position: fixed;
-      top: 3px;
+      background-color: #e00c0c;
+      // position: fixed;
+      // top: 3px;
       // right: 10px;
       // left: auto;
       padding: 5px;
