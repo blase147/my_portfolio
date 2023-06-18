@@ -1,10 +1,10 @@
 @import './../scss/config';
 
-@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: portrait) {
+@media (min-width: 375px) and (max-width: 768px) and (min-resolution: 150dpi) and (orientation: portrait) {
   .intro-container {
     display: flex;
     flex-direction: column;
-    // width: 90%;
+    width: 90%;
     padding-top: 80px;
     text-align: center;
     margin: 20px;
