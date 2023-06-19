@@ -1,117 +1,120 @@
 @import './../scss/config';
 
-.navigation-bar-container {
-  position: absolute;
-  margin-top: -80px;
-  // width: 80%;
-  background-color: #e00c0c;
-  .menu-icon {
-    position: fixed;
-    top: 13px;
-    left: 300px;
-    padding: 5px;
-    background-color: #d7d2d2;
-    color: rgb(9, 0, 0);
-    border-radius: 15px;
-    margin-left: 20px;
-    z-index: 2;
-  }
+@media (max-width: 786px) {
+  .navigation-bar-container {
+    position: absolute;
+    margin-top: -80px;
+    // width: 80%;
+    background-color: #e00c0c;
 
-  ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: -20px;
-    right: -1px;
-    color: white;
-    background-color: #d8d3d3;
-    text-align: center;
-    gap: 10px;
-    padding-top: 100px;
-    height: 100%;
-    width: 70%;
-
-    li {
-      background-color: #180101;
-      color: #fff;
-      padding: 20px;
+    .menu-icon {
+      position: fixed;
+      top: 13px;
+      left: 300px;
+      padding: 5px;
+      background-color: #d7d2d2;
+      color: rgb(9, 0, 0);
       border-radius: 15px;
-      width: 80%;
-      font-weight: 900;
+      margin-left: 20px;
+      z-index: 2;
     }
 
-    li a:visited {
-      color: #fff;
-    }
-  }
-}
+    ul {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: -20px;
+      right: -1px;
+      color: white;
+      background-color: #d8d3d3;
+      text-align: center;
+      gap: 10px;
+      padding-top: 100px;
+      height: 100%;
+      width: 70%;
 
-.desktop-nav-container {
-  box-sizing: border-box;
-  margin-top: 80px;
-  background-color: #fff;
-  width: 100%;
-  position: fixed;
+      li {
+        background-color: #180101;
+        color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        width: 80%;
+        font-weight: 900;
+      }
 
-  .navigation-menu {
-    color: #060000;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    gap: 20px;
-    padding: 10px;
-    margin-right: 80px;
-
-    li {
-      font-weight: 500;
-
-      a {
-        color: #070000;
+      li a:visited {
+        color: #fff;
       }
     }
-
-    li a:visited {
-      color: #070000;
-    }
   }
 }
 
-// @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
-//   .desktop-nav-container {
-//     box-sizing: border-box;
-//     // position: fixed;
-//     margin-top: 80px;
-//     background-color: #fff;
-//     // align-items: right;
-//     width: 100%;
-//     // margin: auto;
-//     position: fixed;
+// .desktop-nav-container {
+//   box-sizing: border-box;
+//   margin-top: 80px;
+//   background-color: #fff;
+//   width: 100%;
+//   position: fixed;
 
-//     .navigation-menu {
-//       // background-color: #e61010;
-//       color: #060000;
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: right;
-//       gap: 20px;
-//       padding: 10px;
-//       margin-right: 80px;
-//       // padding-top: 0;
-//       // margin-top: 0;
+//   .navigation-menu {
+//     color: #060000;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: right;
+//     gap: 20px;
+//     padding: 10px;
+//     margin-right: 80px;
 
-//       li {
-//         // background-color: #180101;
-//         // border-radius: 15px;
-//         font-weight: 500;
+//     li {
+//       font-weight: 500;
 
-//         a {
-//           color: #070000;
-//         }
-//       }
-
-//       li a:visited {
+//       a {
 //         color: #070000;
 //       }
 //     }
+
+//     li a:visited {
+//       color: #070000;
+//     }
 //   }
 // }
+
+@media (min-width: 786px) {
+  .desktop-nav-container {
+    box-sizing: border-box;
+    // position: fixed;
+    margin-top: 80px;
+    background-color: #fff;
+    // align-items: right;
+    width: 100%;
+    // margin: auto;
+    position: fixed;
+
+    .navigation-menu {
+      // background-color: #e61010;
+      color: #060000;
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      gap: 20px;
+      padding: 10px;
+      margin-right: 80px;
+      // padding-top: 0;
+      // margin-top: 0;
+
+      li {
+        // background-color: #180101;
+        // border-radius: 15px;
+        font-weight: 500;
+
+        a {
+          color: #070000;
+        }
+      }
+
+      li a:visited {
+        color: #070000;
+      }
+    }
+  }
+}

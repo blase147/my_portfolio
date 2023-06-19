@@ -1,210 +1,212 @@
 @import './../scss/config';
 
-.contact-me-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 80px;
-  width: 100%;
-  margin: auto;
-  // padding-right: 12px;
-  // margin-right: 0;
-
-  .custom-icon {
-    font-size: 80px;
+@media (max-width: 786px) {
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 80px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  h1 {
-    font-size: 34px;
-    font-weight: 900;
-    margin-bottom: 0;
-  }
-
-  .contact-me {
     width: 100%;
     margin: auto;
-    // display: flex;
-    // flex-direction: column;
-    justify-content: center;
+    // padding-right: 12px;
+    // margin-right: 0;
 
-    p {
-      padding: 20px;
+    .custom-icon {
+      font-size: 80px;
+      padding-top: 80px;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
 
-    fieldset {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border-radius: 10px;
-      width: 60%;
+    h1 {
+      font-size: 34px;
+      font-weight: 900;
+      margin-bottom: 0;
+    }
+
+    .contact-me {
+      width: 100%;
       margin: auto;
-      background-color: #f0ecec;
+      // display: flex;
+      // flex-direction: column;
+      justify-content: center;
 
-      legend {
-        text-align: left;
-        // width: 60%;
-        // width: auto;
+      p {
+        padding: 20px;
       }
 
-      .input {
-        border: solid 1px #000;
-        height: 40px;
-        width: auto;
-        padding: 5px;
-        padding-left: 20px;
-        border-radius: 10px;
-        margin-top: 13px;
-      }
-
-      textarea {
-        border-radius: 10px;
-        border: solid 1px #000;
-        // height: 40px;
-        width: auto;
-        padding-top: 15px;
-        padding-left: 20px;
-        margin-top: 13px;
-      }
-    }
-
-    .form-group {
-      .get-in-touch {
+      fieldset {
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding-top: 50px;
-        width: 100%;
+        justify-content: center;
+        border-radius: 10px;
+        width: 60%;
         margin: auto;
-        padding-bottom: 50px;
+        background-color: #f0ecec;
 
-        .label {
-          display: flex;
-          flex-direction: column;
+        legend {
           text-align: left;
+          // width: 60%;
+          // width: auto;
         }
 
-        .get-in-touch-btn {
+        .input {
+          border: solid 1px #000;
+          height: 40px;
+          width: auto;
+          padding: 5px;
+          padding-left: 20px;
+          border-radius: 10px;
+          margin-top: 13px;
+        }
+
+        textarea {
+          border-radius: 10px;
+          border: solid 1px #000;
+          // height: 40px;
+          width: auto;
+          padding-top: 15px;
+          padding-left: 20px;
+          margin-top: 13px;
+        }
+      }
+
+      .form-group {
+        .get-in-touch {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 50px;
           width: 100%;
-          background-color: #0f43eb;
-          padding: 20px;
-          font-size: 18px;
-          color: rgb(255, 255, 255);
-          border-radius: 12px;
+          margin: auto;
+          padding-bottom: 50px;
+
+          .label {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+          }
+
+          .get-in-touch-btn {
+            width: 100%;
+            background-color: #0f43eb;
+            padding: 20px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+          }
         }
       }
     }
-  }
 
-  .footer-nav {
-    margin-top: 30px;
+    .footer-nav {
+      margin-top: 30px;
+    }
   }
 }
 
-// @media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
-//   .contact-me-container {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     padding-top: 80px;
-//     width: 100%;
-//     margin: auto;
-//     // padding-right: 12px;
-//     // margin-right: 0;
+@media (min-width: 768px) {
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    width: 100%;
+    margin: auto;
+    // padding-right: 12px;
+    // margin-right: 0;
 
-//     .custom-icon {
-//       font-size: 80px;
-//       padding-top: 80px;
-//       padding-bottom: 0;
-//       margin-bottom: 0;
-//     }
+    .custom-icon {
+      font-size: 80px;
+      padding-top: 80px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
 
-//     h1 {
-//       font-size: 34px;
-//       font-weight: 900;
-//       margin-bottom: 0;
-//     }
+    h1 {
+      font-size: 34px;
+      font-weight: 900;
+      margin-bottom: 0;
+    }
 
-//     .contact-me {
-//       width: 100%;
-//       margin: auto;
-//       // display: flex;
-//       // flex-direction: column;
-//       justify-content: center;
+    .contact-me {
+      width: 100%;
+      margin: auto;
+      // display: flex;
+      // flex-direction: column;
+      justify-content: center;
 
-//       p {
-//         padding: 20px;
-//       }
+      p {
+        padding: 20px;
+      }
 
-//       fieldset {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         border-radius: 10px;
-//         width: 60%;
-//         margin: auto;
-//         background-color: #f0ecec;
+      fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        width: 60%;
+        margin: auto;
+        background-color: #f0ecec;
 
-//         legend {
-//           text-align: left;
-//           // width: 60%;
-//           // width: auto;
-//         }
+        legend {
+          text-align: left;
+          // width: 60%;
+          // width: auto;
+        }
 
-//         .input {
-//           border: solid 1px #000;
-//           height: 40px;
-//           width: auto;
-//           padding: 5px;
-//           padding-left: 20px;
-//           border-radius: 10px;
-//           margin-top: 13px;
-//         }
+        .input {
+          border: solid 1px #000;
+          height: 40px;
+          width: auto;
+          padding: 5px;
+          padding-left: 20px;
+          border-radius: 10px;
+          margin-top: 13px;
+        }
 
-//         textarea {
-//           border-radius: 10px;
-//           border: solid 1px #000;
-//           // height: 40px;
-//           width: auto;
-//           padding-top: 15px;
-//           padding-left: 20px;
-//           margin-top: 13px;
-//         }
-//       }
+        textarea {
+          border-radius: 10px;
+          border: solid 1px #000;
+          // height: 40px;
+          width: auto;
+          padding-top: 15px;
+          padding-left: 20px;
+          margin-top: 13px;
+        }
+      }
 
-//       .form-group {
-//         .get-in-touch {
-//           display: flex;
-//           flex-direction: column;
-//           gap: 20px;
-//           padding-top: 50px;
-//           width: 100%;
-//           margin: auto;
-//           padding-bottom: 50px;
+      .form-group {
+        .get-in-touch {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 50px;
+          width: 100%;
+          margin: auto;
+          padding-bottom: 50px;
 
-//           .label {
-//             display: flex;
-//             flex-direction: column;
-//             text-align: left;
-//           }
+          .label {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+          }
 
-//           .get-in-touch-btn {
-//             width: 100%;
-//             background-color: #0f43eb;
-//             padding: 20px;
-//             font-size: 18px;
-//             color: rgb(255, 255, 255);
-//             border-radius: 12px;
-//           }
-//         }
-//       }
-//     }
+          .get-in-touch-btn {
+            width: 100%;
+            background-color: #0f43eb;
+            padding: 20px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+          }
+        }
+      }
+    }
 
-//     .footer-nav {
-//       margin-top: 100px;
-//       // margin-bottom: 100px;
-//     }
-//   }
-// }
+    .footer-nav {
+      margin-top: 100px;
+      // margin-bottom: 100px;
+    }
+  }
+}

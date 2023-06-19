@@ -1,23 +1,66 @@
 @import './../scss/config';
 
-.about {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
+@media (max-width: 786px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 
-  .about-me {
-    padding-top: 20px;
-    margin: auto;
-    width: 80%;
-    border: solid 1px rgb(14, 6, 0);
-    // padding: 10px;
-    border-left: solid 10px #e8081b;
-    margin-bottom: 100px;
+    .about-me {
+      padding-top: 20px;
+      margin: auto;
+      width: 80%;
+      border: solid 1px rgb(14, 6, 0);
+      // padding: 10px;
+      border-left: solid 10px #e8081b;
+      margin-bottom: 100px;
 
-    .about-me-intro {
+      .about-me-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .custom-icon {
+          font-size: 80px;
+          padding-top: 80px;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        .res-mail {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          width: 100%;
+          // margin: auto;
+        }
+
+        .social-icons {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          justify-content: center;
+          margin: auto;
+          padding-left: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .skill-section {
+      background-color: #000;
+      color: white;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      // margin: auto;
+      width: 100%;
+      padding-left: 0;
 
       .custom-icon {
         font-size: 80px;
@@ -26,85 +69,44 @@
         margin-bottom: 0;
       }
 
-      .res-mail {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        width: 100%;
-        // margin: auto;
+      h3 {
+        font-size: 18px;
+        width: 90%;
+        text-align: left;
       }
 
-      .social-icons {
+      .skill-title p {
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      ul {
         display: flex;
         flex-direction: row;
         gap: 10px;
-        justify-content: center;
         margin: auto;
+        width: 80%;
         padding-left: 0;
-        margin-top: 20px;
+        // display: flex;
+        flex-wrap: wrap;
+        // padding: 20px;
       }
-    }
-  }
 
-  .skill-section {
-    background-color: #000;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    // margin: auto;
-    width: 100%;
-    padding-left: 0;
-
-    .custom-icon {
-      font-size: 80px;
-      padding-top: 80px;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-
-    h3 {
-      font-size: 18px;
-      width: 90%;
-      text-align: left;
-    }
-
-    .skill-title p {
-      font-size: 24px;
-      font-weight: 900;
-    }
-
-    ul {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      margin: auto;
-      width: 80%;
-      padding-left: 0;
-      // display: flex;
-      flex-wrap: wrap;
-      // padding: 20px;
-    }
-
-    li {
-      white-space: nowrap;
-      margin-right: 10px;
-      padding: 10px;
-      border: solid 1px rgb(14, 6, 1);
-      border-radius: 5px;
-      // margin: auto;
-      background-color: #bbd3d8;
-      color: rgb(212, 11, 11);
+      li {
+        white-space: nowrap;
+        margin-right: 10px;
+        padding: 10px;
+        border: solid 1px rgb(14, 6, 1);
+        border-radius: 5px;
+        // margin: auto;
+        background-color: #bbd3d8;
+        color: rgb(212, 11, 11);
+      }
     }
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (min-resolution: 150dpi) and (orientation: landscape) {
+@media (min-width: 768px) {
   .about-me-container {
     display: flex;
     flex-direction: column;
