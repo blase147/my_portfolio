@@ -12,7 +12,7 @@
       width: 80%;
       border: solid 1px rgb(14, 6, 0);
       // padding: 10px;
-      border-left: solid 10px #e8081b;
+      border-left: solid 10px #2b08ed;
       margin-bottom: 100px;
 
       .about-me-intro {
@@ -48,9 +48,10 @@
 
             .res-mail {
               display: flex;
-              flex-direction: row;
-              width: auto;
-              // margin: auto;
+              flex-direction: column;
+              justify-content: left;
+              width: 80%;
+              margin: auto;
 
               .my-resume {
                 background-color: #070eec;
@@ -66,7 +67,7 @@
                 border: solid 1px #0905f0;
                 font-size: 15px;
                 padding: 8px;
-                // width: 100%;
+                width: 100%;
 
                 a {
                   color: #000;
