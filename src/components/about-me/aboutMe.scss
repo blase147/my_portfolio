@@ -32,6 +32,26 @@
         .intro-text {
           font-size: 22px;
           padding: 20px;
+          // margin: auto;
+
+          .my-tech-stack {
+            h2 {
+              padding-bottom: 0;
+            }
+
+            p {
+              padding-top: 0;
+            }
+
+            ul {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              gap: 20px;
+              // margin-left: 0;
+              padding-left: 0;
+            }
+          }
         }
 
         .img-profile {
@@ -187,6 +207,7 @@
     border-top: solid 10px #cf0505;
     border-bottom: solid 10px #cf0505;
     margin-top: 50px;
+    // margin-bottom: 50px;
     // padding-top: 50px;
     padding: 50px;
     margin-bottom: 100px;
@@ -247,16 +268,18 @@
             width: 40%;
 
             .my-tech-stack {
-
               h2 {
-
+                padding-bottom: 0;
               }
+
               p {
-
+                padding-top: 0;
               }
+
               ul {
                 display: flex;
                 flex-direction: row;
+                gap: 20px;
               }
             }
           }
