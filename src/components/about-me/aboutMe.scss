@@ -14,6 +14,8 @@
       // padding: 10px;
       border-left: solid 10px #2b08ed;
       margin-bottom: 100px;
+      padding-bottom: 50px;
+      padding-top: 50px;
 
       .about-me-intro {
         display: flex;
@@ -29,7 +31,7 @@
 
           .intro-text {
             font-size: 22px;
-            // width: 40%;
+            padding: 20px;
           }
 
           .img-profile {
@@ -51,6 +53,7 @@
               flex-direction: column;
               justify-content: left;
               width: 80%;
+              gap: 10px;
               margin: auto;
 
               .my-resume {
@@ -60,6 +63,8 @@
                 width: 100%;
                 margin: auto;
                 padding: 10px;
+                font-size: 18px;
+                font-weight: 900;
               }
 
               .mailto {
@@ -72,7 +77,10 @@
                 a {
                   color: #000;
                   text-decoration: none;
+                  font-size: 18px;
                   font-weight: 900;
+                  margin: auto;
+                  width: 100%;
                 }
               }
             }
@@ -93,25 +101,25 @@
               }
             }
           }
-        .res-mail {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-          width: 100%;
-          // margin: auto;
-        }
+        // .res-mail {
+        //   display: flex;
+        //   flex-direction: row;
+        //   justify-content: center;
+        //   align-items: center;
+        //   gap: 8px;
+        //   width: 100%;
+        //   // margin: auto;
+        // }
 
-        .social-icons {
-          display: flex;
-          flex-direction: row;
-          gap: 10px;
-          justify-content: center;
-          margin: auto;
-          padding-left: 0;
-          margin-top: 20px;
-        }
+        // .social-icons {
+        //   display: flex;
+        //   flex-direction: row;
+        //   gap: 10px;
+        //   justify-content: center;
+        //   margin: auto;
+        //   padding-left: 0;
+        //   margin-top: 20px;
+        // }
       }
     }
 
@@ -122,9 +130,9 @@
       flex-direction: column;
       align-items: center;
       margin-top: 50px;
+      margin-bottom: 100px;
       padding-top: 100px;
       padding-bottom: 100px;
-      // margin: auto;
       width: 100%;
       padding-left: 0;
 
@@ -169,8 +177,28 @@
         color: rgb(212, 11, 11);
       }
     }
+   }
+    .blog {
+      background-color: #bbd3d8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: solid 10px #cf0505;
+      border-bottom: solid 10px #cf0505;
+      margin-top: 50px;
+      // padding-top: 50px;
+      padding: 50px;
+      margin-bottom: 100px;
+      width: 40%;
+      margin: auto;
+
+      a {
+        border-left: solid 3px #cf0505;
+        padding-left: 20px;
+        font-weight: 900;
+      }
+    }
   }
-}
 
 @media (min-width: 768px) {
   .about-me-container {
@@ -333,6 +361,7 @@
           }
         }
       }
+
     }
 
     .blog {
