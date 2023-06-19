@@ -237,6 +237,9 @@
           justify-content: center;
           padding-top: 60px;
           padding-bottom: 60px;
+          width: 70%;
+          margin: auto;
+          // background-color: #e90f0f;
 
           .intro-text {
             font-size: 22px;
@@ -259,8 +262,9 @@
             .res-mail {
               display: flex;
               flex-direction: row;
-              width: auto;
-              // margin: auto;
+              width: 80%;
+              margin: auto;
+              gap: 10px;
 
               .my-resume {
                 background-color: #070eec;
@@ -269,6 +273,7 @@
                 width: 100%;
                 margin: auto;
                 padding: 10px;
+                font-weight: 900;
               }
 
               .mailto {
@@ -276,7 +281,6 @@
                 border: solid 1px #0905f0;
                 font-size: 15px;
                 padding: 8px;
-                // width: 100%;
 
                 a {
                   color: #000;
