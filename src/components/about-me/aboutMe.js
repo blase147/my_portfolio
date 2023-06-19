@@ -5,7 +5,7 @@ import {
   FaAngellist, FaTwitter, FaFacebook,
 } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserLarge, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faUserLarge } from '@fortawesome/free-solid-svg-icons';
 import DownloadPDF from '../../DownloadPDF';
 // import '../footer/footer.scss';
 import '../Homepage/homePage.scss';
@@ -31,6 +31,19 @@ const AboutMe = () => (
               track bikes.
 
             </p>
+            <div className="my-tech-stack">
+              {/* <FontAwesomeIcon className="custom-icon" icon={faCode} /> */}
+              <h2>My tech stack</h2>
+              <p>Here are some of the  languages and tools I have mastered</p>
+              <ul className="d-list">
+                <li><img src="./html.png" alt="html" /></li>
+                <li><img src="./javascript.png" alt="html" /></li>
+                <li><img src="./ruby.png" alt="html" /></li>
+                <li><img src="./bootstrap.png" alt="html" /></li>
+                <li><img src="./ruby-on-rails.png" alt="html" /></li>
+              </ul>
+            </div>
+
           </div>
           <div className="img-profile">
             <img src="./main-photo.jpg" alt="profile" />
@@ -56,16 +69,11 @@ const AboutMe = () => (
         </div>
       </div>
 
-      <div className="skill-section">
-        <FontAwesomeIcon className="custom-icon" icon={faCode} />
-        <h3>
-          I have build a host of apps using industry ready
-          programming languages and frameworks
-
-        </h3>
-
+      {/* <div className="skill-section">
         <div className="skill-title">
-          <p>Languages asnd tools I have mastered</p>
+          <FontAwesomeIcon className="custom-icon" icon={faCode} />
+          <h2>My tech stack</h2>
+          <p>Here are some of the  languages and tools I have mastered</p>
           <ul className="d-list">
             <li><img src="./html.png" alt="html" /></li>
             <li><img src="./javascript.png" alt="html" /></li>
@@ -74,7 +82,7 @@ const AboutMe = () => (
             <li><img src="./ruby-on-rails.png" alt="html" /></li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </section>
     <section className="blog">
       <div>
