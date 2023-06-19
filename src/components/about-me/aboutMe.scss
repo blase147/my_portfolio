@@ -27,6 +27,71 @@
           margin-bottom: 0;
         }
 
+          .intro-text {
+            font-size: 22px;
+            // width: 40%;
+          }
+
+          .img-profile {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 35px;
+            margin: auto;
+
+            img {
+              width: 80%;
+              margin: auto;
+              border-radius: 100%;
+              border: solid 2px  rgb(0, 0, 0);
+            }
+
+            .res-mail {
+              display: flex;
+              flex-direction: row;
+              width: auto;
+              // margin: auto;
+
+              .my-resume {
+                background-color: #070eec;
+                border-radius: 20px;
+                color: white;
+                width: 100%;
+                margin: auto;
+                padding: 10px;
+              }
+
+              .mailto {
+                border-radius: 20px;
+                border: solid 1px #0905f0;
+                font-size: 15px;
+                padding: 8px;
+                // width: 100%;
+
+                a {
+                  color: #000;
+                  text-decoration: none;
+                  font-weight: 900;
+                }
+              }
+            }
+
+            .social-icons {
+              display: flex;
+              gap: 15px;
+              justify-content: center;
+              width: 80%;
+              // margin: auto;
+              margin-top: 10px;
+
+              a {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                color: #000;
+              }
+            }
+          }
         .res-mail {
           display: flex;
           flex-direction: row;

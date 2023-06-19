@@ -3,7 +3,6 @@ import './homePage.scss';
 import ContactMe from '../contact-me/contactMe';
 import MyWorks from '../my-works/myWorks';
 import AboutMe from '../about-me/aboutMe';
-// import Footer from '../footer/footer';
 import Intro from './intro';
 
 const HomePage = () => (
@@ -12,7 +11,6 @@ const HomePage = () => (
     <MyWorks />
     <AboutMe />
     <ContactMe />
-    {/* <Footer /> */}
   </div>
 );
 export default HomePage;
