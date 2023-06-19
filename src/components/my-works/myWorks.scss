@@ -36,7 +36,7 @@
 
       .item-card {
         page-break-after: always;
-        background-color: #ea0c0c;
+        background-color: #3c0cea;
         border-radius: 10px;
         margin-bottom: 30px;
         padding-bottom: 1px;
@@ -53,12 +53,18 @@
 
       .lang {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 10px;
         width: 100%;
         align-items: center;
         margin: auto;
         padding-left: 0;
+        padding-bottom: 20px;
+
+        .li-container {
+          display: flex;
+          flex-direction: row;
+        }
       }
 
       .view-btns {
