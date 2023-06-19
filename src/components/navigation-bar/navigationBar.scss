@@ -59,45 +59,11 @@
   }
 }
 
-// .desktop-nav-container {
-//   box-sizing: border-box;
-//   margin-top: 80px;
-//   background-color: #fff;
-//   width: 100%;
-//   position: fixed;
-
-//   .navigation-menu {
-//     color: #060000;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: right;
-//     gap: 20px;
-//     padding: 10px;
-//     margin-right: 80px;
-
-//     li {
-//       font-weight: 500;
-
-//       a {
-//         color: #070000;
-//       }
-//     }
-
-//     li a:visited {
-//       color: #070000;
-//     }
-//   }
-// }
-
 @media (min-width: 786px) {
   .desktop-nav-container {
     box-sizing: border-box;
-    // position: fixed;
-    margin-top: 80px;
     background-color: #fff;
-    // align-items: right;
     width: 100%;
-    // margin: auto;
     position: fixed;
 
     .navigation-menu {
@@ -109,8 +75,6 @@
       gap: 20px;
       padding: 10px;
       margin-right: 80px;
-      // padding-top: 0;
-      // margin-top: 0;
 
       li {
         // background-color: #180101;
