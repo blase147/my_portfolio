@@ -26,7 +26,7 @@ const AboutMe = () => (
               ten years of experience. Built up while working with teams big
               and small across the United States, Japan and Australia.
 
-              Now, I am back home. Living in Canterbury, New Zealand, where I spend my
+              Now, I am back. Living in Canterbury, New Zealand, where I spend my
               free time reading about the history of video game development and riding
               track bikes.
 
