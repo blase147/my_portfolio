@@ -4,7 +4,7 @@ const data = [
   {
     id: 1,
     title: 'Luxury Cars Lending',
-    description: 'Luxury cars lending is an implemention of a connection between Ruby on Rails back-end and React front-end. Luxury-cars-backend handles the backend API, and Luxury-cars-frontend handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage..',
+    description: 'This is a car rental applicaton were users are allowed to signup to book luxury cars for rental or test drive at a given price',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './luxury-cars-lending.png',
     live: 'https://luxury-cars-lending-frontend.onrender.com/',
@@ -14,7 +14,7 @@ const data = [
   {
     id: 2,
     title: 'Budget app',
-    description: 'This is a mobile web application that allows users to manage their budget. User can see a list of expenses associated with a group and total amount. It also allows users to introduce new groups/expenses an keep a track of money spent..',
+    description: 'This is a mobile web application that allows users to manage their budget, introduce new groups/expenses while keeping track of money spent..',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './budget-app.jpg',
     live: 'https://budget-app-5uzz.onrender.com/',
@@ -24,7 +24,7 @@ const data = [
   {
     id: 3,
     title: 'Space Travellers Hub',
-    description: 'This project is a web application for a company that provides commercial and scientific space travel services, that allows you to: Book rockets and cancel reservations. Join selected space missions and leave them.',
+    description: 'This project is a web application for booking commercial and scientific space travel services.',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './space-travellers-hub.jpg',
     live: 'https://blase147.github.io/space-travellers-hub/',
@@ -34,7 +34,7 @@ const data = [
   {
     id: 4,
     title: 'Portfolio Website',
-    description: 'This is a portfolio Website designed to showcase the talent and skills of a software engineer through dynamic display of completed projects and jobs. It also has a contact form for quick responses and feedback',
+    description: 'This is my portfolio Website designed to showcase my talent and skills as a software engineer',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './my-portfolio.jpg',
     live: 'https://my-portfolio-ghve.onrender.com',
@@ -44,7 +44,7 @@ const data = [
   {
     id: 5,
     title: 'Covid-19 Updater',
-    description: 'This application displays Covid-19 updates(statistical data) for all continents in the world and also allows searching such data by continent',
+    description: 'This application displays Covid-19 updates(statistical data) for all continents in the world through filtered search by continent',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './covid-19-updater.jpg',
     live: 'https://covid-19-updater-app.netlify.app/',
@@ -54,7 +54,7 @@ const data = [
   {
     id: 6,
     title: 'Recipe App',
-    description: 'This Recipe App keeps track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+    description: 'This is a Recipe App that keeps track of all recipes and ingredients. It can be used for saving ingredients, keeping track of what you have in your bucket list.',
     lang: [<FaHtml5 key="html" size={30} />, <FaBootstrap key="bootstrap" size={30} />, <FaGem key="ruby" size={30} />],
     image: './recipe-app.jpg',
     live: 'https://recipe-ruby.onrender.com/',
