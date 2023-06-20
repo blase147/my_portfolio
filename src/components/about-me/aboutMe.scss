@@ -258,16 +258,17 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
-          padding-top: 60px;
-          padding-bottom: 60px;
-          width: 70%;
+          padding-top: 0;
+          // padding-bottom: 60px;
+          width: 80%;
           margin: auto;
-          background-color: #0fe958;
+          gap: 10px;
+          // background-color: #0fe958;
 
           .intro-text {
-            font-size: 22px;
+            font-size: 18px;
             text-align: left;
-            width: 40%;
+            width: 50%;
 
             .my-tech-stack {
               h2 {
@@ -281,6 +282,7 @@
               ul {
                 display: flex;
                 flex-direction: row;
+                justify-content: left;
                 gap: 20px;
               }
             }
@@ -289,14 +291,17 @@
           .img-profile {
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 40%;
             gap: 35px;
-            margin: auto;
+            // margin: auto;
             padding-top: 0;
-            background-color: #e41010;
+            // background-color: #e41010;
 
             img {
-              width: 100%;
+              padding-top: 10px;
+              background-color: #2b0ae7;
+              margin-top: auto;
+              // width: 80%;
               border-radius: 100%;
               border: solid 2px  rgb(0, 0, 0);
             }
