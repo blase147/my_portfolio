@@ -84,9 +84,21 @@ const AboutMe = () => (
     </section>
     <section className="blog">
       <div>
-        <h1>My blog</h1>
-        <p><a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">Chosing your place in the tech industry</a></p>
+        <h1>Blog Posts</h1>
+        <a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">
+          <h2>Chosing your place in the tech industry</h2>
+          <p>
+            In choosing a tech career to follow, introspection becomes a key action.
+            Basic skills and interests must be well established to gain insight into ones
+            capabilities and passion. This will ultimately create a direction for a movement
+            whose payload is the development of mastery and professionalization.
+            This mastery is paramount as the subject of technology is brutally logical,
+            semantically objective, and ruled by perfect and correct test cases...read more
+          </p>
+        </a>
       </div>
+      <p className="readmore">READ MORE ARTICLES</p>
+      <hr />
     </section>
   </div>
 );

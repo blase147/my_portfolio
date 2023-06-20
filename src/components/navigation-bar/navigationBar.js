@@ -25,7 +25,7 @@ const NavigationBar = () => {
     { url: '/my_works', name: 'Portfolio' },
     { url: '/about_me', name: 'About' },
     { url: '/contact_me', name: 'Contact' },
-    { url: '/send_male', name: 'Send Direct Mail' },
+    { url: '/https://medium.com/@solarmails2/', name: 'Blog' },
   ];
 
   let menuIcon = null;

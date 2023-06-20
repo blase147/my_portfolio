@@ -417,23 +417,44 @@
     }
 
     .blog {
-      background-color: #bbd3d8;
+      // background-color: #bbd3d8;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border-top: solid 10px #cf0505;
-      border-bottom: solid 10px #cf0505;
+      // border-top: solid 10px #cf0505;
+      // border-bottom: solid 10px #cf0505;
       margin-top: 50px;
       // padding-top: 50px;
       padding: 50px;
       margin-bottom: 100px;
-      width: 40%;
+      width: 60%;
       margin: auto;
 
-      a {
-        border-left: solid 3px #cf0505;
-        padding-left: 20px;
+      h1 {
+        font-size: 44px;
         font-weight: 900;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+      a {
+        padding-left: 20px;
+      }
+      p {
+       font-size: 28px;
+       color: rgb(0, 0, 0);
+       border-left: solid 3px #cf0505;
+       padding: 20px;
+       margin-bottom: 10px;
+      }
+      .readmore {
+        background-color: #070000;
+        color:white;
+        width: 40%;
+        border-radius: 10px;
+        margin: auto;
+
       }
     }
   }
