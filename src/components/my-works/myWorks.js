@@ -17,23 +17,27 @@ const MyWorks = () => (
           <img src={item.image} alt="Project Screenshot" />
 
           <div className="text-content">
-            <h2>{item.title}</h2>
-            <p className="desc">{item.description}</p>
-            <ul className="lang">
-              <p>Project stack:</p>
-              <div className="li-container">
-                {item.lang.map((language) => (
-                  <li key={language}>{language}</li>
-                ))}
+            <div className="text">
+              <h2>{item.title}</h2>
+              <p className="desc">{item.description}</p>
+            </div>
+            <div className="stack-icon-btn">
+              <ul className="lang">
+                <p>Project stack:</p>
+                <div className="li-container">
+                  {item.lang.map((language) => (
+                    <li key={language}>{language}</li>
+                  ))}
+                </div>
+              </ul>
+              <div className="view-btns">
+                <a href={item.live} target="_blank" rel="noreferrer">
+                  View Live
+                </a>
+                <a href={item.source} target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
               </div>
-            </ul>
-            <div className="view-btns">
-              <a href={item.live} target="_blank" rel="noreferrer">
-                View Live
-              </a>
-              <a href={item.source} target="_blank" rel="noreferrer">
-                View on GitHub
-              </a>
             </div>
           </div>
         </div>

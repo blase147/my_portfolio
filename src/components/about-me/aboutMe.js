@@ -32,7 +32,6 @@ const AboutMe = () => (
 
             </p>
             <div className="my-tech-stack">
-              {/* <FontAwesomeIcon className="custom-icon" icon={faCode} /> */}
               <h2>My tech stack</h2>
               <p>Here are some of the  languages and tools I have mastered</p>
               <ul className="d-list">
@@ -43,7 +42,6 @@ const AboutMe = () => (
                 <li><img src="./ruby-on-rails.png" alt="html" /></li>
               </ul>
             </div>
-
           </div>
           <div className="img-profile">
             <img src="./main-photo.jpg" alt="profile" />
