@@ -47,7 +47,7 @@ const NavigationBar = () => {
         behavior: 'smooth',
       });
     }
-    toggleMenu(); // Close the menu after clicking on a link
+    // toggleMenu(); // Close the menu after clicking on a link
   };
 
   return (
