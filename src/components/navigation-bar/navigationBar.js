@@ -20,7 +20,7 @@ const NavigationBar = () => {
   };
 
   const navLinks = [
-    { url: '/', name: 'Home' },
+    { url: '#home', name: 'Home' },
     { url: '#my-works', name: 'Portfolio' },
     { url: '#about-me', name: 'About' },
     { url: '#contact-me', name: 'Contact' },

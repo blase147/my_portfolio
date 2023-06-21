@@ -14,15 +14,11 @@ import {
   faUserLarge, faMedal, faEnvelope, faCopyright,
 } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
+// eslint-disable-next-line import/no-extraneous-dependencies
+// import { v4 as uuidv4 } from 'uuid';
 import data from '../../projectData';
 import DownloadPDF from '../../DownloadPDF';
-
-// import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
 import NavigationBar from '../navigation-bar/navigationBar';
-// import ContactMe from '../contact-me/contactMe';
-// import MyWorks from '../my-works/myWorks';
-// import AboutMe from '../about-me/aboutMe';
-// import Intro from './intro';
 
 const HomePage = () => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -37,29 +33,19 @@ const HomePage = () => {
     };
   }, []);
 
-  // const toggleMenu = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
-  // const navLinks = [
-  //   { url: '/', name: 'Home' },
-  //   { url: '/my_works', name: 'Portfolio' },
-  //   { url: '/about_me', name: 'About' },
-  //   { url: '/contact_me', name: 'Contact' },
-  //   { url: '/send_male', name: 'Send Direct Mail' },
+  // const backgroundImageUrls = [
+  //   '/public/tech1.png',
+  //   '/public/luxury-cars-lending.png',
+  //   // Add more image URLs as needed
   // ];
-
-  // let menuIcon = null;
-  // if (windowWidth <= 768) {
-  //   menuIcon = isOpen ? (
-  //     <RiCloseLine size={35} onClick={toggleMenu} />
-  //   ) : (
-  //     <RiMenuLine size={35} onClick={toggleMenu} />
-  //   );
-  // }
 
   return (
     <div id="home" className="homepage">
+      {/* <div
+        key={uuidv4()} // Generate a unique key using uuidv4()
+        className="your-component-item"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      /> */}
       <NavigationBar />
       <div id="intro" className="intro-container">
         <div className="profPic">

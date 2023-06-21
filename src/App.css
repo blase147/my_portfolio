@@ -1,6 +1,17 @@
 .App {
   text-align: center;
+  background-image: url('../src/images/tech1.png'), url('../src/images/tech1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color:white;
 }
+.App::after {
+    content: '';
+  display: block;
+  height: 20px; /* Adjust the height as desired for the gap */
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -37,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+

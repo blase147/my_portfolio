@@ -2,12 +2,12 @@
 import {
   BrowserRouter as Router, Routes, Route,
 } from 'react-router-dom';
-// import MyWorks from './components/my-works/myWorks';
-// import AboutMe from './components/about-me/aboutMe';
-// import ContactMe from './components/contact-me/contactMe';
-// import NavigationBar from './components/navigation-bar/navigationBar';
 import './App.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { v4 as uuidv4 } from 'uuid';
 import HomePage from './components/Homepage/homepage';
+import backgroundImage from './images/tech1.png';
+
 // import Footer from './components/footer/footer';
 
 // const NavigationLayout = () => (
@@ -21,6 +21,11 @@ import HomePage from './components/Homepage/homepage';
 function App() {
   return (
     <div className="App">
+      <div
+        key={uuidv4()} // Generate a unique key using uuidv4()
+        className="your-component-item"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      />
       <Router>
         <Routes>
           {/* <Route element={<NavigationLayout />}> */}
