@@ -41,11 +41,6 @@ const HomePage = () => {
 
   return (
     <div id="home" className="homepage">
-      {/* <div
-        key={uuidv4()} // Generate a unique key using uuidv4()
-        className="your-component-item"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      /> */}
       <NavigationBar />
       <div id="intro" className="intro-container">
         <div className="profPic">

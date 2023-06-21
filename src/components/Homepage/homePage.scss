@@ -6,30 +6,27 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    // width: 100%;
     margin: auto;
-    padding-top: 150px;
+    // padding-top: 150px;
     // background-color: #e43b3b;
     gap: 20px;
     background-size: cover;
-
-    // .your-component-item {
-    //   width: 200px; /* Adjust the width of each item */
-    //   height: 200px; /* Adjust the height of each item */
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    // }
 
     .intro-container {
       display: flex;
       flex-direction: column;
       width: 90%;
-      padding-top: 80px;
+      // padding-top: 80px;
       text-align: center;
       // background-color: #e43b3b;
 
+      .my_location {
+        font-size: 0.9em;
+
+      }
       h1 {
-        font-size: 65px;
+        font-size: 1.9em;
         width: 50%;
         padding-bottom: 0;
         text-align: left;
@@ -39,7 +36,8 @@
       }
 
       h2 {
-        font-size: 30px;
+        // background-color: #e43b3b;
+        font-size: 1.9em;
         width: 100%;
         padding-bottom: 10px;
         text-align: left;
@@ -48,7 +46,7 @@
       }
 
       p {
-        font-size: 44px;
+        font-size: 1.2em;
         width: 100%;
         padding-bottom: 10px;
         text-align: left;
@@ -56,8 +54,8 @@
 
       .res-mail {
         display: flex;
-        // flex-direction: column;
-        // align-items: left;
+        flex-direction: column;
+        justify-content: left;
         width: 100%;
         margin: auto;
         gap: 10px;

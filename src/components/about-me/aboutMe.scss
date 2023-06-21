@@ -29,10 +29,17 @@
         }
 
         .intro-text {
-          font-size: 22px;
-          padding: 20px;
+          font-size: 1em;
+          // padding: 20px;
+          width: 100%;
+          margin: auto;
 
           .my-tech-stack {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+
             h2 {
               padding-bottom: 0;
             }
@@ -42,12 +49,16 @@
             }
 
             ul {
+              // background-color: #f01414;
               display: flex;
-              flex-direction: row;
+              // flex-direction: column;
               justify-content: center;
               gap: 20px;
-              // margin-left: 0;
+              width: 50%;
+              margin-bottom: 50px;
               padding-left: 0;
+              flex-wrap: wrap;
+              width: 100%;
             }
           }
         }
