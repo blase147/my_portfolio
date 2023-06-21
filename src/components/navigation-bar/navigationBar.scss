@@ -71,6 +71,10 @@
     background-color: #fff;
     width: 100%;
     position: fixed;
+    top:0;
+    opacity: 0.9;
+    // margin-top: 0;
+    // background-color: #f00e0e;
 
     .navigation-menu {
       // background-color: #e61010;
@@ -89,6 +93,7 @@
 
         a {
           color: #070000;
+          font-size: 1.9em;
         }
       }
 
