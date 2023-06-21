@@ -140,11 +140,43 @@ const HomePage = () => {
                   <h2>My tech stack</h2>
                   <p>Here are some of the  languages and tools I have mastered</p>
                   <ul className="d-list">
-                    <li><img src="./html.png" alt="html" /></li>
-                    <li><img src="./javascript.png" alt="html" /></li>
+                    <li>
+                      <img src="./html.png" alt="html" />
+                      HTML5
+                    </li>
+                    <li>
+                      <img src="./javascript.png" alt="javascript" />
+                      JavaScript
+                    </li>
                     <li><img src="./ruby.png" alt="html" /></li>
-                    <li><img src="./bootstrap.png" alt="html" /></li>
-                    <li><img src="./ruby-on-rails.png" alt="html" /></li>
+                    <li>
+                      <img src="./bootstrap.png" alt="bootstrap" />
+                      Bootstrap
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      Rails
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      GitHub
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      Git
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      Rspec
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      JWT
+                    </li>
+                    <li>
+                      <img src="./ruby-on-rails.png" alt="html" />
+                      Capybara
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -283,6 +315,11 @@ const HomePage = () => {
           </section>
           <div className="res-mail">
             <DownloadPDF className="pfd" />
+            <button className="mailto" type="button">
+              <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
+                solarmails2@gmail.com
+              </a>
+            </button>
           </div>
         </div>
 
