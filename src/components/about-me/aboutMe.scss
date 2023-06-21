@@ -229,6 +229,11 @@
     justify-content: center;
     width: 100%;
     // margin: auto;
+    background-image: url('../../images/tech4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
     .about {
       display: flex;
@@ -251,9 +256,9 @@
         padding-top: 80px;
         border: solid 1px rgb(14, 6, 0);
         // border-left: solid 10px #eb0606;
-        background-color: #000000;
+        background-color: #000;
         width: 80%;
-        margin:auto;
+        margin: auto;
 
         h1 {
           padding-bottom: 80px;
@@ -291,7 +296,7 @@
                 gap: 20px;
 
                 li {
-                    // color: #f50909;
+                  // color: #f50909;
                   img {
                     color: #f50909;
                     background-color: #f9f8f8;
@@ -327,14 +332,14 @@
               gap: 10px;
 
               .my-resume {
-                background-color: #000000;
+                background-color: #eb0b0b;
                 border-radius: 20px;
                 color: white;
                 width: 50%;
                 margin: auto;
                 padding: 10px;
                 font-weight: 900;
-                font-size: 0.8em;
+                font-size: 1.3em;
               }
 
               .mailto {
@@ -365,7 +370,7 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                color: #000;
+                color: #ffffff;
               }
             }
           }
@@ -445,7 +450,7 @@
       margin-bottom: 100px;
       width: 60%;
       margin: auto;
-      color: #ffffff;
+      color: #fff;
 
       h1 {
         font-size: 44px;
@@ -454,22 +459,25 @@
 
       h2 {
         font-size: 28px;
-      color: #ffffff;
+        color: #fff;
       }
+
       a {
         padding-left: 20px;
       }
+
       p {
-       font-size: 28px;
-       color: rgb(255, 255, 255);
-       border-left: solid 10px #ffffff;
-       margin-bottom: 10px;
-       padding-left: 20px;
-       margin: auto;
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        border-left: solid 10px #fff;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        margin: auto;
       }
+
       .readmore {
-        background-color: #ffffff;
-        color:rgb(0, 0, 0);
+        background-color: #fff;
+        color: rgb(0, 0, 0);
         width: 25%;
         border-radius: 10px;
         margin: auto;
@@ -477,7 +485,6 @@
         padding: 10px 20px 10px 20px;
         margin-top: 50px;
         font-weight: 900;
-
       }
     }
   }

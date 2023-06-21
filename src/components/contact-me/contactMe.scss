@@ -237,8 +237,13 @@
         color: #000;
         font-weight: 900;
 
+        li {
+          color: #fff;
+          // background-color: #e10c0c;
+        }
+
         li:visited {
-          color: #000;
+          color: #fff;
           font-weight: 900;
           text-decoration: none;
         }

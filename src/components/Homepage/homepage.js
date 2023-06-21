@@ -70,6 +70,11 @@ const HomePage = () => {
           </div>
           <div className="res-mail">
             <DownloadPDF className="pfd" />
+            <button className="mailto" type="button">
+              <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
+                solarmails2@gmail.com
+              </a>
+            </button>
           </div>
         </section>
       </div>
@@ -246,16 +251,16 @@ const HomePage = () => {
         <nav className="footer-nav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/#home">Home</Link>
             </li>
             <li>
-              <Link to="/#about_me">About</Link>
+              <Link to="#about-me">About</Link>
             </li>
             <li>
-              <Link to="/#my_works">Portfolio</Link>
+              <Link to="#my-works">Portfolio</Link>
             </li>
             <li>
-              <Link to="#contact_me">Contact</Link>
+              <Link to="#contact-me">Contact</Link>
             </li>
             <li>
               <Link to="https://medium.com/@solarmails2">Blog</Link>
@@ -265,8 +270,8 @@ const HomePage = () => {
       </section>
 
       <div id="footer" className="footer-container">
-        <div className="intro-container">
-          <section className="intro">
+        <div className="outro-container">
+          <section className="outro">
             <div className="my_location">
               <p>
                 <RiMapPin2Line />
