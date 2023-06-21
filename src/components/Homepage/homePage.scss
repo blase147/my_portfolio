@@ -120,7 +120,6 @@
       background-attachment: fixed;
       padding-bottom: 200px;
 
-
       .profPic {
         display: flex;
         flex-direction: row;
@@ -172,21 +171,20 @@
         }
 
         .res-mail {
-          // box-sizing: border-box;
           display: flex;
-          // flex-direction: row;
-          width: 100%;
+          flex-direction: row;
+          // margin-left:0;
           // margin: auto;
-          // gap: 10px;
-          // padding: 0;
-          // background-color: #11e253;
+          gap: 20px;
+          // width: 100%;
+          // background-color: #0fd92a;
 
           .my-resume {
             background-color: #f31b3b;
             border-radius: 20px;
             color: white;
-            width: 50%;
-            // margin: auto;
+            width: 100%;
+            margin: auto;
             padding: 10px;
             font-size: 1.8em;
             font-weight: 900;
@@ -197,14 +195,9 @@
             // display: flex;
             border-radius: 20px;
             border: solid 1px #000008;
-            // font-size: 0.78em;
-            // padding: 8px;
-            width: 50%;
-            // margin: auto;
             margin-left: 0;
 
             a {
-              // margin: auto;
               color: #000;
               text-decoration: none;
               font-size: 1.8em;
