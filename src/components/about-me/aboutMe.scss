@@ -237,8 +237,8 @@
       margin-bottom: 100px;
 
       .user-icon {
-        width: 100px;
-        font-size: 80px;
+        // width: 100px;
+        font-size: 50px;
         padding-top: 80px;
         padding-bottom: 0;
         margin-bottom: 0;
@@ -250,9 +250,13 @@
         // justify-content: center;
         padding-top: 80px;
         border: solid 1px rgb(14, 6, 0);
-        border-left: solid 10px #5606eb;
+        border-left: solid 10px #eb0606;
         width: 80%;
         margin:auto;
+
+        h1 {
+          padding-bottom: 80px;
+        }
 
         .about-me-intro {
           display: flex;
@@ -260,7 +264,7 @@
           justify-content: center;
           padding-top: 0;
           // padding-bottom: 60px;
-          width: 80%;
+          width: 100%;
           margin: auto;
           gap: 10px;
           // background-color: #0fe958;
@@ -291,7 +295,7 @@
           .img-profile {
             display: flex;
             flex-direction: column;
-            width: 40%;
+            width: 30%;
             gap: 35px;
             // margin: auto;
             padding-top: 0;
@@ -299,7 +303,7 @@
 
             img {
               padding-top: 10px;
-              background-color: #2b0ae7;
+              background-color: #e70a0a;
               margin-top: auto;
               // width: 80%;
               border-radius: 100%;
@@ -309,27 +313,30 @@
             .res-mail {
               display: flex;
               flex-direction: row;
-              width: 80%;
+              width: 100%;
               margin: auto;
               gap: 10px;
 
               .my-resume {
-                background-color: #070eec;
+                background-color: #000000;
                 border-radius: 20px;
                 color: white;
-                width: 100%;
+                width: 50%;
                 margin: auto;
                 padding: 10px;
                 font-weight: 900;
+                font-size: 0.8em;
               }
 
               .mailto {
                 border-radius: 20px;
-                border: solid 1px #0905f0;
-                font-size: 15px;
+                border: solid 1px #020000;
                 padding: 8px;
 
                 a {
+                  font-size: 0.9em;
+                  width: 50%;
+                  margin: auto;
                   color: #000;
                   text-decoration: none;
                   font-weight: 900;

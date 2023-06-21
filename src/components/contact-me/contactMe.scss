@@ -158,6 +158,8 @@
 
       p {
         padding: 20px;
+        width: 40%;
+        margin: auto;
       }
 
       fieldset {
@@ -165,7 +167,7 @@
         flex-direction: column;
         justify-content: center;
         border-radius: 10px;
-        width: 60%;
+        width: 40%;
         margin: auto;
         background-color: #f0ecec;
 
@@ -227,6 +229,20 @@
     .footer-nav {
       margin-top: 100px;
       // margin-bottom: 100px;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #000;
+        font-weight: 900;
+
+        li:visited {
+          color: #000;
+          font-weight: 900;
+          text-decoration: none;
+        }
+      }
     }
   }
 }

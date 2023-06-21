@@ -52,16 +52,16 @@ const ContactMe = () => (
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about_me#contact_me">About</Link>
+          <Link to="/#about_me">About</Link>
         </li>
         <li>
-          <Link to="/my_works#contact_me">Portfolio</Link>
+          <Link to="/#my_works">Portfolio</Link>
         </li>
         <li>
-          <Link to="/contact_me#contact_me">Contact</Link>
+          <Link to="#contact_me">Contact</Link>
         </li>
         <li>
-          <Link to="/blog#contact_me">Blog</Link>
+          <Link to="https://medium.com/@solarmails2">Blog</Link>
         </li>
       </ul>
     </nav>
