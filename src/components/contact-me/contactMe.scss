@@ -102,24 +102,25 @@
     }
 
     .footer-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin-top: 100px;
-      margin-bottom: 50px;
-      width: 100%;
+      margin: auto;
+      // border: solid 2px #ffffff;
+      width: 80%;
+      padding: 40px;
 
-      ul {
+      a {
+        color: #f60b0b;
+      }
+
+      iframe {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-        margin: auto;
+        align-items: center;
         width: 100%;
-        padding-left: 0;
-
-        li a {
-          color: #000;
-          font-weight: 900;
-          text-align: center;
-        }
+        margin: auto;
       }
     }
   }
@@ -240,7 +241,6 @@
       a {
         color: #f60b0b;
       }
-
     }
   }
 }

@@ -172,14 +172,14 @@
           text-align: left;
         }
 
-        .res-mail {
+        .res-mail-mobile-footer {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           // margin-left:0;
           // margin: auto;
           gap: 20px;
           // width: 100%;
-          // background-color: #0fd92a;
+          background-color: #0fd92a;
 
           .my-resume {
             background-color: #f31b3b;

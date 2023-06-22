@@ -11,10 +11,12 @@
       margin: auto;
       width: 80%;
       border: solid 1px rgb(14, 6, 0);
-      border-left: solid 10px #2b08ed;
+      // border-left: solid 10px #2b08ed;
       margin-bottom: 100px;
       padding-bottom: 50px;
       padding-top: 50px;
+      background-color: #000000;
+      color: #ffffff;
 
       .about-me-intro {
         display: flex;
@@ -86,7 +88,7 @@
             margin: auto;
 
             .my-resume {
-              background-color: #070eec;
+              background-color: #b20707;
               border-radius: 20px;
               color: white;
               width: 100%;
@@ -186,22 +188,35 @@
   }
 
   .blog {
-    background-color: #bbd3d8;
+    // background-color: #bbd3d8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     border-top: solid 10px #cf0505;
     border-bottom: solid 10px #cf0505;
-    margin-top: 50px;
+    // margin-top: 50px;
     padding: 50px;
-    margin-bottom: 100px;
-    width: 40%;
+    // margin-bottom: 100px;
+    width: 70%;
     margin: auto;
 
-    a {
-      border-left: solid 3px #cf0505;
-      padding-left: 20px;
+    h1 {
+      font-size: 1.497em;
+    }
+    h2 {
+      font-size: 1.0em;
+    }
+    p {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    .readmore {
+      background-color: #000000;
+      color: white;
+      border-radius: 20px;
       font-weight: 900;
+      padding: 5px;
     }
   }
 }
