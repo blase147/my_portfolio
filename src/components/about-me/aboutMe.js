@@ -67,20 +67,6 @@ const AboutMe = () => (
         </div>
       </div>
 
-      {/* <div className="skill-section">
-        <div className="skill-title">
-          <FontAwesomeIcon className="custom-icon" icon={faCode} />
-          <h2>My tech stack</h2>
-          <p>Here are some of the  languages and tools I have mastered</p>
-          <ul className="d-list">
-            <li><img src="./html.png" alt="html" /></li>
-            <li><img src="./javascript.png" alt="html" /></li>
-            <li><img src="./ruby.png" alt="html" /></li>
-            <li><img src="./bootstrap.png" alt="html" /></li>
-            <li><img src="./ruby-on-rails.png" alt="html" /></li>
-          </ul>
-        </div>
-      </div> */}
     </section>
     <section className="blog">
       <div>
@@ -97,7 +83,11 @@ const AboutMe = () => (
           </p>
         </a>
       </div>
-      <p className="readmore">READ MORE ARTICLES</p>
+      <button type="button" className="readmore">
+        <a href="https://medium.com/@solarmails2/choosing-your-place-in-the-tech-industry-1356bba0f41d">
+          READ MORE ARTICLES
+        </a>
+      </button>
       <hr />
     </section>
   </div>
