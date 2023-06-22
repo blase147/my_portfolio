@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
 import './homePage.scss';
 import '../about-me/aboutMe.scss';
@@ -7,7 +8,8 @@ import '../footer/footer.scss';
 // import { Link } from 'react-router-dom';
 import {
   FaGithub, FaLinkedin,
-  FaAngellist, FaTwitter, FaFacebook,
+  FaAngellist, FaTwitter, FaFacebook, FaHtml5, FaJs, FaReact, FaNodeJs, FaSass, FaBootstrap,
+  FaNpm, FaAws, FaFigma, FaCss3, FaGit,
 } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -179,46 +181,60 @@ const HomePage = () => {
                   <p>Here are some of the languages and tools I have mastered</p>
                   <ul className="d-list">
                     <li>
-                      <img src="./html.png" alt="html" style={{ filter: 'brightness(0) invert(1)' }} />
+                      <FaHtml5 size={30} />
                       HTML5
                     </li>
                     <li>
-                      <img src="./javascript.png" alt="javascript" style={{ filter: 'brightness(0) invert(1)' }} />
+                      <FaJs size={30} />
                       JavaScript
                     </li>
                     <li>
-                      <img src="./ruby.png" alt="ruby" style={{ filter: 'brightness(0) invert(1)' }} />
+                      <FaReact size={30} />
+                      React
+                    </li>
+                    <li>
+                      <FaBootstrap size={30} />
+                      HTML5
+                    </li>
+                    {/* <li>
+                      <FaRuby size={30} />
                       Ruby
+                    </li> */}
+                    <li>
+                      <FaNodeJs size={30} />
+                      NodeJs
                     </li>
                     <li>
-                      <img src="./bootstrap.png" alt="bootstrap" style={{ filter: 'brightness(0) invert(1)' }} />
-                      Bootstrap
+                      <FaSass size={30} />
+                      SASS
                     </li>
                     <li>
-                      <img src="./rails.png" alt="rails" style={{ filter: 'brightness(0) invert(1)' }} />
-                      Rails
+                      <FaNpm size={30} />
+                      Npm
                     </li>
                     <li>
-                      <img src="./github.png" alt="github" style={{ filter: 'brightness(0) invert(1)' }} />
-                      GitHub
+                      <FaAws size={30} />
+                      AWS
                     </li>
                     <li>
-                      <img src="./git.png" alt="git" style={{ filter: 'brightness(0) invert(1)' }} />
+                      <FaFigma size={30} />
+                      Figma
+                    </li>
+                    <li>
+                      <FaCss3 size={30} />
+                      CSS3
+                    </li>
+                    <li>
+                      <FaGit size={30} />
                       Git
                     </li>
-                    <li>
-                      <img src="./rspec.png" alt="rspec" style={{ filter: 'brightness(0) invert(1)' }} />
-                      Rspec
-                    </li>
-                    <li>
-                      <img src="./jwt.png" alt="jwt" style={{ filter: 'brightness(0) invert(1)' }} />
-                      JWT
-                    </li>
-                    <li>
+                  </ul>
+                  {/* <li>
+                      // eslint-disable-next-line max-len, max-len
                       <img src="./capybara.png" alt="capybara" style={{ filter: 'brightness(0) invert(1)' }} />
                       Capybara
-                    </li>
-                  </ul>
+                    </li> */}
+                  {' '}
                 </div>
 
               </div>
