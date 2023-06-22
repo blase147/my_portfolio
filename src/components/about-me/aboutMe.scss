@@ -14,8 +14,8 @@
       margin-bottom: 100px;
       padding-bottom: 50px;
       padding-top: 50px;
-      background-color: #000000;
-      color: #ffffff;
+      background-color: #000;
+      color: #fff;
 
       .about-me-intro {
         display: flex;
@@ -62,14 +62,14 @@
               width: 100%;
 
               li {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              font-size: 0.9em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 0.9em;
 
-              img {
-                width: 40%;
-              }
+                img {
+                  width: 40%;
+                }
               }
             }
           }
@@ -90,16 +90,16 @@
             border: solid 2px  rgb(0, 0, 0);
           }
 
-            .my-resume {
-              background-color: #b20707;
-              border-radius: 20px;
-              color: white;
-              width: 60%;
-              margin: auto;
-              padding: 8px;
-              font-size: 14px;
-              font-weight: 900;
-            }
+          .my-resume {
+            background-color: #b20707;
+            border-radius: 20px;
+            color: white;
+            width: 60%;
+            margin: auto;
+            padding: 8px;
+            font-size: 14px;
+            font-weight: 900;
+          }
 
           .social-icons {
             display: flex;
@@ -112,7 +112,7 @@
               display: flex;
               flex-direction: row;
               justify-content: center;
-              color: #ffffff;
+              color: #fff;
             }
           }
         }
@@ -188,17 +188,20 @@
     h1 {
       font-size: 1.497em;
     }
+
     h2 {
-      font-size: 1.0em;
+      font-size: 1em;
     }
+
     p {
       width: 100%;
       margin: auto;
       margin-bottom: 30px;
       text-align: left;
     }
+
     .readmore {
-      background-color: #000000;
+      background-color: #000;
       color: white;
       border-radius: 20px;
       font-weight: 900;
@@ -221,13 +224,11 @@
     background-attachment: fixed;
     border-radius: 50px;
 
-
     .about {
       display: flex;
       flex-direction: column;
       margin-top: 100px;
       margin-bottom: 100px;
-
 
       .user-icon {
         font-size: 50px;
@@ -245,7 +246,7 @@
         margin: auto;
         border-radius: 50px;
 
-      h1 {
+        h1 {
           padding-bottom: 80px;
           font-size: 2.9em;
         }
@@ -266,6 +267,7 @@
 
             .my-tech-stack {
               width: 100%;
+
               h2 {
                 padding-bottom: 0;
               }
@@ -314,16 +316,16 @@
               border: solid 2px  rgb(0, 0, 0);
             }
 
-              .my-resume {
-                background-color: #eb0b0b;
-                border-radius: 15px;
-                color: white;
-                width: 50%;
-                padding: 10px;
-                font-weight: 900;
-                font-size: 1.3em;
-                margin: auto;
-              }
+            .my-resume {
+              background-color: #eb0b0b;
+              border-radius: 15px;
+              color: white;
+              width: 50%;
+              padding: 10px;
+              font-weight: 900;
+              font-size: 1.3em;
+              margin: auto;
+            }
 
             .social-icons {
               display: flex;

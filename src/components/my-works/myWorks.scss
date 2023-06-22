@@ -67,12 +67,12 @@
           flex-direction: row;
           gap: 20px;
 
-            li {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              font-size: 0.7em;
-            }
+          li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.7em;
+          }
         }
       }
 
@@ -82,7 +82,7 @@
         justify-content: center;
         margin-bottom: 40px;
 
-        a {
+        button {
           padding: 10px;
           background-color: #fff;
           color: black;
@@ -110,6 +110,7 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    padding-top: 100px;
 
     .custom-icon {
       font-size: 80px;
@@ -181,7 +182,7 @@
           align-items: center;
           margin: auto;
           padding-left: 0;
-          font-size: 1.0em;
+          font-size: 1em;
 
           p {
             text-align: center;
@@ -213,13 +214,13 @@
           justify-content: center;
           margin-top: 20px;
 
-          a {
+          button {
             display: flex;
             background-color: #fff;
             color: rgb(9, 24, 237);
             border: solid 1px #000;
             border-radius: 15px;
-            font-size: 1.0em;
+            font-size: 1em;
             font-weight: 900;
             padding: 5px;
           }

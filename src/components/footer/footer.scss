@@ -33,37 +33,38 @@
         }
       }
     }
-        .res-mail-footer {
-          display: flex;
-          flex-direction: column;
-          justify-content: left;
-          gap: 10px;
-          width: 60%;
 
-        .my-resume {
-          background-color: #000000;
-          border-radius: 10px;
-          color: white;
-          margin: auto;
-          padding: 10px;
-          margin-left: 0;
+    .res-mail-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      gap: 10px;
+      width: 60%;
+
+      .my-resume {
+        background-color: #000;
+        border-radius: 10px;
+        color: white;
+        margin: auto;
+        padding: 10px;
+        margin-left: 0;
+        font-weight: 900;
+      }
+
+      .mailto {
+        border-radius: 10px;
+        border: solid 1px #000;
+        font-size: 15px;
+        padding: 7px;
+        // margin: auto;
+        // width: 60%;
+
+        a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
           font-weight: 900;
+          width: auto;
         }
-
-        .mailto {
-          border-radius: 10px;
-          border: solid 1px #000000;
-          font-size: 15px;
-          padding: 7px;
-          // margin: auto;
-          // width: 60%;
-
-          a {
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            font-weight: 900;
-            width: auto;
-          }
       }
     }
   }
@@ -166,7 +167,7 @@
 
       .mailto {
         border-radius: 20px;
-        border: solid 1px #000000;
+        border: solid 1px #000;
         font-size: 1.8em;
         padding: 7px;
         margin: auto;

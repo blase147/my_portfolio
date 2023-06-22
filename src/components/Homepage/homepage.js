@@ -72,7 +72,7 @@ const HomePage = () => {
         </div>
         <div className="project-container">
           {data.map((item) => (
-            <div key={item.id} className="item-card">
+            <div key={item.id} className="item-card animated-div">
               <img src={item.image} alt="Project Screenshot" />
 
               <div className="text-content">
@@ -93,12 +93,16 @@ const HomePage = () => {
                     </div>
                   </ul>
                   <div className="view-btns">
-                    <a href={item.live} target="_blank" rel="noreferrer">
-                      View Live
-                    </a>
-                    <a href={item.source} target="_blank" rel="noreferrer">
-                      View on GitHub
-                    </a>
+                    <button className="animated-div" type="button">
+                      <a href={item.live} target="_blank" rel="noreferrer">
+                        View Live
+                      </a>
+                    </button>
+                    <button className="animated-div" type="button">
+                      <a href={item.source} target="_blank" rel="noreferrer">
+                        View on GitHub
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -222,19 +226,19 @@ const HomePage = () => {
                 <img src="./main-photo.jpg" alt="profile" />
                 <DownloadPDF className="my-resume" />
                 <ul className="social-icons">
-                  <li>
+                  <li className="animated-div">
                     <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
                   </li>
-                  <li>
+                  <li className="animated-div">
                     <a href="www.linkedin.com/in/chukwuma-mosanya-346303"><FaLinkedin size={30} alt="social-icon" /></a>
                   </li>
-                  <li>
+                  <li className="animated-div">
                     <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
                   </li>
-                  <li>
+                  <li className="animated-div">
                     <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
                   </li>
-                  <li>
+                  <li className="animated-div">
                     <a href="www.facebook.com"><FaFacebook size={30} alt="social-icons" /></a>
                   </li>
                 </ul>
@@ -293,7 +297,7 @@ const HomePage = () => {
                 <div>
                   <label className="label" htmlFor="comment">
                     Your message:
-                    <textarea name="comment" cols="30" rows="10" maxLength="500" placeholder="What do you think about building your next project with me?" required />
+                    <textarea className="animated-div" name="comment" cols="30" rows="10" maxLength="500" placeholder="What do you think about building your next project with me?" required />
                     <span className="message" />
                   </label>
                 </div>
@@ -349,25 +353,25 @@ const HomePage = () => {
           <div className="footer">
             <div className="social-icons-container">
               <ul className="social-icons">
-                <li>
+                <li className="animated-div">
                   <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
                 </li>
-                <li>
+                <li className="animated-div">
                   <a href="www.linkedin.com/in/chukwuma-mosanya-346303"><FaLinkedin size={30} alt="social-icon" /></a>
                 </li>
-                <li>
+                <li className="animated-div">
                   <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
                 </li>
-                <li>
+                <li className="animated-div">
                   <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
                 </li>
-                <li>
+                <li className="animated-div">
                   <a href="www.facebook.com"><FaFacebook size={30} alt="social-icons" /></a>
                 </li>
               </ul>
             </div>
           </div>
-          <div><hr /></div>
+          <div className="hr"><hr /></div>
 
           <div className="copyright">
             {' '}

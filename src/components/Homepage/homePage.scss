@@ -21,10 +21,9 @@
       padding: 20px;
 
       .my_location {
-      padding-top: 70px;
+        padding-top: 70px;
         font-size: 0.9em;
         text-align: left;
-
       }
 
       h1 {
@@ -48,7 +47,7 @@
         // padding-bottom: 0;
       }
 
-       #primary-text-des {
+      #primary-text-des {
         font-size: 1.4em;
         width: 100%;
         padding-bottom: 40px;
@@ -93,6 +92,32 @@
 
 // // Desktop portrait responsivenss
 @media (min-width: 768px) {
+  @keyframes scale-in {
+    from {
+      transform: scale(0);
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .animated-div {
+    animation: scale-in 1s ease-in-out;
+    transition: all 0.5s ease;
+
+    &:hover {
+      // cursor: pointer;
+      transform: scale(1.1);
+    }
+
+      .animated-div:hover {
+    transform: translateX(0);
+  }
+  }
+
+
+
   .homepage {
     box-sizing: border-box;
     width: 100%;
