@@ -48,8 +48,6 @@
 
         legend {
           text-align: left;
-          // width: 60%;
-          // width: auto;
         }
 
         .input {
@@ -90,10 +88,11 @@
           }
 
           .get-in-touch-btn {
-            width: 100%;
+            width: 50%;
             background-color: #0f43eb;
             padding: 20px;
-            font-size: 18px;
+            font-size: 0.7em;
+            font-weight: 900;
             color: rgb(255, 255, 255);
             border-radius: 12px;
           }
