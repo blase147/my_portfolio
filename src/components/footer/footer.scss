@@ -1,7 +1,7 @@
 @import './../scss/config';
 
 @media (max-width: 786px) {
-  .intro-container {
+  .outro-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,7 @@
 
     .intro {
       width: 100%;
+      background-color: #e30e0e;
 
       .my_location {
         text-align: left;
@@ -32,36 +33,37 @@
         }
       }
     }
+        .res-mail-footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          gap: 10px;
+          width: 60%;
 
-    .res-mail-footer {
-      display: flex;
-      flex-direction: column;
-      background-color: #f10909;
-      gap: 10px;
-
-
-      .my-resume {
-        background-color: #070eec;
-        border-radius: 20px;
-        color: white;
-        // width: 100%;
-        margin: auto;
-        padding: 10px;
-      }
-
-      .mailto {
-        border-radius: 20px;
-        border: solid 1px #0905f0;
-        font-size: 15px;
-        padding: 7px;
-        margin: auto;
-        // width: auto;
-
-        a {
-          text-decoration: none;
-          color: rgb(0, 0, 0);
+        .my-resume {
+          background-color: #000000;
+          border-radius: 10px;
+          color: white;
+          margin: auto;
+          padding: 10px;
+          margin-left: 0;
           font-weight: 900;
         }
+
+        .mailto {
+          border-radius: 10px;
+          border: solid 1px #000000;
+          font-size: 15px;
+          padding: 7px;
+          // margin: auto;
+          // width: 60%;
+
+          a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: 900;
+            width: auto;
+          }
       }
     }
   }

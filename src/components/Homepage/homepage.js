@@ -336,7 +336,7 @@ const HomePage = () => {
             </div>
           </section>
           <div className="res-mail-footer">
-            <DownloadPDF className="pfd" />
+            <DownloadPDF />
             <button className="mailto" type="button">
               <a href="mailto:solarmails2gmail.com" target="_blank" rel="noreferrer">
                 solarmails2@gmail.com
