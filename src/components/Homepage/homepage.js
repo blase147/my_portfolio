@@ -127,7 +127,7 @@ const HomePage = () => {
                   track bikes.
 
                 </p>
-                <div className="my-tech-stack">
+                {/* <div className="my-tech-stack">
                   <h2>My tech stack</h2>
                   <p>Here are some of the  languages and tools I have mastered</p>
                   <ul className="d-list">
@@ -169,7 +169,54 @@ const HomePage = () => {
                       Capybara
                     </li>
                   </ul>
+                </div> */}
+                <div className="my-tech-stack">
+                  <h2>My tech stack</h2>
+                  <p>Here are some of the languages and tools I have mastered</p>
+                  <ul className="d-list">
+                    <li>
+                      <img src="./html.png" alt="html" style={{ filter: 'brightness(0) invert(1)' }} />
+                      HTML5
+                    </li>
+                    <li>
+                      <img src="./javascript.png" alt="javascript" style={{ filter: 'brightness(0) invert(1)' }} />
+                      JavaScript
+                    </li>
+                    <li>
+                      <img src="./ruby.png" alt="ruby" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Ruby
+                    </li>
+                    <li>
+                      <img src="./bootstrap.png" alt="bootstrap" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Bootstrap
+                    </li>
+                    <li>
+                      <img src="./rails.png" alt="rails" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Rails
+                    </li>
+                    <li>
+                      <img src="./github.png" alt="github" style={{ filter: 'brightness(0) invert(1)' }} />
+                      GitHub
+                    </li>
+                    <li>
+                      <img src="./git.png" alt="git" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Git
+                    </li>
+                    <li>
+                      <img src="./rspec.png" alt="rspec" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Rspec
+                    </li>
+                    <li>
+                      <img src="./jwt.png" alt="jwt" style={{ filter: 'brightness(0) invert(1)' }} />
+                      JWT
+                    </li>
+                    <li>
+                      <img src="./capybara.png" alt="capybara" style={{ filter: 'brightness(0) invert(1)' }} />
+                      Capybara
+                    </li>
+                  </ul>
                 </div>
+
               </div>
               <div className="img-profile">
                 <img src="./main-photo.jpg" alt="profile" />
