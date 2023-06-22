@@ -298,7 +298,7 @@ const HomePage = () => {
                   </label>
                 </div>
                 <div>
-                  <button className="get-in-touch-btn" type="submit">Get in touch now!!</button>
+                  <button className="get-in-touch-btn" type="submit">SEND A MESSAGE</button>
                 </div>
               </form>
             </div>
