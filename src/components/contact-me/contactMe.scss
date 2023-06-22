@@ -124,6 +124,7 @@
     }
   }
 }
+
 //Destop scree of 786px
 @media (min-width: 786px) {
   .contact-me-container {
@@ -256,6 +257,7 @@
       }
       iframe {
         width: 100%;
+        height: 100%;
       }
     }
   }
@@ -381,6 +383,7 @@
       margin: auto;
       width: 50%;
       padding: 40px;
+      // background-color: #de1212;
 
       h3 {
         font-size: 1.9em;
@@ -392,6 +395,11 @@
 
       a {
         color: #f60b0b;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
       }
     }
   }
