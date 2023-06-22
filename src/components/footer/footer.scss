@@ -149,30 +149,27 @@
       }
     }
 
-    .res-mail {
+    .res-mail-footer {
       display: flex;
       flex-direction: row;
-      // width: 100%;
-      gap: 10px;
-      // margin: 0;
-      // margin: auto;
+      gap: 15px;
 
       .my-resume {
-        background-color: #070eec;
+        background-color: #ec0713;
         border-radius: 20px;
         color: white;
-        // width: 100%;
         margin: auto;
         padding: 10px;
+        font-size: 1.8em;
+        font-weight: 900;
       }
 
       .mailto {
         border-radius: 20px;
-        border: solid 1px #0905f0;
-        font-size: 15px;
+        border: solid 1px #000000;
+        font-size: 1.8em;
         padding: 7px;
         margin: auto;
-        // width: auto;
 
         a {
           text-decoration: none;
