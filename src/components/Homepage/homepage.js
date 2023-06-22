@@ -4,7 +4,7 @@ import '../about-me/aboutMe.scss';
 import '../contact-me/contactMe.scss';
 import '../my-works/myWorks.scss';
 import '../footer/footer.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import {
   FaGithub, FaLinkedin,
   FaAngellist, FaTwitter, FaFacebook,
@@ -305,23 +305,21 @@ const HomePage = () => {
           </fieldset>
         </div>
         <nav className="footer-nav">
-          <ul>
-            <li>
-              <Link to="#home">Home</Link>
-            </li>
-            <li>
-              <Link to="#about-me">About</Link>
-            </li>
-            <li>
-              <Link to="#my-works">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="#contact-me">Contact</Link>
-            </li>
-            <li>
-              <Link to="https://medium.com/@solarmails2">Blog</Link>
-            </li>
-          </ul>
+          <h3>I teach grade school Info tech too</h3>
+          <p>
+            You can check them out on
+            {' '}
+            <a href="https://www.youtube.com/@chukwumamosanya1279/videos">YouTube</a>
+          </p>
+          <iframe
+            title="All-time Best Selling Countertop Blender. Durable, stylistic and rugged"
+            width="967"
+            height="544"
+            src="https://www.youtube.com/embed/Qa3nv4rP73o"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture web-share"
+            allowfullscreen
+          />
+          {' '}
         </nav>
       </section>
 

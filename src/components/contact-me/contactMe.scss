@@ -155,6 +155,7 @@
       // display: flex;
       // flex-direction: column;
       justify-content: center;
+      padding-bottom: 200px;
 
       p {
         padding: 20px;
@@ -227,27 +228,19 @@
     }
 
     .footer-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 100px;
-      // margin-bottom: 100px;
+      margin: auto;
+      // border: solid 2px #ffffff;
+      width: 40%;
+      padding: 40px;
 
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        color: #000;
-        font-weight: 900;
-
-        li {
-          color: #fff;
-          // background-color: #e10c0c;
-        }
-
-        li:visited {
-          color: #fff;
-          font-weight: 900;
-          text-decoration: none;
-        }
+      a {
+        color: #f60b0b;
       }
+
     }
   }
 }
