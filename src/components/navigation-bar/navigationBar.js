@@ -38,14 +38,18 @@ const NavigationBar = () => {
 
   const handleHashLinkClick = (event, url) => {
     event.preventDefault();
-    const targetId = url.substring(1);
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      const { offsetTop } = targetElement;
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth',
-      });
+    if (url.startsWith('#')) {
+      const targetId = url.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        const { offsetTop } = targetElement;
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth',
+        });
+      }
+    } else {
+      window.open(url, '_blank');
     }
     // toggleMenu(); // Close the menu after clicking on a link
   };
@@ -58,10 +62,7 @@ const NavigationBar = () => {
           <ul className="navigation-menu">
             {navLinks.map(({ url, name }) => (
               <li key={name}>
-                <a
-                  href={url}
-                  onClick={(e) => handleHashLinkClick(e, url)}
-                >
+                <a href={url} onClick={(e) => handleHashLinkClick(e, url)}>
                   {name}
                 </a>
               </li>
@@ -74,10 +75,7 @@ const NavigationBar = () => {
           <ul className="navigation-menu">
             {navLinks.map(({ url, name }) => (
               <li key={name}>
-                <a
-                  href={url}
-                  onClick={(e) => handleHashLinkClick(e, url)}
-                >
+                <a href={url} onClick={(e) => handleHashLinkClick(e, url)}>
                   {name}
                 </a>
               </li>
