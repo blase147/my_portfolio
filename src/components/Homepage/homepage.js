@@ -14,14 +14,11 @@ import {
   faUserLarge, faMedal, faEnvelope, faCopyright,
 } from '@fortawesome/free-solid-svg-icons';
 import { RiMapPin2Line } from 'react-icons/ri';
-// eslint-disable-next-line import/no-extraneous-dependencies
-// import { v4 as uuidv4 } from 'uuid';
 import data from '../../projectData';
 import DownloadPDF from '../../DownloadPDF';
 import NavigationBar from '../navigation-bar/navigationBar';
 
 const HomePage = () => {
-  // const [isOpen, setIsOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -32,12 +29,6 @@ const HomePage = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
-  // const backgroundImageUrls = [
-  //   '/public/tech1.png',
-  //   '/public/luxury-cars-lending.png',
-  //   // Add more image URLs as needed
-  // ];
 
   return (
     <div id="home" className="homepage">
@@ -76,7 +67,9 @@ const HomePage = () => {
 
       <section id="my-works" className="my-works">
         <FontAwesomeIcon className="custom-icon" icon={faMedal} />
-        <div><h1 className="projects-title">Projects</h1></div>
+        <div>
+          <h1 className="projects-title">Projects</h1>
+        </div>
         <div className="project-container">
           {data.map((item) => (
             <div key={item.id} className="item-card">
@@ -92,7 +85,10 @@ const HomePage = () => {
                     <p>Project stack:</p>
                     <div className="li-container">
                       {item.lang.map((language) => (
-                        <li key={language}>{language}</li>
+                        <li key={language.id}>
+                          {language.icon}
+                          {language.name}
+                        </li>
                       ))}
                     </div>
                   </ul>
@@ -199,20 +195,6 @@ const HomePage = () => {
             </div>
           </div>
 
-          {/* <div className="skill-section">
-        <div className="skill-title">
-          <FontAwesomeIcon className="custom-icon" icon={faCode} />
-          <h2>My tech stack</h2>
-          <p>Here are some of the  languages and tools I have mastered</p>
-          <ul className="d-list">
-            <li><img src="./html.png" alt="html" /></li>
-            <li><img src="./javascript.png" alt="html" /></li>
-            <li><img src="./ruby.png" alt="html" /></li>
-            <li><img src="./bootstrap.png" alt="html" /></li>
-            <li><img src="./ruby-on-rails.png" alt="html" /></li>
-          </ul>
-        </div>
-      </div> */}
         </section>
         <section className="blog">
           <div>
@@ -278,7 +260,7 @@ const HomePage = () => {
         <nav className="footer-nav">
           <ul>
             <li>
-              <Link to="/#home">Home</Link>
+              <Link to="#home">Home</Link>
             </li>
             <li>
               <Link to="#about-me">About</Link>

@@ -49,16 +49,16 @@ const ContactMe = () => (
     <nav className="footer-nav">
       <ul>
         <li>
-          <Link to="/#home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <Link to="/#about-me">About</Link>
+          <Link to="/about-me">About</Link>
         </li>
         <li>
-          <Link to="/#my-works">Portfolio</Link>
+          <Link to="/my-works">Portfolio</Link>
         </li>
         <li>
-          <Link to="/#contact-me">Contact</Link>
+          <Link to="/contact-me">Contact</Link>
         </li>
         <li>
           <Link to="https://medium.com/@solarmails2">Blog</Link>
