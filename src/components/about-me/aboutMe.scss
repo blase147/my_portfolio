@@ -214,8 +214,203 @@
     }
   }
 }
-
+// Destop scree of 768px
 @media (min-width: 768px) {
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-image: url('../../images/tech4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 50px;
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      .user-icon {
+        font-size: 50px;
+        padding-top: 80px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .about-me {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border: solid 1px rgb(14, 6, 0);
+        background-color: #000;
+        width: 80%;
+        margin: auto;
+        border-radius: 50px;
+
+        h1 {
+          padding-bottom: 80px;
+          font-size: 2.2em;
+        }
+
+        .about-me-intro {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-top: 0;
+          width: 100%;
+          margin: auto;
+          gap: 10px;
+
+          .intro-text {
+            font-size: 1.2em;
+            text-align: left;
+            width: 50%;
+
+            .my-tech-stack {
+              width: 100%;
+
+              h2 {
+                padding-bottom: 0;
+              }
+
+              p {
+                padding-top: 0;
+              }
+
+              ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                margin: auto;
+                padding-left: 0;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                li {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding: 5px;
+                  font-size: 0.79em;
+
+                  img {
+                    width: 40%;
+                  }
+                }
+              }
+            }
+          }
+
+          .img-profile {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            gap: 35px;
+            margin-bottom: auto;
+
+            img {
+              padding-top: 10px;
+              background-color: #e70a0a;
+              margin-bottom: 0;
+              padding-bottom: 0;
+              border-radius: 100%;
+              border: solid 2px  rgb(0, 0, 0);
+            }
+
+            .my-resume {
+              background-color: #eb0b0b;
+              border-radius: 15px;
+              color: white;
+              width: 50%;
+              padding: 10px;
+              font-weight: 900;
+              font-size: 0.7em;
+              margin: auto;
+            }
+
+            .social-icons {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-left: 0;
+              gap: 1.1em;
+              width: 100%;
+              margin-top: auto;
+
+              a {
+                color: #fff;
+              }
+
+              a:hover {
+                color: #e80b0b;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .blog {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 50px;
+      padding: 50px;
+      margin-bottom: 100px;
+      width: 60%;
+      margin: auto;
+      color: #fff;
+
+      h1 {
+        font-size: 2.5em;
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.6em;
+        color: #fff;
+      }
+
+      a {
+        padding-left: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        border-left: solid 10px #fff;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        margin: auto;
+        text-align: left;
+      }
+
+      .readmore {
+        background-color: #fff;
+        color: rgb(0, 0, 0);
+        width: 35%;
+        border-radius: 10px;
+        margin: auto;
+        font-size: 0.71em;
+        padding: 10px;
+        margin-top: 50px;
+        font-weight: 900;
+        text-align: center;
+      }
+      .readmore:hover {
+        background-color: #000000;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// Destop scree of 1024px
+@media (min-width: 1024px) {
   .about-me-container {
     display: flex;
     flex-direction: column;
