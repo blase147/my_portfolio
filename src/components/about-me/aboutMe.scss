@@ -265,7 +265,7 @@
           gap: 10px;
 
           .intro-text {
-            font-size: 1.0em;
+            font-size: 1em;
             text-align: left;
             width: 50%;
 
@@ -279,7 +279,7 @@
 
               p {
                 padding-top: 0;
-                font-size: 1.0em;
+                font-size: 1em;
               }
 
               ul {
@@ -342,6 +342,7 @@
               li {
                 width: 10%;
               }
+
               a {
                 color: #fff;
                 width: 10%;
@@ -382,7 +383,7 @@
       }
 
       p {
-        font-size: 1.0em;
+        font-size: 1em;
         color: rgb(255, 255, 255);
         border-left: solid 10px #fff;
         margin-bottom: 10px;
@@ -403,8 +404,9 @@
         font-weight: 900;
         text-align: center;
       }
+
       .readmore:hover {
-        background-color: #000000;
+        background-color: #000;
         color: #fff;
       }
     }
@@ -598,8 +600,9 @@
         font-weight: 900;
         text-align: center;
       }
+
       .readmore:hover {
-        background-color: #000000;
+        background-color: #000;
         color: #fff;
       }
     }

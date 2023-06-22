@@ -104,6 +104,7 @@
       }
     }
   }
+
   .copyright {
     display: flex;
     // flex-direction: row;
@@ -120,8 +121,6 @@
     }
   }
 }
-
-
 
 //Mininum screen of 768px
 @media (min-width: 768px) {
@@ -174,7 +173,7 @@
       .mailto {
         border-radius: 20px;
         border: solid 1px #000;
-        font-size: 1.0em;
+        font-size: 1em;
         padding: 7px;
         margin: auto;
 
