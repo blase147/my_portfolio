@@ -19,7 +19,6 @@
       width: 90%;
       text-align: center;
       padding: 20px;
-      // background-color: #e43b3b;
 
       .my_location {
       padding-top: 70px;
@@ -174,14 +173,10 @@
           text-align: left;
         }
 
-        .res-mail-mobile-footer {
+        .res-mail {
           display: flex;
-          flex-direction: column;
-          // margin-left:0;
-          // margin: auto;
+          flex-direction: row;
           gap: 20px;
-          // width: 100%;
-          background-color: #0fd92a;
 
           .my-resume {
             background-color: #f31b3b;
@@ -196,7 +191,6 @@
           }
 
           .mailto {
-            // display: flex;
             border-radius: 20px;
             border: solid 1px #000008;
             margin-left: 0;
