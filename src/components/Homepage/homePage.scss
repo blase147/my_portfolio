@@ -111,12 +111,10 @@
       transform: scale(1.1);
     }
 
-      .animated-div:hover {
-    transform: translateX(0);
+    .animated-div:hover {
+      transform: translateX(0);
+    }
   }
-  }
-
-
 
   .homepage {
     box-sizing: border-box;
