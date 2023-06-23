@@ -124,32 +124,32 @@ const HomePage = () => {
             <div className="about-me-intro">
               <div className="intro-text">
                 <p>
-                  Hi there, I would like to tell you a liitle about myself. I am a Nigerian
-                  born software developer. So far, it has been a littele over 10 years
+                  Hi there, I would like to tell you a little about myself. I am a Nigerian
+                  born software developer. So far, it has been a little over 10 years
                   I made a critical career switch from paramedic to techy. First it all
                   started as a passion for computers and the very many amazing things one
                   can do with them. The wonder of technology ranging from the possibility of
-                  automated and intelligent systems to the nitty gritty of how technology
+                  automated and intelligent systems to the nitty-gritty of how technology
                   works all its wonders drew me nearer and farther from Biological sciences.
-                  I remmeber during my college days in the Biological sciences department,
+                  I remember during my college days in the Biological sciences department,
                   I was labelled nerdy, the computer wizkid of my faculty. Then came the
                   speculated irony that I was practically in the wrong discipline.
-                  However, I did my studies well and graduated well but without that fullfment
+                  However, I did my studies well and graduated well but without that fulfilment
                   that comes with graduating into your first degree, so while my peers where
                   landing jobs as college lecturers and others obtained academics grants, I
-                  wallowed in job hunting as a graduate paramedic. Howerver, it was interestingly
+                  wallowed in job hunting as a graduate paramedic. However, it was interestingly
                   funny that my out-of-school tech skills paid my bills. Without the necessity of
                   college certification I worked in a couple organizations as an IT Manager,
                   IT support and IT instructor. And then along the line,  I met a several senior developers
-                  in the industry and quickly the nned to advance my skill to a professional level arose.
+                  in the industry and quickly the need to advance my skill to a professional level arose.
                   Consequently, I enrolled into Austin Peay State University USA, for a diploma in
                   Coding and Technology, subsequently I I got admitted into Microverse an online
-                  softeware engineering institution where I did a one year course in software engineering
-                  and mastered the rubrics machine langauge, agile methologies and remote pair programming.
+                  software engineering institution where I did a one year course in software engineering
+                  and mastered the rubrics machine language, agile methodologies and remote pair programming.
                   From Microverse I got certified in HTML5, CSS3, JavaScript, Bootstrap, React/Redux,
                   Ruby and Rails as my primary stack. In the last three years I have build a number of
-                  apps from budgeting app in React, to APIs in JavaScript to blogs in Railsand a couple more
-                  fullstack projects in Rails. During my course work, I studied Git, NodeJs, Github, Capybara,
+                  apps from budgeting app in React, to APIs in JavaScript to blogs in Rails and a couple more
+                  full-stack projects in Rails. During my course work, I studied Git, NodeJs, Github, Capybara,
                   Rspec, JWT, AWS, Figma and SASS.
                 </p>
                 {/* <div className="my-tech-stack">
