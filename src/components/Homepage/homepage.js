@@ -140,9 +140,9 @@ const HomePage = () => {
                   wallowed in job hunting as a graduate paramedic. However, it was interestingly
                   funny that my out-of-school tech skills paid my bills. Without the necessity of
                   college certification I worked in a couple organizations as an IT Manager,
-                  IT support and IT instructor. And then along the line,  I met a several senior developers
+                  IT support and IT instructor. And then along the line,  I met a few senior developers,
                   in the industry and quickly the need to advance my skill to a professional level arose.
-                  Consequently, I enrolled into Austin Peay State University USA, for a diploma in
+                  consequently, I enrolled into Austin Peay State University USA, for a diploma in
                   Coding and Technology, subsequently I I got admitted into Microverse an online
                   software engineering institution where I did a one year course in software engineering
                   and mastered the rubrics machine language, agile methodologies and remote pair programming.
