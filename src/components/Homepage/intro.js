@@ -31,6 +31,9 @@ const Intro = () => {
           <h2>Chukwuma Mosanya, </h2>
           <h1>Software Engineer</h1>
           <p id="primary-text-des">
+            Certified Full-Stack Software Engineer trained to
+            help startups and companies of scale build and maintain
+            efficient and customer centric web & desktop applications
             I can help you build a product, feature or website.
             Look through some of my work and experience! If you
             like what you see and have a project you need coded,

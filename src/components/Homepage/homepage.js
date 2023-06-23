@@ -50,6 +50,9 @@ const HomePage = () => {
             <h2>Chukwuma Mosanya, </h2>
             <h1>Software Engineer</h1>
             <p id="primary-text-des">
+              Certified Full-Stack Software Engineer trained to
+              help startups and companies of scale build and maintain
+              efficient and customer centric web & desktop applications.
               I can help you build a product, feature or website.
               Look through some of my work and experience! If you
               like what you see and have a project you need coded,
@@ -121,17 +124,33 @@ const HomePage = () => {
             <div className="about-me-intro">
               <div className="intro-text">
                 <p>
-                  Hello I am a software developer! I can help you build a product,
-                  feature or website Look through some of my work and experience!
-                  If you like what you see and have a project you need coded,
-                  do not hestiate to contact me.I am a software designer, with over
-                  ten years of experience. Built up while working with teams big
-                  and small across the United States, Japan and Australia.
-
-                  Now, I am back. Living in Canterbury, New Zealand, where I spend my
-                  free time reading about the history of video game development and riding
-                  track bikes.
-
+                  Hi there, I would like to tell you a liitle about myself. I am a Nigerian
+                  born software developer. So far, it has been a littele over 10 years
+                  I made a critical career switch from paramedic to techy. First it all
+                  started as a passion for computers and the very many amazing things one
+                  can do with them. The wonder of technology ranging from the possibility of
+                  automated and intelligent systems to the nitty gritty of how technology
+                  works all its wonders drew me nearer and farther from Biological sciences.
+                  I remmeber during my college days in the Biological sciences department,
+                  I was labelled nerdy, the computer wizkid of my faculty. Then came the
+                  speculated irony that I was practically in the wrong discipline.
+                  However, I did my studies well and graduated well but without that fullfment
+                  that comes with graduating into your first degree, so while my peers where
+                  landing jobs as college lecturers and others obtained academics grants, I
+                  wallowed in job hunting as a graduate paramedic. Howerver, it was interestingly
+                  funny that my out-of-school tech skills paid my bills. Without the necessity of
+                  college certification I worked in a couple organizations as an IT Manager,
+                  IT support and IT instructor. And then along the line,  I met a several senior developers
+                  in the industry and quickly the nned to advance my skill to a professional level arose.
+                  Consequently, I enrolled into Austin Peay State University USA, for a diploma in
+                  Coding and Technology, subsequently I I got admitted into Microverse an online
+                  softeware engineering institution where I did a one year course in software engineering
+                  and mastered the rubrics machine langauge, agile methologies and remote pair programming.
+                  From Microverse I got certified in HTML5, CSS3, JavaScript, Bootstrap, React/Redux,
+                  Ruby and Rails as my primary stack. In the last three years I have build a number of
+                  apps from budgeting app in React, to APIs in JavaScript to blogs in Railsand a couple more
+                  fullstack projects in Rails. During my course work, I studied Git, NodeJs, Github, Capybara,
+                  Rspec, JWT, AWS, Figma and SASS.
                 </p>
                 {/* <div className="my-tech-stack">
                   <h2>My tech stack</h2>
