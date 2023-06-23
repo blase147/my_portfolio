@@ -143,58 +143,15 @@ const HomePage = () => {
                   IT support and IT instructor. And then along the line,  I met a few senior developers,
                   in the industry and quickly the need to advance my skill to a professional level arose.
                   consequently, I enrolled into Austin Peay State University USA, for a diploma in
-                  Coding and Technology, subsequently I I got admitted into Microverse an online
+                  Coding and Technology, subsequently I got admitted into Microverse an online
                   software engineering institution where I did a one year course in software engineering
-                  and mastered the rubrics machine language, agile methodologies and remote pair programming.
+                  and mastered the rubrics of machine language, agile methodologies and remote pair programming.
                   From Microverse I got certified in HTML5, CSS3, JavaScript, Bootstrap, React/Redux,
-                  Ruby and Rails as my primary stack. In the last three years I have build a number of
+                  Ruby and Rails as my primary stack. In the last three years I have built a number of
                   apps from budgeting app in React, to APIs in JavaScript to blogs in Rails and a couple more
-                  full-stack projects in Rails. During my course work, I studied Git, NodeJs, Github, Capybara,
+                  full-stack projects in Rails. During my course work, I studied and used Git, NodeJs, Github, Capybara,
                   Rspec, JWT, AWS, Figma and SASS.
                 </p>
-                {/* <div className="my-tech-stack">
-                  <h2>My tech stack</h2>
-                  <p>Here are some of the  languages and tools I have mastered</p>
-                  <ul className="d-list">
-                    <li>
-                      <img src="./html.png" alt="html" />
-                      HTML5
-                    </li>
-                    <li>
-                      <img src="./javascript.png" alt="javascript" />
-                      JavaScript
-                    </li>
-                    <li><img src="./ruby.png" alt="html" /></li>
-                    <li>
-                      <img src="./bootstrap.png" alt="bootstrap" />
-                      Bootstrap
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      Rails
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      GitHub
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      Git
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      Rspec
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      JWT
-                    </li>
-                    <li>
-                      <img src="./ruby-on-rails.png" alt="html" />
-                      Capybara
-                    </li>
-                  </ul>
-                </div> */}
                 <div className="my-tech-stack">
                   <h2>My tech stack</h2>
                   <p>Here are some of the languages and tools I have mastered</p>
