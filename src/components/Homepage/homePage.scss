@@ -1,6 +1,6 @@
 @import './../scss/config';
 
-@media (max-width: 786px) {
+@media (max-width: 600px) {
   .homepage {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
 }
 
 //  Desktop screen of 786
-@media (min-width: 786px) {
+@media (min-width: 768px) and (orientation: portrait){
   @keyframes scale-in {
     from {
       transform: scale(0);
@@ -154,7 +154,7 @@
 
         img {
           // margin-top: 10px;
-          width: 70%;
+          width: 80%;
           border-radius: 100%;
           border: solid 2px #000108;
           margin-right: 0;
@@ -170,7 +170,7 @@
         margin-top: 80px;
 
         h1 {
-          font-size: 3em;
+          font-size: 2.3em;
           width: 40%;
           padding-bottom: 0;
           text-align: left;
@@ -180,7 +180,7 @@
         }
 
         h2 {
-          font-size: 1.3em;
+          font-size: 1.1em;
           width: 100%;
           padding-bottom: 10px;
           text-align: left;
@@ -189,7 +189,7 @@
         }
 
         p {
-          font-size: 1.3em;
+          font-size: 1.0em;
           width: 100%;
           padding-bottom: 10px;
           text-align: left;
@@ -223,7 +223,7 @@
             a {
               color: #000;
               text-decoration: none;
-              font-size: 1em;
+              font-size: 0.81em;
               font-weight: 900;
             }
           }

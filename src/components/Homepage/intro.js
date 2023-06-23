@@ -18,7 +18,7 @@ const Intro = () => {
   return (
     <div className="intro-container">
       <div className="profPic">
-        {windowWidth > 768 && (
+        {windowWidth > 600 && (
         <img src="./main-photo.jpg" alt="profile pic" />
         )}
       </div>

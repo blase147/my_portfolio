@@ -37,7 +37,7 @@ const HomePage = () => {
       <NavigationBar />
       <div id="intro" className="intro-container">
         <div className="profPic">
-          {windowWidth > 768 && (
+          {windowWidth > 767 && (
           <img src="./main-photo.jpg" alt="profile pic" />
           )}
         </div>
