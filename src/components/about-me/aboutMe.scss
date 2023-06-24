@@ -523,7 +523,8 @@
 
             .skills {
               .skill {
-                margin-bottom: 20px;
+                margin-bottom: 10px;
+                // background-color: #d41111;
               }
 
               .skill input[type="range"] {
@@ -533,18 +534,18 @@
               .skill input[type="range"]::-webkit-slider-thumb {
                 -webkit-appearance: none;
                 appearance: none;
-                width: 12px;
-                height: 12px;
+                width: 32px;
+                height: 32px;
                 background-color: #4caf50;
                 cursor: pointer;
               }
 
-              .skill input[type="range"]::-moz-range-thumb {
-                width: 12px;
-                height: 12px;
-                background-color: #4caf50;
-                cursor: pointer;
-              }
+              // .skill input[type="range"]::-moz-range-thumb {
+              //   width: 12px;
+              //   height: 12px;
+              //   background-color: #4caf50;
+              //   cursor: pointer;
+              // }
             }
 
             .my-tech-stack {
