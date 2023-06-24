@@ -233,13 +233,13 @@ const HomePage = () => {
                     <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
+                    <a href="https://wellfound.com/u/chukwuma-mosanya"><FaAngellist size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
                     <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="www.facebook.com"><FaFacebook size={30} alt="social-icons" /></a>
+                    <a href="https://web.facebook.com/chukwuma.mosanya/"><FaFacebook size={30} alt="social-icons" /></a>
                   </li>
                 </ul>
               </div>
@@ -362,13 +362,13 @@ const HomePage = () => {
                   <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
+                  <a href="https://wellfound.com/u/chukwuma-mosanya"><FaAngellist size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
                   <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="www.facebook.com"><FaFacebook size={30} alt="social-icons" /></a>
+                  <a href="https://web.facebook.com/chukwuma.mosanya/"><FaFacebook size={30} alt="social-icons" /></a>
                 </li>
               </ul>
             </div>
