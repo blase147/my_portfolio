@@ -37,6 +37,32 @@
           margin: auto;
           text-align: left;
 
+            .skills {
+              .skill {
+                margin-bottom: 20px;
+              }
+
+              .skill input[type="range"] {
+                width: 100%;
+              }
+
+              .skill input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+
+              .skill input[type="range"]::-moz-range-thumb {
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+            }
+
           .my-tech-stack {
             display: flex;
             flex-direction: column;
@@ -270,6 +296,31 @@
             text-align: center;
             width: 80%;
 
+                        .skills {
+              .skill {
+                margin-bottom: 20px;
+              }
+
+              .skill input[type="range"] {
+                width: 100%;
+              }
+
+              .skill input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+
+              .skill input[type="range"]::-moz-range-thumb {
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+            }
             .my-tech-stack {
               width: 100%;
 
@@ -470,6 +521,32 @@
             text-align: left;
             width: 50%;
 
+            .skills {
+              .skill {
+                margin-bottom: 20px;
+              }
+
+              .skill input[type="range"] {
+                width: 100%;
+              }
+
+              .skill input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+
+              .skill input[type="range"]::-moz-range-thumb {
+                width: 12px;
+                height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+              }
+            }
+
             .my-tech-stack {
               width: 100%;
 
@@ -581,7 +658,7 @@
       }
 
       p {
-        font-size: 1.0em;
+        font-size: 1em;
         color: rgb(255, 255, 255);
         border-left: solid 10px #fff;
         margin-bottom: 10px;

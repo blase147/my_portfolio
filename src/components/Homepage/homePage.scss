@@ -91,7 +91,7 @@
 }
 
 //  Desktop screen of 786
-@media (min-width: 768px) and (orientation: portrait){
+@media (min-width: 768px) and (orientation: portrait) {
   @keyframes scale-in {
     from {
       transform: scale(0);
@@ -189,7 +189,7 @@
         }
 
         p {
-          font-size: 1.0em;
+          font-size: 1em;
           width: 100%;
           padding-bottom: 10px;
           text-align: left;
@@ -438,7 +438,6 @@
         width: 100%;
         margin: auto;
         padding-top: 150px;
-
 
         img {
           // margin-top: 10px;

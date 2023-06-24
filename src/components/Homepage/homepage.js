@@ -219,6 +219,30 @@ const HomePage = () => {
                       Capybara
                     </li> */}
                   {' '}
+                  <div className="skills">
+                    <h2>Skills</h2>
+
+                    <div className="skill">
+                      <label htmlFor="JavaScript">
+                        JavaScript:
+                        <input type="range" id="JavaScript" min="0" max="100" step="1" value="90" />
+                      </label>
+                    </div>
+
+                    <div className="skill">
+                      <label htmlFor="React">
+                        React:
+                        <input type="range" id="React" min="0" max="100" step="1" value="80" />
+                      </label>
+                    </div>
+
+                    <div className="skill">
+                      <label htmlFor="Rails">
+                        Rails:
+                        <input type="range" id="Rails" min="0" max="100" step="1" value="90" />
+                      </label>
+                    </div>
+                  </div>
                 </div>
 
               </div>
