@@ -124,25 +124,20 @@ const HomePage = () => {
             <div className="about-me-intro">
               <div className="intro-text">
                 <p>
-                  Hi there, I would like to tell you a little about myself. I am a Nigerian
-                  born software developer. So far, it has been a little over 10 years
+                  Hi there, I would like to tell you a little about myself. I am a Nigerian-
+                  born software developer. So far, it has been a little over 10 years since
                   I made a critical career switch from paramedic to techy. First it all
                   started as a passion for computers and the very many amazing things one
-                  can do with them. The wonder of technology ranging from the possibility of
+                  can do with them. The wonders of technology ranging from the possibility of
                   automated and intelligent systems to the nitty-gritty of how technology
                   works all its wonders drew me nearer and farther from Biological sciences.
-                  I remember during my college days in the Biological sciences department,
-                  I was labelled nerdy, the computer wizkid of my faculty. Then came the
-                  speculated irony that I was practically in the wrong discipline.
-                  However, I did my studies well and graduated well but without that fulfilment
-                  that comes with graduating into your first degree, so while my peers where
-                  landing jobs as college lecturers and others obtained academics grants, I
-                  wallowed in job hunting as a graduate paramedic. However, it was interestingly
-                  funny that my out-of-school tech skills paid my bills. Without the necessity of
-                  college certification I worked in a couple organizations as an IT Manager,
-                  IT support and IT instructor. And then along the line,  I met a few senior developers,
-                  in the industry and quickly the need to advance my skill to a professional level arose.
-                  consequently, I enrolled into Austin Peay State University USA, for a diploma in
+                  I remember during my college days, I was labelled nerdy, then came the
+                  speculation that it was such an irony to not have expanded into the tech world
+                  instead. Without a college certification in technology I worked in a couple
+                  organizations as an IT intern, IT Manager, IT support and IT instructor.
+                  And then along the line,  I met a few senior developers, in the industry and
+                  suddenly the need to advance my skill to a professional level arose.
+                  Consequently, I enrolled into Austin Peay State University USA, for a diploma in
                   Coding and Technology, subsequently I got admitted into Microverse an online
                   software engineering institution where I did a one year course in software engineering
                   and mastered the rubrics of machine language, agile methodologies and remote pair programming.
