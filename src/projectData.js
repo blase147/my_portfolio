@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     title: 'Luxury Cars Lending',
-    description: 'This is a car rental application where users are allowed to signup to book luxury cars for rental or test drive at a given price',
+    description: 'This is a car rental application where users are allowed to signup to book luxury cars for rental or test drive at a given price.',
     lang: [
       { id: 'html', icon: <FaHtml5 size={30} />, name: 'HTML' },
       { id: 'css3', icon: <FaCss3 size={30} />, name: 'CSS3' },
@@ -23,7 +23,7 @@ const data = [
   {
     id: 2,
     title: 'Budget app',
-    description: 'This is a mobile web application that allows users to manage their budget, introduce new groups/expenses while keeping track of money spent..',
+    description: 'This is a mobile web application that allows users to manage their budget, introduce new groups/expenses while keeping track of money spent.',
     lang: [
       { id: 'javascript', icon: <FaJs size={30} />, name: 'JavaScript' },
       { id: 'ruby', icon: <FaGem size={30} />, name: 'Ruby' },
@@ -44,14 +44,14 @@ const data = [
       { id: 'javascript', icon: <FaJs size={30} />, name: 'JavaScript' },
     ],
     image: './space-travellers-hub.JPG',
-    live: 'https://blase147.github.io/space-travellers-hub/',
+    live: 'https://space-travellers-hub-dffj.onrender.com/',
     source: 'https://github.com/blase147/space-travellers-hub',
   },
 
   {
     id: 4,
     title: 'Portfolio Website',
-    description: 'This is my portfolio Website designed to showcase my talent and skills as a software engineer',
+    description: 'This is my portfolio Website designed to showcase my talent and skills as a software engineer.',
     lang: [
       { id: 'html', icon: <FaHtml5 size={30} />, name: 'HTML' },
       { id: 'react', icon: <FaReact size={30} />, name: 'React' },
@@ -66,14 +66,14 @@ const data = [
   {
     id: 5,
     title: 'Covid-19 Updater',
-    description: 'This application displays Covid-19 updates(statistical data) for all continents in the world through filtered search by continent',
+    description: 'This application displays Covid-19 updates(statistical data) for all continents in the world through filtered search by continent.',
     lang: [
       { id: 'html', icon: <FaHtml5 size={30} />, name: 'HTML' },
       { id: 'react', icon: <FaReact size={30} />, name: 'React' },
       { id: 'javascript', icon: <FaJs size={30} />, name: 'JavaScript' },
     ],
     image: './covid-19-updater.JPG',
-    live: 'https://covid-19-updater-app.netlify.app/',
+    live: 'https://covid-19-updater.onrender.com/',
     source: 'https://github.com/blase147/covid-19-updater',
   },
 
