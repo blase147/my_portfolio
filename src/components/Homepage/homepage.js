@@ -230,7 +230,7 @@ const HomePage = () => {
                     <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="www.linkedin.com/in/chukwuma-mosanya-346303"><FaLinkedin size={30} alt="social-icon" /></a>
+                    <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
                     <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
@@ -359,7 +359,7 @@ const HomePage = () => {
                   <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="www.linkedin.com/in/chukwuma-mosanya-346303"><FaLinkedin size={30} alt="social-icon" /></a>
+                  <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
                   <a href="www.angelist.com"><FaAngellist size={30} alt="social-icon" /></a>
