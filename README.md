@@ -148,4 +148,4 @@ Thanks for the README.md file Template.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./license) licensed.
