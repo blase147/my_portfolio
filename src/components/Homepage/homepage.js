@@ -329,7 +329,7 @@ const HomePage = () => {
             </div>
           </fieldset>
         </div>
-        <nav className="footer-nav">
+        {/* <nav className="footer-nav">
           <h3>I teach grade school Info tech too</h3>
           <p>
             You can check them out on
@@ -345,7 +345,7 @@ const HomePage = () => {
             allowfullscreen
           />
           {' '}
-        </nav>
+        </nav> */}
       </section>
 
       <div id="footer" className="footer-container">
