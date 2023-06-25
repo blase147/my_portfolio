@@ -10,7 +10,6 @@
       // padding-top: 20px;
       margin: auto;
       width: 100%;
-      border: solid 1px rgb(14, 6, 0);
       margin-bottom: 100px;
       padding-bottom: 50px;
       padding-top: 50px;
@@ -37,19 +36,6 @@
           margin: auto;
           text-align: left;
 
-            .skills {
-              // background-color: #df1414;
-              margin-bottom: 50px;
-
-              .skill input[type="range"] {
-                // height: 12px;
-                background-color: #4caf50;
-                cursor: pointer;
-                width: 100%;
-                color: #350ee4;
-              }
-            }
-
           .my-tech-stack {
             display: flex;
             flex-direction: column;
@@ -69,7 +55,7 @@
               justify-content: center;
               gap: 20px;
               width: 50%;
-              margin-bottom: 50px;
+              // margin-bottom: 50px;
               padding-left: 0;
               flex-wrap: wrap;
               width: 100%;
@@ -83,6 +69,19 @@
                 img {
                   width: 40%;
                 }
+              }
+            }
+
+            .skills {
+              // background-color: #df1414;
+              margin-bottom: 50px;
+
+              .skill input {
+                // height: 12px;
+                background-color: #4caf50;
+                cursor: pointer;
+                width: 100%;
+                // color: #350ee4;
               }
             }
           }
@@ -136,57 +135,57 @@
       }
     }
 
-    .skill-section {
-      background-color: #000;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-      margin-bottom: 100px;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      width: 100%;
-      padding-left: 0;
+    // .skill-section {
+    //   background-color: #000;
+    //   color: white;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   margin-top: 50px;
+    //   margin-bottom: 100px;
+    //   padding-top: 100px;
+    //   padding-bottom: 100px;
+    //   width: 100%;
+    //   padding-left: 0;
 
-      .custom-icon {
-        font-size: 80px;
-        padding-top: 80px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-      }
+    //   .custom-icon {
+    //     font-size: 80px;
+    //     padding-top: 80px;
+    //     padding-bottom: 0;
+    //     margin-bottom: 0;
+    //   }
 
-      h3 {
-        font-size: 18px;
-        width: 90%;
-        text-align: left;
-      }
+    //   h3 {
+    //     font-size: 18px;
+    //     width: 90%;
+    //     text-align: left;
+    //   }
 
-      .skill-title p {
-        font-size: 24px;
-        font-weight: 900;
-      }
+    //   .skill-title p {
+    //     font-size: 24px;
+    //     font-weight: 900;
+    //   }
 
-      ul {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        margin: auto;
-        width: 80%;
-        padding-left: 0;
-        flex-wrap: wrap;
-      }
+    //   ul {
+    //     display: flex;
+    //     flex-direction: row;
+    //     gap: 10px;
+    //     margin: auto;
+    //     width: 80%;
+    //     padding-left: 0;
+    //     flex-wrap: wrap;
+    //   }
 
-      li {
-        white-space: nowrap;
-        margin-right: 10px;
-        padding: 10px;
-        border: solid 1px rgb(14, 6, 1);
-        border-radius: 5px;
-        background-color: #bbd3d8;
-        color: rgb(212, 11, 11);
-      }
-    }
+    //   li {
+    //     white-space: nowrap;
+    //     margin-right: 10px;
+    //     padding: 10px;
+    //     border: solid 1px rgb(14, 6, 1);
+    //     border-radius: 5px;
+    //     background-color: #bbd3d8;
+    //     color: rgb(212, 11, 11);
+    //   }
+    // }
   }
 
   .blog {
@@ -283,7 +282,7 @@
             text-align: center;
             width: 80%;
 
-                        .skills {
+            .skills {
               .skill {
                 margin-bottom: 20px;
               }
@@ -308,6 +307,7 @@
                 cursor: pointer;
               }
             }
+
             .my-tech-stack {
               width: 100%;
 

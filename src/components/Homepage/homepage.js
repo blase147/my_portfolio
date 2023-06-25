@@ -213,11 +213,6 @@ const HomePage = () => {
                       Git
                     </li>
                   </ul>
-                  {/* <li>
-                      // eslint-disable-next-line max-len, max-len
-                      <img src="./capybara.png" alt="capybara" style={{ filter: 'brightness(0) invert(1)' }} />
-                      Capybara
-                    </li> */}
                   {' '}
                   <div className="skills">
                     <h2>Skills</h2>
