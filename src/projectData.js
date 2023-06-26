@@ -44,7 +44,7 @@ const data = [
       { id: 'javascript', icon: <FaJs size={30} />, name: 'JavaScript' },
     ],
     image: './space-travellers-hub.JPG',
-    live: 'https://space-travellers-hub-dffj.onrender.com/',
+    live: 'https://space-travellers-hub-dffj.onrender.com',
     source: 'https://github.com/blase147/space-travellers-hub',
   },
 
