@@ -89,7 +89,7 @@
 
           .get-in-touch-btn {
             width: 50%;
-            background-color: #0f43eb;
+            background-color: $secondary-color;
             padding: 20px;
             font-size: 0.7em;
             font-weight: 900;
@@ -255,11 +255,6 @@
       a {
         color: #f60b0b;
       }
-
-      // iframe {
-      //   width: 100%;
-      //   height: 100%;
-      // }
     }
   }
 }
