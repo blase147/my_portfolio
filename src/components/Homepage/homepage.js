@@ -214,28 +214,92 @@ const HomePage = () => {
                     </li>
                   </ul>
                   {' '}
-                  <div className="skills">
-                    <h2>Skills</h2>
-
-                    <div className="skill">
-                      <label htmlFor="JavaScript">
-                        JavaScript:
-                        <input type="range" id="JavaScript" min="0" max="100" step="1" value="90" />
-                      </label>
-                    </div>
-
-                    <div className="skill">
-                      <label htmlFor="React">
-                        React:
-                        <input type="range" id="React" min="0" max="100" step="1" value="80" />
-                      </label>
-                    </div>
-
-                    <div className="skill">
-                      <label htmlFor="Rails">
-                        Rails:
-                        <input type="range" id="Rails" min="0" max="100" step="1" value="90" />
-                      </label>
+                  <div className="skillset">
+                    <div className="wrapper">
+                      <div className="container">
+                        <h2>My Skillset</h2>
+                        <div className="skills">
+                          <div className="details">
+                            <span>HTML</span>
+                            <span>95%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="html-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>CSS</span>
+                            <span>80%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="css-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>SASS</span>
+                            <span>75%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="sass-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>Javascript</span>
+                            <span>75%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="js-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>React</span>
+                            <span>85%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="react-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>Ruby</span>
+                            <span>80%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="ruby-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>Rails</span>
+                            <span>80%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="rails-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>Video Editing</span>
+                            <span>85%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="ve-bar" />
+                          </div>
+                        </div>
+                        <div className="skills">
+                          <div className="details">
+                            <span>Animation</span>
+                            <span>70%</span>
+                          </div>
+                          <div className="bar">
+                            <div id="animation-bar" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -71,20 +71,153 @@
                 }
               }
             }
+              .skillset {
+                // background-color: #df1414;
+                margin-bottom: 50px;
+                margin-left: 0;
+                color: #fff;
 
-            .skills {
-              // background-color: #df1414;
-              margin-bottom: 50px;
+                .wrapper {
+                  width: 100%;
 
-              .skill input {
-                // height: 12px;
-                background-color: #4caf50;
-                cursor: pointer;
-                width: 100%;
-                // color: #350ee4;
+                  .container {
+                    width: 100%;
+                    padding: 30px 30px 50px 0;
+                    // background-color: rgb(255, 255, 255);
+                    border: 2px solid rgba(255, 255, 255, 0.06);
+                    border-radius: 10px;
+                    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+                    backdrop-filter: blur(10px);
+                  }
+
+                  .container * {
+                    font-family: "Poppins", sans-serif;
+                    // color: black;
+                    color: #fff;
+                    font-weight: 500;
+                  }
+
+                  h2 {
+                    margin-bottom: 50px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    font-size: 33px;
+                    font-weight: bold;
+                  }
+
+                  .skills:not(:last-child) {
+                    margin-bottom: 30px;
+                  }
+
+                  .details {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                  }
+
+                  .bar {
+                    // position: relative;
+                    border: 2px solid #0d96e0;
+                    border-radius: 20px;
+                  }
+
+                  .bar div {
+                    // position: relative;
+                    // width: 0;
+                    height: 9px;
+                    border-radius: 10px;
+                    background-color: #0d96e0;
+                  }
+
+                  #html-bar {
+                    animation: html-fill 2s forwards;
+                  }
+
+                  @keyframes html-fill {
+                    100% {
+                      width: 95%;
+                    }
+                  }
+
+                  #css-bar {
+                    animation: css-fill 2s forwards;
+                  }
+
+                  @keyframes css-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+
+                  #sass-bar {
+                    animation: sass-fill 2s forwards;
+                  }
+
+                  @keyframes sass-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #js-bar {
+                    animation: js-fill 2s forwards;
+                  }
+
+                  @keyframes js-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #react-bar {
+                    animation: react-fill 2s forwards;
+                  }
+
+                  @keyframes react-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #ruby-bar {
+                    animation: ruby-fill 2s forwards;
+                  }
+
+                  @keyframes ruby-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #rails-bar {
+                    animation: rails-fill 2s forwards;
+                  }
+
+                  @keyframes rails-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #ve-bar {
+                    animation: ve-fill 2s forwards;
+                  }
+
+                  @keyframes ve-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #animation-bar {
+                    animation: animation-fill 2s forwards;
+                  }
+
+                  @keyframes animation-fill {
+                    100% {
+                      width: 70%;
+                    }
+                  }
+                }
               }
-            }
-          }
+                        }
         }
 
         .img-profile {
@@ -282,31 +415,6 @@
             text-align: center;
             width: 80%;
 
-            .skills {
-              .skill {
-                margin-bottom: 20px;
-              }
-
-              .skill input[type="range"] {
-                width: 100%;
-              }
-
-              .skill input[type="range"]::-webkit-slider-thumb {
-                -webkit-appearance: none;
-                appearance: none;
-                width: 12px;
-                height: 12px;
-                background-color: #4caf50;
-                cursor: pointer;
-              }
-
-              .skill input[type="range"]::-moz-range-thumb {
-                width: 12px;
-                height: 12px;
-                background-color: #4caf50;
-                cursor: pointer;
-              }
-            }
 
             .my-tech-stack {
               width: 100%;
@@ -338,7 +446,152 @@
                   padding: 5px;
                 }
               }
-            }
+              .skillset {
+                // background-color: #df1414;
+                margin-bottom: 50px;
+                margin-left: 0;
+                color: #fff;
+
+                .wrapper {
+                  width: 100%;
+
+                  .container {
+                    width: 100%;
+                    padding: 30px 30px 50px 0;
+                    // background-color: rgb(255, 255, 255);
+                    border: 2px solid rgba(255, 255, 255, 0.06);
+                    border-radius: 10px;
+                    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+                    backdrop-filter: blur(10px);
+                  }
+
+                  .container * {
+                    font-family: "Poppins", sans-serif;
+                    // color: black;
+                    color: #fff;
+                    font-weight: 500;
+                  }
+
+                  h2 {
+                    margin-bottom: 50px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    font-size: 33px;
+                    font-weight: bold;
+                  }
+
+                  .skills:not(:last-child) {
+                    margin-bottom: 30px;
+                  }
+
+                  .details {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                  }
+
+                  .bar {
+                    // position: relative;
+                    border: 2px solid #0d96e0;
+                    border-radius: 20px;
+                  }
+
+                  .bar div {
+                    // position: relative;
+                    // width: 0;
+                    height: 9px;
+                    border-radius: 10px;
+                    background-color: #0d96e0;
+                  }
+
+                  #html-bar {
+                    animation: html-fill 2s forwards;
+                  }
+
+                  @keyframes html-fill {
+                    100% {
+                      width: 95%;
+                    }
+                  }
+
+                  #css-bar {
+                    animation: css-fill 2s forwards;
+                  }
+
+                  @keyframes css-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+
+                  #sass-bar {
+                    animation: sass-fill 2s forwards;
+                  }
+
+                  @keyframes sass-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #js-bar {
+                    animation: js-fill 2s forwards;
+                  }
+
+                  @keyframes js-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #react-bar {
+                    animation: react-fill 2s forwards;
+                  }
+
+                  @keyframes react-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #ruby-bar {
+                    animation: ruby-fill 2s forwards;
+                  }
+
+                  @keyframes ruby-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #rails-bar {
+                    animation: rails-fill 2s forwards;
+                  }
+
+                  @keyframes rails-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #ve-bar {
+                    animation: ve-fill 2s forwards;
+                  }
+
+                  @keyframes ve-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #animation-bar {
+                    animation: animation-fill 2s forwards;
+                  }
+
+                  @keyframes animation-fill {
+                    100% {
+                      width: 70%;
+                    }
+                  }
+                }
+              }            }
           }
 
           .img-profile {
@@ -508,33 +761,6 @@
             text-align: left;
             width: 50%;
 
-            .skills {
-              .skill {
-                margin-bottom: 10px;
-                // background-color: #d41111;
-              }
-
-              .skill input[type="range"] {
-                width: 100%;
-              }
-
-              .skill input[type="range"]::-webkit-slider-thumb {
-                -webkit-appearance: none;
-                appearance: none;
-                width: 32px;
-                height: 32px;
-                background-color: #4caf50;
-                cursor: pointer;
-              }
-
-              // .skill input[type="range"]::-moz-range-thumb {
-              //   width: 12px;
-              //   height: 12px;
-              //   background-color: #4caf50;
-              //   cursor: pointer;
-              // }
-            }
-
             .my-tech-stack {
               width: 100%;
 
@@ -564,6 +790,153 @@
 
                   img {
                     width: 40%;
+                  }
+                }
+              }
+
+              .skillset {
+                // background-color: #df1414;
+                margin-bottom: 50px;
+                margin-left: 0;
+                color: #fff;
+
+                .wrapper {
+                  width: 100%;
+
+                  .container {
+                    width: 100%;
+                    padding: 30px 30px 50px 0;
+                    // background-color: rgb(255, 255, 255);
+                    border: 2px solid rgba(255, 255, 255, 0.06);
+                    border-radius: 10px;
+                    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+                    backdrop-filter: blur(10px);
+                  }
+
+                  .container * {
+                    font-family: "Poppins", sans-serif;
+                    // color: black;
+                    color: #fff;
+                    font-weight: 500;
+                  }
+
+                  h2 {
+                    margin-bottom: 50px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    font-size: 33px;
+                    font-weight: bold;
+                  }
+
+                  .skills:not(:last-child) {
+                    margin-bottom: 30px;
+                  }
+
+                  .details {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                  }
+
+                  .bar {
+                    // position: relative;
+                    border: 2px solid #0d96e0;
+                    border-radius: 20px;
+                  }
+
+                  .bar div {
+                    // position: relative;
+                    // width: 0;
+                    height: 9px;
+                    border-radius: 10px;
+                    background-color: #0d96e0;
+                  }
+
+                  #html-bar {
+                    animation: html-fill 2s forwards;
+                  }
+
+                  @keyframes html-fill {
+                    100% {
+                      width: 95%;
+                    }
+                  }
+
+                  #css-bar {
+                    animation: css-fill 2s forwards;
+                  }
+
+                  @keyframes css-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+
+                  #sass-bar {
+                    animation: sass-fill 2s forwards;
+                  }
+
+                  @keyframes sass-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #js-bar {
+                    animation: js-fill 2s forwards;
+                  }
+
+                  @keyframes js-fill {
+                    100% {
+                      width: 75%;
+                    }
+                  }
+
+                  #react-bar {
+                    animation: react-fill 2s forwards;
+                  }
+
+                  @keyframes react-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #ruby-bar {
+                    animation: ruby-fill 2s forwards;
+                  }
+
+                  @keyframes ruby-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #rails-bar {
+                    animation: rails-fill 2s forwards;
+                  }
+
+                  @keyframes rails-fill {
+                    100% {
+                      width: 80%;
+                    }
+                  }
+                  #ve-bar {
+                    animation: ve-fill 2s forwards;
+                  }
+
+                  @keyframes ve-fill {
+                    100% {
+                      width: 85%;
+                    }
+                  }
+                  #animation-bar {
+                    animation: animation-fill 2s forwards;
+                  }
+
+                  @keyframes animation-fill {
+                    100% {
+                      width: 70%;
+                    }
                   }
                 }
               }
