@@ -85,7 +85,7 @@ const data = [
       { id: 'ruby', icon: <FaGem size={30} />, name: 'Ruby' },
     ],
     image: './recipe-app.JPG',
-    live: 'https://recipe-ruby.onrender.com/',
+    live: 'https://recipe-app2-0mzt.onrender.com/',
     source: 'https://github.com/blase147/recipe-app',
   },
 ];
