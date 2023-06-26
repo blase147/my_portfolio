@@ -1,6 +1,6 @@
 @import './../scss/config';
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .my-works {
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
 
       .item-card {
         page-break-after: always;
-        background-color: #3c0cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         margin-bottom: 30px;
         padding-bottom: 1px;
@@ -141,7 +141,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #100cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         padding-bottom: 30px;
         margin-bottom: 50px;
@@ -200,7 +200,7 @@
           p {
             text-align: center;
             background-color: #fff;
-            color: #100cea;
+            color: $secondary-color;
             font-weight: 900;
             width: 30%;
             border-radius: 5px;
@@ -230,7 +230,7 @@
           button {
             display: flex;
             background-color: #fff;
-            color: rgb(9, 24, 237);
+            color: $secondary-color;
             border: solid 1px #000;
             border-radius: 15px;
             font-size: 0.9em;
@@ -241,23 +241,6 @@
       }
     }
   }
-  // .footer-nav {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   margin-top: 100px;
-
-  //   ul {
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     gap: 30px;
-
-  //     li {
-  //       font-weight: 900;
-  //     }
-  //   }
-  // }
 }
 
 //Deskop scree of 1024px and (orientation: portrait)
@@ -305,7 +288,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #100cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         padding-bottom: 30px;
         margin-bottom: 50px;
@@ -327,7 +310,7 @@
                 font-size: 1.1em;
                 text-align: center;
                 background-color: #fff;
-                color: #100cea;
+                color: $secondary-color;
                 font-weight: 900;
                 width: 50%;
                 border-radius: 5px;
@@ -365,16 +348,6 @@
           padding-left: 0;
           font-size: 0.9em;
 
-          // p {
-          //   text-align: center;
-          //   background-color: #fff;
-          //   color: #100cea;
-          //   font-weight: 900;
-          //   width: 30%;
-          //   border-radius: 5px;
-          //   padding: 5px;
-          // }
-
           .li-container {
             display: flex;
             flex-direction: row;
@@ -398,7 +371,7 @@
           button {
             display: flex;
             background-color: #fff;
-            color: rgb(9, 24, 237);
+            color: $secondary-color;
             border: solid 1px #000;
             border-radius: 15px;
             font-size: 0.9em;
@@ -456,7 +429,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #100cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         // padding-bottom: 30px;
         // margin-bottom: 50px;
@@ -478,7 +451,7 @@
                 font-size: 1.1em;
                 text-align: center;
                 background-color: #fff;
-                color: #100cea;
+                color: $secondary-color;
                 font-weight: 900;
                 width: 50%;
                 border-radius: 5px;
@@ -516,16 +489,6 @@
           padding-left: 0;
           font-size: 0.9em;
 
-          // p {
-          //   text-align: center;
-          //   background-color: #fff;
-          //   color: #100cea;
-          //   font-weight: 900;
-          //   width: 30%;
-          //   border-radius: 5px;
-          //   padding: 5px;
-          // }
-
           .li-container {
             display: flex;
             flex-direction: row;
@@ -549,7 +512,7 @@
           button {
             display: flex;
             background-color: #fff;
-            color: rgb(9, 24, 237);
+            color: $secondary-color;
             border: solid 1px #000;
             border-radius: 15px;
             font-size: 0.9em;
@@ -607,7 +570,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #100cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         padding-bottom: 30px;
         margin-bottom: 50px;
@@ -629,7 +592,7 @@
                 font-size: 1.1em;
                 text-align: center;
                 background-color: #fff;
-                color: #100cea;
+                color: $secondary-color;
                 font-weight: 900;
                 width: 50%;
                 border-radius: 5px;
@@ -689,7 +652,7 @@
           button {
             display: flex;
             background-color: #fff;
-            color: rgb(9, 24, 237);
+            color: $secondary-color;
             border: solid 1px #000;
             border-radius: 15px;
             font-size: 0.9em;
@@ -747,7 +710,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #100cea;
+        background-color: $secondary-color;
         border-radius: 10px;
         padding-bottom: 30px;
         margin-bottom: 50px;
@@ -769,7 +732,7 @@
                 font-size: 1.1em;
                 text-align: center;
                 background-color: #fff;
-                color: #100cea;
+                color: $secondary-color;
                 font-weight: 900;
                 width: 50%;
                 border-radius: 5px;
@@ -829,7 +792,7 @@
           button {
             display: flex;
             background-color: #fff;
-            color: rgb(9, 24, 237);
+            color: $secondary-color;
             border: solid 1px #000;
             border-radius: 15px;
             font-size: 0.9em;
