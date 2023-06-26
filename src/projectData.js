@@ -29,7 +29,7 @@ const data = [
       { id: 'ruby', icon: <FaGem size={30} />, name: 'Ruby' },
     ],
     image: './budget-app.JPG',
-    live: 'https://budget-app-5uzz.onrender.com/',
+    live: 'https://budget-app-v998.onrender.com',
     source: 'https://github.com/blase147/budget_app/',
   },
 
