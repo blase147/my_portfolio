@@ -310,16 +310,16 @@ const HomePage = () => {
                 <DownloadPDF className="my-resume" />
                 <ul className="social-icons">
                   <li className="animated-div">
-                    <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
+                    <a href="https://github.com/blase147" target="_blank" rel="noreferrer"><FaGithub size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
+                    <a href="https://www.linkedin.com/in/chukwuma-mosanya" target="_blank" rel="noreferrer"><FaLinkedin size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="https://wellfound.com/u/chukwuma-mosanya"><FaAngellist size={30} alt="social-icon" /></a>
+                    <a href="https://wellfound.com/u/chukwuma-mosanya" target="_blank" rel="noreferrer"><FaAngellist size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
-                    <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
+                    <a href="https://twitter.com/ChukwumaMosanya" target="_blank" rel="noreferrer"><FaTwitter size={30} alt="social-icon" /></a>
                   </li>
                   <li className="animated-div">
                     <a href="https://web.facebook.com/chukwuma.mosanya/"><FaFacebook size={30} alt="social-icons" /></a>
@@ -439,19 +439,19 @@ const HomePage = () => {
             <div className="social-icons-container">
               <ul className="social-icons">
                 <li className="animated-div">
-                  <a href="https://github.com/blase147"><FaGithub size={30} alt="social-icon" /></a>
+                  <a href="https://github.com/blase147" target="_blank" rel="noreferrer"><FaGithub size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="https://www.linkedin.com/in/chukwuma-mosanya"><FaLinkedin size={30} alt="social-icon" /></a>
+                  <a href="https://www.linkedin.com/in/chukwuma-mosanya" target="_blank" rel="noreferrer"><FaLinkedin size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="https://wellfound.com/u/chukwuma-mosanya"><FaAngellist size={30} alt="social-icon" /></a>
+                  <a href="https://wellfound.com/u/chukwuma-mosanya" target="_blank" rel="noreferrer"><FaAngellist size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="https://twitter.com/ChukwumaMosanya"><FaTwitter size={30} alt="social-icon" /></a>
+                  <a href="https://twitter.com/ChukwumaMosanya" target="_blank" rel="noreferrer"><FaTwitter size={30} alt="social-icon" /></a>
                 </li>
                 <li className="animated-div">
-                  <a href="https://web.facebook.com/chukwuma.mosanya/"><FaFacebook size={30} alt="social-icons" /></a>
+                  <a href="https://web.facebook.com/chukwuma.mosanya" target="_blank" rel="noreferrer"><FaFacebook size={30} alt="social-icons" /></a>
                 </li>
               </ul>
             </div>
