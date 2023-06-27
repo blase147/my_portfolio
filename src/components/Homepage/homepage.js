@@ -141,8 +141,8 @@ const HomePage = () => {
                   organizations as IT Manager, IT support and IT instructor.
                   And then along the line, I met a few senior developers in the
                   industry and quickly the need to advance my skill to a professional
-                  level arose. consequently, I enrolled into Austin Peay State University
-                  USA, for a diploma in Coding and Technology, subsequently I got
+                  level arose. Consequently, I enrolled into Austin Peay State University
+                  USA, for a Diploma in Coding and Technology, subsequently I got
                   admitted into Microverse an online software engineering institution where
                   I did a one-year course in software engineering and mastered
                   the rubrics of machine language, agile methodologies and remote
