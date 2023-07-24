@@ -425,6 +425,11 @@ const HomePage = () => {
                 solarmails2@gmail.com
               </a>
             </button>
+            <div>
+              <button className="mailto" type="button">
+                <h3><a href="https://flutterwave.com/donate/jylrceldttkr"> Please support me</a></h3>
+              </button>
+            </div>
           </div>
         </div>
 
